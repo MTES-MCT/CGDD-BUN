@@ -1,0 +1,62 @@
+{
+  "links": [
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.ecologie.gouv.fr",
+        "port": null,
+        "hostname": "www.ecologie.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/suivi-convention-citoyenne-climat",
+        "path": "/suivi-convention-citoyenne-climat",
+        "href": "https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat"
+      },
+      "link": "https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat",
+      "line": "--2023-05-24 15:03:20--  https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.ecologie.gouv.fr",
+        "port": null,
+        "hostname": "www.ecologie.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/suivi-convention-citoyenne-climat/",
+        "path": "/suivi-convention-citoyenne-climat/",
+        "href": "https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/"
+      },
+      "link": "https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/",
+      "line": "--2023-05-24 15:03:21--  https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.ecologie.gouv.fr",
+        "port": null,
+        "hostname": "www.ecologie.gouv.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/robots.txt",
+        "path": "/robots.txt",
+        "href": "https://www.ecologie.gouv.fr/robots.txt"
+      },
+      "link": "https://www.ecologie.gouv.fr/robots.txt",
+      "line": "--2023-05-24 15:03:24--  https://www.ecologie.gouv.fr/robots.txt",
+      "broken": false
+    }
+  ],
+  "broken": []
+}

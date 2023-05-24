@@ -1,0 +1,154 @@
+{
+  "trackers": [],
+  "cookies": [
+    {
+      "name": "_pk_ses.1549.49d4",
+      "value": "*",
+      "domain": "www.ecologie.gouv.fr",
+      "path": "/",
+      "expires": 1684942321,
+      "size": 18,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_pk_id.1549.49d4",
+      "value": "a1d7dcef52b05fb7.1684940521.1.1684940522.1684940521.",
+      "domain": "www.ecologie.gouv.fr",
+      "path": "/",
+      "expires": 1718895721,
+      "size": 68,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "langue-site",
+      "value": "fr",
+      "domain": "www.ecologie.gouv.fr",
+      "path": "/",
+      "expires": 1687532520,
+      "size": 13,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "q7f2iov0mv69m8lks0r36blfn2",
+      "domain": "www.ecologie.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 35,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "spip_session",
+      "value": "0_560e4961051ca553fb7f20b751b729b7",
+      "domain": "www.ecologie.gouv.fr",
+      "path": "/suivi-convention-citoyenne-climat/",
+      "expires": 1685026920.001192,
+      "size": 46,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "headers": {
+    "accept-ranges": "bytes",
+    "age": "0",
+    "cache-control": "no-store, no-cache, must-revalidate",
+    "composed-by": "SPIP 3.2.17 @ www.spip.net + https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/local/config.txt",
+    "content-encoding": "gzip",
+    "content-length": "27483",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 24 May 2023 15:01:58 GMT",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "last-modified": "Wed, 24 May 2023 15:01:57 GMT",
+    "pragma": "no-cache",
+    "server": "nginx",
+    "set-cookie": "PHPSESSID=q7f2iov0mv69m8lks0r36blfn2; path=/\nspip_session=0_560e4961051ca553fb7f20b751b729b7; expires=Thu, 25-May-2023 15:01:57 GMT; Max-Age=86400; path=/suivi-convention-citoyenne-climat/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/suivi-convention-citoyenne-climat/\nspip_session=0_560e4961051ca553fb7f20b751b729b7; expires=Thu, 25-May-2023 15:01:58 GMT; Max-Age=86400; path=/suivi-convention-citoyenne-climat/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/suivi-convention-citoyenne-climat/",
+    "vary": "Cookie,Accept-Encoding",
+    "x-cache": "MISS",
+    "x-proto": "https",
+    "x-spip-cache": "86400",
+    "x-storage": "memory",
+    "x-varnish-ttl": "0.000"
+  },
+  "endpoints": [
+    {
+      "hostname": "www.ecologie.gouv.fr",
+      "ip": "37.235.89.97",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    }
+  ]
+}
