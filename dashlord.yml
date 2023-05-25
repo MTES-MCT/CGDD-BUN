@@ -22,7 +22,7 @@ tools:
   ecoindex: true
 urls:
   - url: https://www.notre-environnement.gouv.fr
-  tags:
+    tags:
       - environnement
   - url: https://www.agenda-2030.fr
     tags:
@@ -38,17 +38,17 @@ urls:
     tags:
       - ecologie
   - url: https://www.ecologie.gouv.fr/ouipub
-      tags:
+    tags:
       - ecologie
       - publicité
   - url: https://www.projets-environnement.gouv.fr
-      tags:
+    tags:
       - environnement
   - url: https://www.publicite-responsable.ecologie.gouv.fr
-        tags:
+    tags:
       - ecologie
       - publicité
   - url: https://www.deforestationimportee.ecologie.gouv.fr
-        tags:
+    tags:
       - environnement
       - deforestation
