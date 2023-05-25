@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Wed, 24 May 2023 15:25:03",
+	"@generated": "Thu, 25 May 2023 09:16:39",
 	"site":[ 
 		{
 			"@name": "https://www.publicite-responsable.ecologie.gouv.fr",
@@ -52,7 +52,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"page\" \"search-399-input\" ]."
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-entreprises-assujetties-ne-s-etant-pas-declarees/",
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-signataires-des-contrats-climat/les-entreprises-du-secteur-automobile/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -76,14 +76,6 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"_jeton\" \"case_1\" \"champ_case_1\" \"champ_email_1\" \"champ_input_1\" \"formidable_afficher_apres\" \"formulaire_action\" \"formulaire_action_args\" \"formulaire_action_sign\" \"give_me_your_email\" \"id_formulaire\" \"mechantrobot-3\" ]."
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/etape-1-suis-je-concerne/deposer-son-contrat-climat/article/deposer-son-contrat-climat",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form action=\"https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=recherche\" method=\"get\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"page\" \"search-399-input\" ]."
-						},
-						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/lib/",
 							"method": "GET",
 							"param": "",
@@ -92,12 +84,20 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"page\" \"search-399-input\" ]."
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=recherche&recherche",
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=login&url=%2Fecrire%2F",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<form action=\"https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=recherche\" method=\"get\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"page\" \"search-399-input\" ]."
+							"evidence": "<form method=\"post\" action=\"https://www.publicite-responsable.ecologie.gouv.fr/spip.php?action=converser&amp;redirect=spip.php%3Fpage%3Dlogin%26url%3D%252Fecrire%252F\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"action\" \"redirect\" ]."
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=login&url=%2Fecrire%2F",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form id='formulaire_login' method='post' action='/spip.php?page=login&amp;url=%2Fecrire%2F'>",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"formulaire_action\" \"formulaire_action_args\" \"formulaire_action_sign\" \"page\" \"password\" \"session_remember\" \"url\" \"var_login\" ]."
 						},
 						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/squelettes/",
@@ -266,7 +266,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-entreprises-assujetties-ne-s-etant-pas-declarees/",
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-entreprises-assujetties-ne-s-etant-pas-declarees/les-entreprises-soumises-a-etiquetage-energetique/",
 							"method": "GET",
 							"param": "X-Frame-Options",
 							"attack": "",
@@ -274,7 +274,15 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-entreprises-assujetties-ne-s-etant-pas-declarees/les-entreprises-soumises-a-etiquetage-energetique/",
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-signataires-des-contrats-climat/",
+							"method": "GET",
+							"param": "X-Frame-Options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-signataires-des-contrats-climat/les-entreprises-du-secteur-automobile/",
 							"method": "GET",
 							"param": "X-Frame-Options",
 							"attack": "",
@@ -290,14 +298,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/etape-1-suis-je-concerne/deposer-son-contrat-climat/article/deposer-son-contrat-climat",
-							"method": "GET",
-							"param": "X-Frame-Options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/lib/",
 							"method": "GET",
 							"param": "X-Frame-Options",
@@ -306,7 +306,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=recherche&recherche",
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=login&url=%2Fecrire%2F",
 							"method": "GET",
 							"param": "X-Frame-Options",
 							"attack": "",
@@ -328,7 +328,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "20"
 				},
 				{
 					"pluginid": "90003",
@@ -427,7 +427,7 @@
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "20"
 				},
 				{
 					"pluginid": "10003",
@@ -499,6 +499,14 @@
 							"otherinfo": "Location header URI length: 125 [https://www.publicite-responsable.ecologie.gouv.fr/comprendre-la-loi/article/les-articles-de-loi-sur-la-publicite-responsable].\nPredicted response size: 425.\nResponse Body Length: 492."
 						},
 						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/?article21",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "Location header URI length: 103 [https://www.publicite-responsable.ecologie.gouv.fr/ressources-et-questions-frequentes/article/glossaire].\nPredicted response size: 403.\nResponse Body Length: 470."
+						},
+						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/?article4",
 							"method": "GET",
 							"param": "",
@@ -563,13 +571,13 @@
 							"otherinfo": "Location header URI length: 87 [https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=login&url=%2Fecrire%2F].\nPredicted response size: 387.\nResponse Body Length: 458."
 						}
 					],
-					"count": "12",
+					"count": "13",
 					"solution": "<p>Ensure that no sensitive information is leaked via redirect responses. Redirect responses should have almost no content.</p>",
 					"otherinfo": "<p>Location header URI length: 107 [https://www.publicite-responsable.ecologie.gouv.fr/etape-1-suis-je-concerne/se-declarer/article/se-declarer].</p><p>Predicted response size: 407.</p><p>Response Body Length: 474.</p>",
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "188"
+					"sourceid": "333"
 				},
 				{
 					"pluginid": "10010",
@@ -649,6 +657,22 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-signataires-des-contrats-climat/",
+							"method": "GET",
+							"param": "spip_session",
+							"attack": "",
+							"evidence": "Set-Cookie: spip_session",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-signataires-des-contrats-climat/les-entreprises-du-secteur-automobile/",
+							"method": "GET",
+							"param": "spip_session",
+							"attack": "",
+							"evidence": "Set-Cookie: spip_session",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/contact",
 							"method": "GET",
 							"param": "spip_session",
@@ -657,23 +681,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/etape-1-suis-je-concerne/deposer-son-contrat-climat/article/deposer-son-contrat-climat",
-							"method": "GET",
-							"param": "spip_session",
-							"attack": "",
-							"evidence": "Set-Cookie: spip_session",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/lib/",
-							"method": "GET",
-							"param": "spip_session",
-							"attack": "",
-							"evidence": "Set-Cookie: spip_session",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=recherche&recherche",
 							"method": "GET",
 							"param": "spip_session",
 							"attack": "",
@@ -748,6 +756,22 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-signataires-des-contrats-climat/",
+							"method": "GET",
+							"param": "spip_session",
+							"attack": "",
+							"evidence": "Set-Cookie: spip_session",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-signataires-des-contrats-climat/les-entreprises-du-secteur-automobile/",
+							"method": "GET",
+							"param": "spip_session",
+							"attack": "",
+							"evidence": "Set-Cookie: spip_session",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/contact",
 							"method": "GET",
 							"param": "spip_session",
@@ -756,23 +780,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/etape-1-suis-je-concerne/deposer-son-contrat-climat/article/deposer-son-contrat-climat",
-							"method": "GET",
-							"param": "spip_session",
-							"attack": "",
-							"evidence": "Set-Cookie: spip_session",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/lib/",
-							"method": "GET",
-							"param": "spip_session",
-							"attack": "",
-							"evidence": "Set-Cookie: spip_session",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=recherche&recherche",
 							"method": "GET",
 							"param": "spip_session",
 							"attack": "",
@@ -861,7 +869,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "741"
+					"sourceid": "751"
 				},
 				{
 					"pluginid": "10063",
@@ -989,14 +997,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/lib/",
 							"method": "GET",
 							"param": "",
@@ -1062,6 +1062,14 @@
 						},
 						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/squelettes-dist/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/squelettes/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1289,7 +1297,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "20"
 				},
 				{
 					"pluginid": "10094",
@@ -1358,14 +1366,6 @@
 							"otherinfo": "\uFFFDo\uFFFD~\uFFFD\uFFFD~/\uFFFD\\x001dzW\uFFFD~\uFFFD\uFFFD\uFFFD\uFFFDey\uFFFDn"
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/plugins-dist/dsfr/dse/dsfr/dsfr.module.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "net/wiki/spaces/DB/pages/222789846/En-t+te+-+Header",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD)\"\uFFFD\uFFFDZq\uFFFD?\\x000c\\x001f\uFFFDj\\x0007\uFFFD\uFFFDm\uFFFD\uFFFD\uFFFD|\uFFFD\u011F\uFFFD~\uFFFD\uFFFD\uFFFDw\uFFFDu\uFFFD"
-						},
-						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/jquery.js?1659354189",
 							"method": "GET",
 							"param": "",
@@ -1382,6 +1382,14 @@
 							"otherinfo": "~\uFFFD\uFFFD0o\uFFFDu\uFFFD\uFFFD\uFFFD.n+!\uFFFD\uFFFD\uFFFDy\uFFFDk\uFFFD\uFFFD\u07BA\uFFFD){\uFFFD"
 						},
 						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=login&url=%2Fecrire%2F",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "fr/local/cache-vignettes/L1197xH628/caf6762c8abc5b2d4b3821b8b15e0d-24904",
+							"otherinfo": "~\uFFFD\uFFFD\u01A5\uFFFD\u019C\uFFFD\uFBCA\t\u07B6\u05EC\uFFFD\uFFFDu\uFFFD\uFFFDG\uFFFDo?q\uFFFD\uFFFD\uFB5C\uFFFD\uFFFD\u5F5D\uFFFD\uFFFD\uFFFDV\uFFFDo^^\uFFFD\u07F6\uFFFD\uFFFD8"
+						},
+						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/squelettes/",
 							"method": "GET",
 							"param": "",
@@ -1396,7 +1404,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "20"
 				},
 				{
 					"pluginid": "10019",
@@ -1423,7 +1431,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p>",
 					"cweid": "345",
 					"wascid": "12",
-					"sourceid": "712"
+					"sourceid": "713"
 				},
 				{
 					"pluginid": "10027",
@@ -1435,30 +1443,6 @@
 					"riskdesc": "Informational (Low)",
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
 					"instances":[ 
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/ajaxCallback.js?1659354184",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "bugs",
-							"otherinfo": "The following pattern was used: \\bBUGS\\b and was detected 2 times, the first in the element starting with: \"\t\t// cf http://bugs.jquery.com/ticket/7447\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/ajaxCallback.js?1659354184",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "select",
-							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in the element starting with: \"\t\t\t\t.find('input,select,textarea')\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/ajaxCallback.js?1659354184",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "xxx",
-							"otherinfo": "The following pattern was used: \\bXXX\\b and was detected in the element starting with: \" * rechargement ajax d'un formulaire dynamique implemente par formulaires/xxx.html\", see evidence field for the suspicious comment/snippet."
-						},
 						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/jquery-migrate-3.0.1.js?1659354184",
 							"method": "GET",
@@ -1474,62 +1458,6 @@
 							"attack": "",
 							"evidence": "select",
 							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in the element starting with: \"\t\"change select submit keydown keypress keyup contextmenu\" ).split( \" \" ),\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/jquery.form.js?1659354185",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "from",
-							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in the element starting with: \"\t\t\tvar httpData = function(xhr, type, s) { // mostly lifted from jq1.4.4\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/jquery.form.js?1659354185",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "later",
-							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected 2 times, the first in the element starting with: \" * Requires jQuery v1.7.2 or later\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/jquery.form.js?1659354185",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected 2 times, the first in the element starting with: \"\t\t\toptions.data = q;\t\t// data is the query string for 'post'\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/jquery.form.js?1659354185",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "select",
-							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected 21 times, the first in the element starting with: \"\t\t\ttag === 'select' && el.selectedIndex === -1)) {\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/jquery.form.js?1659354185",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "user",
-							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected 3 times, the first in the element starting with: \"\t\t// options.iframe allows user to force iframe mode\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/jquery.form.js?1659354185",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "username",
-							"otherinfo": "The following pattern was used: \\bUSERNAME\\b and was detected in the element starting with: \"\t * [ { name: 'username', value: 'jresig' }, { name: 'password', value: 'secret' } ]\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/jquery.form.js?1659354185",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "where",
-							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected in the element starting with: \"\t// an expected string. This accounts for the case where a form\", see evidence field for the suspicious comment/snippet."
 						},
 						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/javascript/jquery.js?1659354189",
@@ -1612,13 +1540,13 @@
 							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected 9 times, the first in the element starting with: \"\t\t// For CommonJS and CommonJS-like environments where a proper `window`\", see evidence field for the suspicious comment/snippet."
 						}
 					],
-					"count": "22",
+					"count": "12",
 					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bBUGS\\b and was detected 2 times, the first in the element starting with: \"\t\t// cf http://bugs.jquery.com/ticket/7447\", see evidence field for the suspicious comment/snippet.</p>",
+					"otherinfo": "<p>The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"\t\t// See http://bugs.jquery.com/ticket/11820\", see evidence field for the suspicious comment/snippet.</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "728"
+					"sourceid": "725"
 				},
 				{
 					"pluginid": "10109",
@@ -1663,7 +1591,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-entreprises-assujetties-ne-s-etant-pas-declarees/",
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-entreprises-assujetties-ne-s-etant-pas-declarees/les-entreprises-soumises-a-etiquetage-energetique/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1671,7 +1599,15 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-entreprises-assujetties-ne-s-etant-pas-declarees/les-entreprises-soumises-a-etiquetage-energetique/",
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-signataires-des-contrats-climat/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a class=\"fr-nav__link\" href=\"/?rubrique1\" target=\"_self\">Suis-je concern\u00E9 ?</a>",
+							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/consultez-les-contrats-climat/les-signataires-des-contrats-climat/les-entreprises-du-secteur-automobile/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1687,14 +1623,6 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/etape-1-suis-je-concerne/deposer-son-contrat-climat/article/deposer-son-contrat-climat",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a class=\"fr-nav__link\" href=\"/?rubrique1\" target=\"_self\">Suis-je concern\u00E9 ?</a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
-						},
-						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/lib/",
 							"method": "GET",
 							"param": "",
@@ -1703,12 +1631,12 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=recherche&recherche",
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=login&url=%2Fecrire%2F",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"fr-nav__link\" href=\"/?rubrique1\" target=\"_self\">Suis-je concern\u00E9 ?</a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+							"evidence": "<noscript><p class=\"boutons\"><input type=\"submit\" class=\"submit\" value=\"&gt;&gt;\" /></p></noscript>",
+							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/squelettes/",
@@ -1746,7 +1674,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/",
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/ecrire/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1754,47 +1682,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/?article15",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/?article16",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/?article539",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/?rubrique1",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/?rubrique15",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/robots.txt",
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/lib/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1802,13 +1690,48 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "8",
+					"count": "3",
 					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).   </p>",
 					"otherinfo": "",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "20"
+				},
+				{
+					"pluginid": "10015",
+					"alertRef": "10015",
+					"alert": "Re-examine Cache-control Directives",
+					"name": "Re-examine Cache-control Directives",
+					"riskcode": "0",
+					"confidence": "1",
+					"riskdesc": "Informational (Low)",
+					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
+					"instances":[ 
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/robots.txt",
+							"method": "GET",
+							"param": "Cache-Control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Cache-Control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						}
+					],
+					"count": "2",
+					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
+					"otherinfo": "",
+					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
+					"cweid": "525",
+					"wascid": "13",
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -1843,15 +1766,55 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/plugins-dist/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/plugins/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/prive/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/squelettes-dist/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						}
 					],
-					"count": "3",
+					"count": "8",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request. </p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "387"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "10031",
@@ -1870,6 +1833,22 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\r\n\r\nhttps://www.publicite-responsable.ecologie.gouv.fr/?page=plan\r\n\r\nappears to include user input in: \r\n\r\na(n) [meta] tag [content] attribute \r\n\r\nThe user input found was:\r\npage=plan\r\n\r\nThe user-controlled value was:\r\nhttps://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=plan"
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=login&url=%2Fecrire%2F",
+							"method": "GET",
+							"param": "page",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\r\n\r\nhttps://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=login&url=%2Fecrire%2F\r\n\r\nappears to include user input in: \r\n\r\na(n) [input] tag [value] attribute \r\n\r\nThe user input found was:\r\npage=login\r\n\r\nThe user-controlled value was:\r\nlogin"
+						},
+						{
+							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=login&url=%2Fecrire%2F",
+							"method": "GET",
+							"param": "url",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\r\n\r\nhttps://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=login&url=%2Fecrire%2F\r\n\r\nappears to include user input in: \r\n\r\na(n) [input] tag [value] attribute \r\n\r\nThe user input found was:\r\nurl=/ecrire/\r\n\r\nThe user-controlled value was:\r\n/ecrire/"
 						},
 						{
 							"uri": "https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=recherche&recherche",
@@ -1920,13 +1899,13 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\r\n\r\nhttps://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=recherche&recherche\r\n\r\nappears to include user input in: \r\n\r\na(n) [meta] tag [content] attribute \r\n\r\nThe user input found was:\r\npage=recherche\r\n\r\nThe user-controlled value was:\r\nhttps://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=recherche"
 						}
 					],
-					"count": "7",
+					"count": "9",
 					"solution": "<p>Validate all input and sanitize output it before writing to any HTML attributes.</p>",
 					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://www.publicite-responsable.ecologie.gouv.fr/?page=plan</p><p></p><p>appears to include user input in: </p><p></p><p>a(n) [meta] tag [content] attribute </p><p></p><p>The user input found was:</p><p>page=plan</p><p></p><p>The user-controlled value was:</p><p>https://www.publicite-responsable.ecologie.gouv.fr/spip.php?page=plan</p>",
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "658"
+					"sourceid": "656"
 				}
 			]
 		}
