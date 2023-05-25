@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Wed, 24 May 2023 14:53:14",
+	"@generated": "Thu, 25 May 2023 08:46:25",
 	"site":[ 
 		{
 			"@name": "https://www.notre-environnement.gouv.fr",
@@ -151,14 +151,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.notre-environnement.gouv.fr/a-propos",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.notre-environnement.gouv.fr/ecrire/",
 							"method": "GET",
 							"param": "",
@@ -208,6 +200,14 @@
 						},
 						{
 							"uri": "https://www.notre-environnement.gouv.fr/spip.php?page=login",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.notre-environnement.gouv.fr/theme/biodiversite",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -341,7 +341,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.notre-environnement.gouv.fr/themes/biodiversite/article/les-mesures-de-protection-et-de-restauration-de-la-biodiversite",
+							"uri": "https://www.notre-environnement.gouv.fr/themes/biodiversite/article/les-sols-et-sous-sols",
 							"method": "GET",
 							"param": "X-Frame-Options",
 							"attack": "",
@@ -457,41 +457,6 @@
 					"sourceid": "1"
 				},
 				{
-					"pluginid": "10003",
-					"alertRef": "10003",
-					"alert": "Vulnerable JS Library",
-					"name": "Vulnerable JS Library",
-					"riskcode": "2",
-					"confidence": "2",
-					"riskdesc": "Medium (Medium)",
-					"desc": "<p>The identified library jquery-ui, version 1.12.1 is vulnerable.</p>",
-					"instances":[ 
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/plugins-dist/jquery_ui/prive/javascript/ui/jquery-ui.js?1596039358",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "/*! jQuery UI - v1.12.1",
-							"otherinfo": "CVE-2021-41184\nCVE-2021-41183\nCVE-2021-41182\nCVE-2022-31160\n"
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "* jQuery JavaScript Library v3.2.1",
-							"otherinfo": "CVE-2020-11023\nCVE-2020-11022\nCVE-2019-11358\n"
-						}
-					],
-					"count": "2",
-					"solution": "<p>Please upgrade to the latest version of jquery-ui.</p>",
-					"otherinfo": "<p>CVE-2021-41184</p><p>CVE-2021-41183</p><p>CVE-2021-41182</p><p>CVE-2022-31160</p><p></p>",
-					"reference": "<p>https://github.com/advisories/GHSA-h6gj-6jjq-h8g9</p><p>https://bugs.jqueryui.com/ticket/15284</p><p>https://github.com/jquery/jquery-ui/commit/8cc5bae1caa1fcf96bf5862c5646c787020ba3f9</p><p>https://nvd.nist.gov/vuln/detail/CVE-2022-31160</p><p>https://github.com/jquery/jquery-ui/security/advisories/GHSA-h6gj-6jjq-h8g9</p><p>https://github.com/jquery/jquery-ui/security/advisories/GHSA-gpqq-952q-5327</p><p>https://nvd.nist.gov/vuln/detail/CVE-2021-41184</p><p>https://nvd.nist.gov/vuln/detail/CVE-2021-41183</p><p>https://github.com/jquery/jquery-ui/security/advisories/GHSA-9gj3-hwp5-pmwc</p><p>https://nvd.nist.gov/vuln/detail/CVE-2021-41182</p><p>https://github.com/jquery/jquery-ui/issues/2101</p><p></p>",
-					"cweid": "829",
-					"wascid": "-1",
-					"sourceid": "6851"
-				},
-				{
 					"pluginid": "10044",
 					"alertRef": "10044",
 					"alert": "Big Redirect Detected (Potential Sensitive Information Leak)",
@@ -548,7 +513,7 @@
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "4843"
+					"sourceid": "3441"
 				},
 				{
 					"pluginid": "10010",
@@ -768,84 +733,6 @@
 					"sourceid": "1"
 				},
 				{
-					"pluginid": "10017",
-					"alertRef": "10017",
-					"alert": "Cross-Domain JavaScript Source File Inclusion",
-					"name": "Cross-Domain JavaScript Source File Inclusion",
-					"riskcode": "1",
-					"confidence": "2",
-					"riskdesc": "Low (Medium)",
-					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
-					"instances":[ 
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/actualites/breves/article/nouvelles-maladies-infectieuses-quels-liens-avec-les-atteintes-a-la?ancreretour=horizon&retour=accueil&type-liaison=les-coups-de-coeur&type-ressource=horizon&url-ressource=.%2F",
-							"method": "GET",
-							"param": "https://player.ausha.co/ausha-player.js",
-							"attack": "",
-							"evidence": "<script src=\"https://player.ausha.co/ausha-player.js\"></script>",
-							"otherinfo": ""
-						}
-					],
-					"count": "1",
-					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
-					"otherinfo": "",
-					"reference": "",
-					"cweid": "829",
-					"wascid": "15",
-					"sourceid": "6931"
-				},
-				{
-					"pluginid": "10110",
-					"alertRef": "10110",
-					"alert": "Dangerous JS Functions",
-					"name": "Dangerous JS Functions",
-					"riskcode": "1",
-					"confidence": "1",
-					"riskdesc": "Low (Low)",
-					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
-					"instances":[ 
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/plugins-dist/theme-dsfr/dse/js/tarteaucitron/tarteaucitron.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/ajaxCallback.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.form.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Eval",
-							"otherinfo": ""
-						}
-					],
-					"count": "4",
-					"solution": "<p>See the references for security advice on the use of these functions.</p>",
-					"otherinfo": "",
-					"reference": "<p>https://angular.io/guide/security</p>",
-					"cweid": "749",
-					"wascid": "-1",
-					"sourceid": "6849"
-				},
-				{
 					"pluginid": "10063",
 					"alertRef": "10063-1",
 					"alert": "Permissions Policy Header Not Set",
@@ -873,14 +760,6 @@
 						},
 						{
 							"uri": "https://www.notre-environnement.gouv.fr/*.api/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/a-propos",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -942,6 +821,14 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.notre-environnement.gouv.fr/theme/biodiversite",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
 					"count": "11",
@@ -985,7 +872,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html</p>",
 					"cweid": "311",
 					"wascid": "4",
-					"sourceid": "5362"
+					"sourceid": "5628"
 				},
 				{
 					"pluginid": "10036",
@@ -1216,14 +1103,6 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1555384570",
-							"otherinfo": "1555384570, which evaluates to: 2019-04-16 03:16:10"
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
 							"evidence": "1596039358",
 							"otherinfo": "1596039358, which evaluates to: 2020-07-29 16:15:58"
 						},
@@ -1288,13 +1167,29 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
+							"evidence": "1684854151",
+							"otherinfo": "1684854151, which evaluates to: 2023-05-23 15:02:31"
+						},
+						{
+							"uri": "https://www.notre-environnement.gouv.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
 							"evidence": "1684906201",
 							"otherinfo": "1684906201, which evaluates to: 2023-05-24 05:30:01"
+						},
+						{
+							"uri": "https://www.notre-environnement.gouv.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1684990800",
+							"otherinfo": "1684990800, which evaluates to: 2023-05-25 05:00:00"
 						}
 					],
-					"count": "10",
+					"count": "11",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>1555384570, which evaluates to: 2019-04-16 03:16:10</p>",
+					"otherinfo": "<p>1596039358, which evaluates to: 2020-07-29 16:15:58</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -1498,7 +1393,7 @@
 							"otherinfo": "\uFFFDW\uFFFD\uFFFDD\uFFFD\uFFFD\\x0012\u0632NY|\uFFFD\uFFFD\\x0019\uFFFDWF\uFFFD[\u00A4\uFFFD{\uFFFD\uFFFD\\x0016#\uFFFD\\x0001"
 						},
 						{
-							"uri": "https://www.notre-environnement.gouv.fr/themes/biodiversite/article/les-menaces-sur-la-biodiversite",
+							"uri": "https://www.notre-environnement.gouv.fr/themes/biodiversite/article/les-sols-et-sous-sols",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1513,228 +1408,6 @@
 					"cweid": "200",
 					"wascid": "13",
 					"sourceid": "1"
-				},
-				{
-					"pluginid": "10019",
-					"alertRef": "10019",
-					"alert": "Content-Type Header Missing",
-					"name": "Content-Type Header Missing",
-					"riskcode": "0",
-					"confidence": "2",
-					"riskdesc": "Informational (Medium)",
-					"desc": "<p>The Content-Type header was either missing or empty.</p>",
-					"instances":[ 
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/plugins-dist/theme-dsfr/dse/dsfr/favicon/manifest.webmanifest",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						}
-					],
-					"count": "1",
-					"solution": "<p>Ensure each page is setting the specific and appropriate content-type value for the content being delivered.</p>",
-					"otherinfo": "",
-					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p>",
-					"cweid": "345",
-					"wascid": "12",
-					"sourceid": "6827"
-				},
-				{
-					"pluginid": "10027",
-					"alertRef": "10027",
-					"alert": "Information Disclosure - Suspicious Comments",
-					"name": "Information Disclosure - Suspicious Comments",
-					"riskcode": "0",
-					"confidence": "1",
-					"riskdesc": "Informational (Low)",
-					"desc": "<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>",
-					"instances":[ 
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/ajaxCallback.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "bugs",
-							"otherinfo": "The following pattern was used: \\bBUGS\\b and was detected 2 times, the first in the element starting with: \"\t\t// cf http://bugs.jquery.com/ticket/7447\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/ajaxCallback.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "select",
-							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in the element starting with: \"\t\t\t\t.find('input,select,textarea')\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/ajaxCallback.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "xxx",
-							"otherinfo": "The following pattern was used: \\bXXX\\b and was detected in the element starting with: \" * rechargement ajax d'un formulaire dynamique implemente par formulaires/xxx.html\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery-migrate-3.0.1.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "bugs",
-							"otherinfo": "The following pattern was used: \\bBUGS\\b and was detected in the element starting with: \"\t\t// See http://bugs.jquery.com/ticket/11820\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery-migrate-3.0.1.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "select",
-							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected in the element starting with: \"\t\"change select submit keydown keypress keyup contextmenu\" ).split( \" \" ),\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.form.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "from",
-							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in the element starting with: \"\t\t\tvar httpData = function(xhr, type, s) { // mostly lifted from jq1.4.4\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.form.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "later",
-							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected 2 times, the first in the element starting with: \" * Requires jQuery v1.7.2 or later\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.form.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected 2 times, the first in the element starting with: \"\t\t\toptions.data = q;\t\t// data is the query string for 'post'\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.form.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "select",
-							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected 21 times, the first in the element starting with: \"\t\t\ttag === 'select' && el.selectedIndex === -1)) {\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.form.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "user",
-							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected 3 times, the first in the element starting with: \"\t\t// options.iframe allows user to force iframe mode\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.form.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "username",
-							"otherinfo": "The following pattern was used: \\bUSERNAME\\b and was detected in the element starting with: \"\t * [ { name: 'username', value: 'jresig' }, { name: 'password', value: 'secret' } ]\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.form.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "where",
-							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected in the element starting with: \"\t// an expected string. This accounts for the case where a form\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "bug",
-							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected 7 times, the first in the element starting with: \"\t// We allow this because of a bug in IE8/9 that throws an error\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "bugs",
-							"otherinfo": "The following pattern was used: \\bBUGS\\b and was detected 7 times, the first in the element starting with: \"\t// See https://bugs.jquery.com/ticket/13378\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "from",
-							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected 48 times, the first in the element starting with: \"\t\t// Return just the one element from the set\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "later",
-							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected 8 times, the first in the element starting with: \"\t\t\t// IE8 throws error here and will not see later tests\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "query",
-							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected 2 times, the first in the element starting with: \"\t\t// want to query the value if it is a CSS custom property\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "select",
-							"otherinfo": "The following pattern was used: \\bSELECT\\b and was detected 18 times, the first in the element starting with: \"\tselect,\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "TODO",
-							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected 4 times, the first in the element starting with: \"\t\t\t\t\t\t\t// TODO: identify versions\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "user",
-							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected 9 times, the first in the element starting with: \"\t// Can be adjusted by the user\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "username",
-							"otherinfo": "The following pattern was used: \\bUSERNAME\\b and was detected 2 times, the first in the element starting with: \"\t\tusername: null,\", see evidence field for the suspicious comment/snippet."
-						},
-						{
-							"uri": "https://www.notre-environnement.gouv.fr/prive/javascript/jquery.js?1677596756",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "where",
-							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected 9 times, the first in the element starting with: \"\t\t// For CommonJS and CommonJS-like environments where a proper `window`\", see evidence field for the suspicious comment/snippet."
-						}
-					],
-					"count": "22",
-					"solution": "<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>",
-					"otherinfo": "<p>The following pattern was used: \\bBUGS\\b and was detected 2 times, the first in the element starting with: \"\t\t// cf http://bugs.jquery.com/ticket/7447\", see evidence field for the suspicious comment/snippet.</p>",
-					"reference": "",
-					"cweid": "200",
-					"wascid": "13",
-					"sourceid": "6845"
 				},
 				{
 					"pluginid": "10109",
@@ -1827,7 +1500,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"uri": "https://www.notre-environnement.gouv.fr/themes/biodiversite/article/les-menaces-sur-la-biodiversite",
+							"uri": "https://www.notre-environnement.gouv.fr/themes/biodiversite/article/les-sols-et-sous-sols",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -2061,7 +1734,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "6412"
+					"sourceid": "6791"
 				}
 			]
 		}
