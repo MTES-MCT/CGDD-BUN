@@ -1,0 +1,2 @@
+"id","fqdn/ip","port","severity","finding","cve","cwe"
+"optimal_proto","cnig.gouv.fr/194.5.173.160","443","WARN","194.5.173.160:443 doesn't seem to be a TLS/SSL enabled server.","",""
