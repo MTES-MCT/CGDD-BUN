@@ -75,7 +75,7 @@
 "intermediate_cert_badOCSP","www.notre-environnement.gouv.fr/92.175.135.130","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","www.notre-environnement.gouv.fr/92.175.135.130","443","INFO","200 OK ('/')","",""
 "HTTP_clock_skew","www.notre-environnement.gouv.fr/92.175.135.130","443","INFO","-1 seconds from localtime","",""
-"HTTP_headerTime","www.notre-environnement.gouv.fr/92.175.135.130","443","INFO","1685004478","",""
+"HTTP_headerTime","www.notre-environnement.gouv.fr/92.175.135.130","443","INFO","1685016257","",""
 "HSTS","www.notre-environnement.gouv.fr/92.175.135.130","443","LOW","not offered","",""
 "HPKP","www.notre-environnement.gouv.fr/92.175.135.130","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","www.notre-environnement.gouv.fr/92.175.135.130","443","INFO","Apache/2.4.38 (Debian)","",""
