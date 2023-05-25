@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Wed, 24 May 2023 14:50:40",
+	"@generated": "Thu, 25 May 2023 08:42:23",
 	"site":[ 
 		{
 			"@name": "https://www.alerte-sante-environnement-deontologie.fr",
@@ -52,14 +52,6 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"page\" \"recherche\" ]."
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/la-cndaspe-remet-son-avis-au-gouvernement-suite-a-une-saisine-sur-le-projet-de",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form action=\"/spip.php\" role=\"search\" method=\"get\" >",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"page\" \"recherche\" ]."
-						},
-						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/publication-de-l-avis-relatif-au-renforcement-de-l-organisation-du-controle-et",
 							"method": "GET",
 							"param": "",
@@ -69,6 +61,14 @@
 						},
 						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/releve-des-decisions-de-la-reunion-du-20-avril-20123",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"/spip.php\" role=\"search\" method=\"get\" >",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"page\" \"recherche\" ]."
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/releve-des-decisions-de-la-reunion-du-29-mars-2023-seance-exceptionnelle",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -114,7 +114,7 @@
 					"reference": "<p>http://projects.webappsec.org/Cross-Site-Request-Forgery</p><p>http://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "32"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10038",
@@ -135,71 +135,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/autorisation-de-mise-sur-le-marche-des-pesticides-fortes-disparites-entre-les",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/la-cndaspe-remet-son-avis-au-gouvernement-suite-a-une-saisine-sur-le-projet-de",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/publication-de-l-avis-relatif-au-renforcement-de-l-organisation-du-controle-et",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/releve-des-decisions-de-la-reunion-du-20-avril-20123",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/faq/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/la-commission/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/saisir-la-commission/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -213,6 +149,70 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/ecrire/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/lib/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/local/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/plugins-dist/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/plugins/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/prive/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/squelettes-dist/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/squelettes/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
 					"count": "11",
@@ -221,7 +221,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "32"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10020",
@@ -259,14 +259,6 @@
 						},
 						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/autorisation-de-mise-sur-le-marche-des-pesticides-fortes-disparites-entre-les",
-							"method": "GET",
-							"param": "X-Frame-Options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/la-cndaspe-remet-son-avis-au-gouvernement-suite-a-une-saisine-sur-le-projet-de",
 							"method": "GET",
 							"param": "X-Frame-Options",
 							"attack": "",
@@ -330,13 +322,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "12",
+					"count": "11",
 					"solution": "<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p><p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "32"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10099",
@@ -371,7 +363,7 @@
 					"reference": "<p>http://blogs.wsj.com/cio/2013/10/08/adobe-source-code-leak-is-bad-news-for-u-s-government/</p>",
 					"cweid": "540",
 					"wascid": "13",
-					"sourceid": "759"
+					"sourceid": "753"
 				},
 				{
 					"pluginid": "10099",
@@ -398,7 +390,7 @@
 					"reference": "<p>http://blogs.wsj.com/cio/2013/10/08/adobe-source-code-leak-is-bad-news-for-u-s-government/</p>",
 					"cweid": "540",
 					"wascid": "13",
-					"sourceid": "730"
+					"sourceid": "725"
 				},
 				{
 					"pluginid": "10003",
@@ -425,7 +417,7 @@
 					"reference": "<p>https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/</p><p>https://nvd.nist.gov/vuln/detail/CVE-2019-11358</p><p>https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "649"
+					"sourceid": "652"
 				},
 				{
 					"pluginid": "10044",
@@ -437,14 +429,6 @@
 					"riskdesc": "Low (Medium)",
 					"desc": "<p>The server has responded with a redirect that seems to provide a large response. This may indicate that although the server sent a redirect it also responded with body content (which may include sensitive details, PII, etc.).</p>",
 					"instances":[ 
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/605",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "Location header URI length: 71 [https://www.alerte-sante-environnement-deontologie.fr/spip.php?page=404].\nPredicted response size: 371.\nResponse Body Length: 438."
-						},
 						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/article/accessibilite",
 							"method": "GET",
@@ -486,13 +470,13 @@
 							"otherinfo": "Location header URI length: 133 [https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/saisir-la-commission/].\nPredicted response size: 433.\nResponse Body Length: 500."
 						}
 					],
-					"count": "6",
+					"count": "5",
 					"solution": "<p>Ensure that no sensitive information is leaked via redirect responses. Redirect responses should have almost no content.</p>",
-					"otherinfo": "<p>Location header URI length: 71 [https://www.alerte-sante-environnement-deontologie.fr/spip.php?page=404].</p><p>Predicted response size: 371.</p><p>Response Body Length: 438.</p>",
+					"otherinfo": "<p>Location header URI length: 133 [https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/article/accessibilite].</p><p>Predicted response size: 433.</p><p>Response Body Length: 500.</p>",
 					"reference": "",
 					"cweid": "201",
 					"wascid": "13",
-					"sourceid": "1179"
+					"sourceid": "407"
 				},
 				{
 					"pluginid": "10110",
@@ -514,14 +498,6 @@
 						},
 						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/local/cache-js/jsdyn-javascript_porte_plume_start_js-c1048054.js?1674729347",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "eval",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/local/cache-js/jsdyn-javascript_porte_plume_start_js-d8d83d0f.js?1674814931",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -553,13 +529,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "6",
+					"count": "5",
 					"solution": "<p>See the references for security advice on the use of these functions.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "727"
+					"sourceid": "770"
 				},
 				{
 					"pluginid": "10063",
@@ -588,63 +564,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/autorisation-de-mise-sur-le-marche-des-pesticides-fortes-disparites-entre-les",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/la-cndaspe-remet-son-avis-au-gouvernement-suite-a-une-saisine-sur-le-projet-de",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/publication-de-l-avis-relatif-au-renforcement-de-l-organisation-du-controle-et",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/releve-des-decisions-de-la-reunion-du-20-avril-20123",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/faq/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/la-commission/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/saisir-la-commission/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -658,15 +578,79 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/ecrire/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/lib/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/local/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/plugins-dist/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/plugins/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/prive/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/squelettes-dist/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/squelettes/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "32"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10035",
@@ -687,46 +671,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/autorisation-de-mise-sur-le-marche-des-pesticides-fortes-disparites-entre-les",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/releve-des-decisions-de-la-reunion-du-20-avril-20123",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/faq/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/la-commission/",
 							"method": "GET",
 							"param": "",
@@ -735,7 +679,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/saisir-la-commission/",
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/ecrire/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -743,7 +687,39 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/travaux/",
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/lib/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/local/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/plugins-dist/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/plugins/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/prive/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -765,15 +741,31 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/squelettes-dist/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/squelettes/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to enforce Strict-Transport-Security.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>http://caniuse.com/stricttransportsecurity</p><p>http://tools.ietf.org/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "32"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10096",
@@ -864,7 +856,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "32"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10021",
@@ -901,7 +893,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/autorisation-de-mise-sur-le-marche-des-pesticides-fortes-disparites-entre-les",
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/publication-de-l-avis-relatif-au-renforcement-de-l-organisation-du-controle-et",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -971,7 +963,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "32"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10094",
@@ -1016,14 +1008,6 @@
 							"otherinfo": "\uFFFD\\x0016\uFFFD\uDAFD\uDFDEc\uFFFD\uFFFD\uFFFD\uFFFDX\uFFFDc\uD8B1\uDCCE\uFFFD\uFFFD9D\uFFFD\uFFFD\u0082\u24E9A\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFD\uFFFD\uFFFDv/Q\uFFFD\\x0012\uFFFD0zo-\uFFFD\uFFFD\uFFFD*"
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/la-cndaspe-remet-son-avis-au-gouvernement-suite-a-une-saisine-sur-le-projet-de",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr",
-							"otherinfo": "\uFFFD\\x0016\uFFFD\uDAFD\uDFDEc\uFFFD\uFFFD\uFFFD\uFFFDX\uFFFDc\uD8B1\uDCCE\uFFFD\uFFFD9D\uFFFD\uFFFD\u0082\u24E9A\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFD\uFFFD\uFFFDv/Q\uFFFD\\x0012\uFFFD0zo-\uFFFD\uFFFD\uFFFD*"
-						},
-						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/publication-de-l-avis-relatif-au-renforcement-de-l-organisation-du-controle-et",
 							"method": "GET",
 							"param": "",
@@ -1033,6 +1017,14 @@
 						},
 						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/releve-des-decisions-de-la-reunion-du-20-avril-20123",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr",
+							"otherinfo": "\uFFFD\\x0016\uFFFD\uDAFD\uDFDEc\uFFFD\uFFFD\uFFFD\uFFFDX\uFFFDc\uD8B1\uDCCE\uFFFD\uFFFD9D\uFFFD\uFFFD\u0082\u24E9A\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFD\uFFFD\uFFFDv/Q\uFFFD\\x0012\uFFFD0zo-\uFFFD\uFFFD\uFFFD*"
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/releve-des-decisions-de-la-reunion-du-29-mars-2023-seance-exceptionnelle",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1078,7 +1070,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "32"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10019",
@@ -1321,14 +1313,6 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/la-cndaspe-remet-son-avis-au-gouvernement-suite-a-une-saisine-sur-le-projet-de",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a class=\"fr-nav__link\" href=\"deontologie-et-alertes-en-sante-publique-et-environnement/la-commission/article/la-commission\"   target=\"_self\">La Commission</a>",
-							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
-						},
-						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/publication-de-l-avis-relatif-au-renforcement-de-l-organisation-du-controle-et",
 							"method": "GET",
 							"param": "",
@@ -1338,6 +1322,14 @@
 						},
 						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/releve-des-decisions-de-la-reunion-du-20-avril-20123",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a class=\"fr-nav__link\" href=\"deontologie-et-alertes-en-sante-publique-et-environnement/la-commission/article/la-commission\"   target=\"_self\">La Commission</a>",
+							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/releve-des-decisions-de-la-reunion-du-29-mars-2023-seance-exceptionnelle",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1383,7 +1375,34 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "32"
+					"sourceid": "1"
+				},
+				{
+					"pluginid": "10049",
+					"alertRef": "10049",
+					"alert": "Non-Storable Content",
+					"name": "Non-Storable Content",
+					"riskcode": "0",
+					"confidence": "2",
+					"riskdesc": "Informational (Medium)",
+					"desc": "<p>The response contents are not storable by caching components such as proxy servers. If the response does not contain sensitive, personal or user-specific information, it may benefit from being stored and cached, to improve performance.</p>",
+					"instances":[ 
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/ecrire/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "403",
+							"otherinfo": ""
+						}
+					],
+					"count": "1",
+					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).   </p>",
+					"otherinfo": "",
+					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
+					"cweid": "524",
+					"wascid": "13",
+					"sourceid": "15"
 				},
 				{
 					"pluginid": "10015",
@@ -1420,7 +1439,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/autorisation-de-mise-sur-le-marche-des-pesticides-fortes-disparites-entre-les",
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/publication-de-l-avis-relatif-au-renforcement-de-l-organisation-du-controle-et",
 							"method": "GET",
 							"param": "Cache-Control",
 							"attack": "",
@@ -1468,6 +1487,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/robots.txt",
+							"method": "GET",
+							"param": "Cache-Control",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/sitemap.xml",
 							"method": "GET",
 							"param": "Cache-Control",
@@ -1476,13 +1503,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "10",
+					"count": "11",
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "32"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -1503,46 +1530,6 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/autorisation-de-mise-sur-le-marche-des-pesticides-fortes-disparites-entre-les",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/article/releve-des-decisions-de-la-reunion-du-20-avril-20123",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/faq/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/la-commission/",
 							"method": "GET",
 							"param": "",
@@ -1551,7 +1538,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/saisir-la-commission/",
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/lib/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1559,7 +1546,31 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/travaux/",
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/local/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/plugins-dist/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/plugins/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/prive/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1581,6 +1592,22 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/squelettes-dist/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/squelettes/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						}
 					],
 					"count": "11",
@@ -1589,7 +1616,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "32"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10031",
@@ -1601,6 +1628,14 @@
 					"riskdesc": "Informational (Low)",
 					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
 					"instances":[ 
+						{
+							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/?debut_articles=5",
+							"method": "GET",
+							"param": "debut_articles",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\r\n\r\nhttps://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/?debut_articles=5\r\n\r\nappears to include user input in: \r\n\r\na(n) [meta] tag [content] attribute \r\n\r\nThe user input found was:\r\ndebut_articles=5\r\n\r\nThe user-controlled value was:\r\nhttps://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/?debut_articles=5"
+						},
 						{
 							"uri": "https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/travaux/avis-rendus/?chx=date",
 							"method": "GET",
@@ -1674,13 +1709,13 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\r\n\r\nhttps://www.alerte-sante-environnement-deontologie.fr/spip.php?page=recherche&recherche\r\n\r\nappears to include user input in: \r\n\r\na(n) [label] tag [for] attribute \r\n\r\nThe user input found was:\r\npage=recherche\r\n\r\nThe user-controlled value was:\r\nrecherche"
 						}
 					],
-					"count": "9",
+					"count": "10",
 					"solution": "<p>Validate all input and sanitize output it before writing to any HTML attributes.</p>",
-					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/travaux/avis-rendus/?chx=date</p><p></p><p>appears to include user input in: </p><p></p><p>a(n) [meta] tag [content] attribute </p><p></p><p>The user input found was:</p><p>chx=date</p><p></p><p>The user-controlled value was:</p><p>https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/travaux/avis-rendus/?chx=date</p>",
+					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/?debut_articles=5</p><p></p><p>appears to include user input in: </p><p></p><p>a(n) [meta] tag [content] attribute </p><p></p><p>The user input found was:</p><p>debut_articles=5</p><p></p><p>The user-controlled value was:</p><p>https://www.alerte-sante-environnement-deontologie.fr/deontologie-et-alertes-en-sante-publique-et-environnement/actualites/?debut_articles=5</p>",
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "687"
+					"sourceid": "694"
 				}
 			]
 		}
