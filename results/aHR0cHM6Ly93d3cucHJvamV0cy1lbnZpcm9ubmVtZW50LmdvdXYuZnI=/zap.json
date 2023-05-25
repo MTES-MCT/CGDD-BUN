@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Wed, 24 May 2023 15:14:45",
+	"@generated": "Thu, 25 May 2023 09:06:14",
 	"site":[ 
 		{
 			"@name": "https://www.projets-environnement.gouv.fr",
@@ -127,7 +127,7 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: \nscript-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src, prefetch-src, form-action\n\nThe directive(s): form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything."
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr",
+							"uri": "https://www.projets-environnement.gouv.fr/explore/download",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -151,7 +151,7 @@
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: \nscript-src, style-src, img-src, connect-src, frame-src, frame-ancestors, font-src, media-src, object-src, manifest-src, worker-src, prefetch-src, form-action\n\nThe directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything."
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr/pages/home/",
+							"uri": "https://www.projets-environnement.gouv.fr/publish",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -182,15 +182,15 @@
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
-							"evidence": "upgrade-insecure-requests;",
+							"evidence": "upgrade-insecure-requests; frame-ancestors 'none'",
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr",
+							"uri": "https://www.projets-environnement.gouv.fr/explore/download",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
-							"evidence": "upgrade-insecure-requests; frame-ancestors 'none'",
+							"evidence": "upgrade-insecure-requests;",
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
@@ -210,7 +210,7 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr/pages/home/",
+							"uri": "https://www.projets-environnement.gouv.fr/publish",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -224,7 +224,7 @@
 					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10055",
@@ -241,15 +241,15 @@
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
-							"evidence": "upgrade-insecure-requests;",
+							"evidence": "upgrade-insecure-requests; frame-ancestors 'none'",
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr",
+							"uri": "https://www.projets-environnement.gouv.fr/explore/download",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
-							"evidence": "upgrade-insecure-requests; frame-ancestors 'none'",
+							"evidence": "upgrade-insecure-requests;",
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
@@ -269,7 +269,7 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr/pages/home/",
+							"uri": "https://www.projets-environnement.gouv.fr/publish",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -283,7 +283,7 @@
 					"reference": "<p>http://www.w3.org/TR/CSP2/</p><p>http://www.w3.org/TR/CSP/</p><p>http://caniuse.com/#search=content+security+policy</p><p>http://content-security-policy.com/</p><p>https://github.com/shapesecurity/salvation</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10098",
@@ -310,7 +310,7 @@
 					"reference": "<p>https://vulncat.fortify.com/en/detail?id=desc.config.dotnet.html5_overly_permissive_cors_policy</p>",
 					"cweid": "264",
 					"wascid": "14",
-					"sourceid": "49"
+					"sourceid": "38"
 				},
 				{
 					"pluginid": "10020",
@@ -513,7 +513,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/*/download",
+							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/*/atom/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -521,7 +521,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/*/download",
+							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/*/atom/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -529,7 +529,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/*/download",
+							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/*/atom/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -674,7 +674,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "43"
+					"sourceid": "56"
 				},
 				{
 					"pluginid": "10054",
@@ -757,7 +757,7 @@
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "43"
+					"sourceid": "56"
 				},
 				{
 					"pluginid": "10094",
@@ -806,56 +806,56 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "o90sLUAMdZvQ3wdCwbol8TneNPI7IzLjMbP3Mx2YH4GErxv2lYsivqCOLrji1hqr",
-							"otherinfo": "\uFFFD\uFFFD,-@\\x000cu\uFFFD\uFFFD\uFFFD\\x0007B\uFFFD\uFFFD%\uFFFD9\uFFFD4\uFFFD;#2\uFFFD1\uFFFD\uFFFD3\\x001d\uFFFD\\x001f\uFFFD\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\"\uFFFD\uFFFD\uFFFD.\uFFFD\uFFFD\uFFFD\\x001a\uFFFD"
+							"evidence": "pZ4aN352KAO6pUQTWi8B3p5rjNPBV3i6dIKA9P6CKjuIWjcrFHmDLBcZBUYmm5jW",
+							"otherinfo": "\uFFFD\uFFFD\\x001a7~v(\\x0003\uFFFD\uFFFDD\\x0013Z/\\x0001\u079Ek\uFFFD\uFFFD\uFFFDWx\uFFFDt\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD*;\uFFFDZ7+\\x0014y\uFFFD,\\x0017\\x0019\\x0005F&\uFFFD\uFFFD\uFFFD"
 						},
 						{
 							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/projets-environnement-diffusion-2/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "o90sLUAMdZvQ3wdCwbol8TneNPI7IzLjMbP3Mx2YH4GErxv2lYsivqCOLrji1hqr",
-							"otherinfo": "\uFFFD\uFFFD,-@\\x000cu\uFFFD\uFFFD\uFFFD\\x0007B\uFFFD\uFFFD%\uFFFD9\uFFFD4\uFFFD;#2\uFFFD1\uFFFD\uFFFD3\\x001d\uFFFD\\x001f\uFFFD\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\"\uFFFD\uFFFD\uFFFD.\uFFFD\uFFFD\uFFFD\\x001a\uFFFD"
+							"evidence": "8sCMjzOAqu1LlORfOPcXhTAmtntvO2V0LylISSFm2Nk42JIEpoVEJDkWEQVH9d0m",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD3\uFFFD\uFFFD\uFFFDK\uFFFD\uFFFD_8\uFFFD\\x0017\uFFFD0&\uFFFD{o;et/)HI!f\uFFFD\uFFFD8\u0612\\x0004\uFFFD\uFFFDD$9\\x0016\\x0011\\x0005G\uFFFD\uFFFD&"
 						},
 						{
 							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/projets-environnement-diffusion/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "o90sLUAMdZvQ3wdCwbol8TneNPI7IzLjMbP3Mx2YH4GErxv2lYsivqCOLrji1hqr",
-							"otherinfo": "\uFFFD\uFFFD,-@\\x000cu\uFFFD\uFFFD\uFFFD\\x0007B\uFFFD\uFFFD%\uFFFD9\uFFFD4\uFFFD;#2\uFFFD1\uFFFD\uFFFD3\\x001d\uFFFD\\x001f\uFFFD\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\"\uFFFD\uFFFD\uFFFD.\uFFFD\uFFFD\uFFFD\\x001a\uFFFD"
+							"evidence": "T88cIhdTkZhOkvbvUhb1rgUcQOBoBItllJqm9YLMwAgjgPELBF58KqMuTmGGGgyc",
+							"otherinfo": "O\uFFFD\\x001c\"\\x0017S\uFFFD\uFFFDN\uFFFD\uFFFD\uFFFDR\\x0016\uFFFD\uFFFD\\x0005\\x001c@\uFFFDh\\x0004\uFFFDe\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0008#\uFFFD\uFFFD\\x000b\\x0004^|*\uFFFD.Na\uFFFD\\x001a\\x000c\uFFFD"
 						},
 						{
 							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/sitemap/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "eyNHoRVAF8LCCOx7zl3rXsb6NdHDIVvRoWwGRqDrghl8lM6nk6Ex4biCcrhTI3UB",
-							"otherinfo": "{#G\uFFFD\\x0015@\\x0017\uFFFD\uFFFD\\x0008\uFFFD{\uFFFD]\uFFFD^\uFFFD\uFFFD5\uFFFD\uFFFD![\u0461l\\x0006F\uFFFD\uFFFD\\x0019|\uFFFD\u03A7\uFFFD\uFFFD1\u1E02r\uFFFDS#u\\x0001"
+							"evidence": "8sCMjzOAqu1LlORfOPcXhTAmtntvO2V0LylISSFm2Nk42JIEpoVEJDkWEQVH9d0m",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD3\uFFFD\uFFFD\uFFFDK\uFFFD\uFFFD_8\uFFFD\\x0017\uFFFD0&\uFFFD{o;et/)HI!f\uFFFD\uFFFD8\u0612\\x0004\uFFFD\uFFFDD$9\\x0016\\x0011\\x0005G\uFFFD\uFFFD&"
 						},
 						{
 							"uri": "https://www.projets-environnement.gouv.fr/login/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "o90sLUAMdZvQ3wdCwbol8TneNPI7IzLjMbP3Mx2YH4GErxv2lYsivqCOLrji1hqr",
-							"otherinfo": "\uFFFD\uFFFD,-@\\x000cu\uFFFD\uFFFD\uFFFD\\x0007B\uFFFD\uFFFD%\uFFFD9\uFFFD4\uFFFD;#2\uFFFD1\uFFFD\uFFFD3\\x001d\uFFFD\\x001f\uFFFD\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\"\uFFFD\uFFFD\uFFFD.\uFFFD\uFFFD\uFFFD\\x001a\uFFFD"
+							"evidence": "pZ4aN352KAO6pUQTWi8B3p5rjNPBV3i6dIKA9P6CKjuIWjcrFHmDLBcZBUYmm5jW",
+							"otherinfo": "\uFFFD\uFFFD\\x001a7~v(\\x0003\uFFFD\uFFFDD\\x0013Z/\\x0001\u079Ek\uFFFD\uFFFD\uFFFDWx\uFFFDt\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD*;\uFFFDZ7+\\x0014y\uFFFD,\\x0017\\x0019\\x0005F&\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr/login/?next=/backoffice/catalog/datasets/",
+							"uri": "https://www.projets-environnement.gouv.fr/login/?next=/backoffice/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "o90sLUAMdZvQ3wdCwbol8TneNPI7IzLjMbP3Mx2YH4GErxv2lYsivqCOLrji1hqr",
-							"otherinfo": "\uFFFD\uFFFD,-@\\x000cu\uFFFD\uFFFD\uFFFD\\x0007B\uFFFD\uFFFD%\uFFFD9\uFFFD4\uFFFD;#2\uFFFD1\uFFFD\uFFFD3\\x001d\uFFFD\\x001f\uFFFD\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\"\uFFFD\uFFFD\uFFFD.\uFFFD\uFFFD\uFFFD\\x001a\uFFFD"
+							"evidence": "8sCMjzOAqu1LlORfOPcXhTAmtntvO2V0LylISSFm2Nk42JIEpoVEJDkWEQVH9d0m",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD3\uFFFD\uFFFD\uFFFDK\uFFFD\uFFFD_8\uFFFD\\x0017\uFFFD0&\uFFFD{o;et/)HI!f\uFFFD\uFFFD8\u0612\\x0004\uFFFD\uFFFDD$9\\x0016\\x0011\\x0005G\uFFFD\uFFFD&"
 						},
 						{
 							"uri": "https://www.projets-environnement.gouv.fr/login/?next=/p-preview/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "o90sLUAMdZvQ3wdCwbol8TneNPI7IzLjMbP3Mx2YH4GErxv2lYsivqCOLrji1hqr",
-							"otherinfo": "\uFFFD\uFFFD,-@\\x000cu\uFFFD\uFFFD\uFFFD\\x0007B\uFFFD\uFFFD%\uFFFD9\uFFFD4\uFFFD;#2\uFFFD1\uFFFD\uFFFD3\\x001d\uFFFD\\x001f\uFFFD\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\"\uFFFD\uFFFD\uFFFD.\uFFFD\uFFFD\uFFFD\\x001a\uFFFD"
+							"evidence": "8sCMjzOAqu1LlORfOPcXhTAmtntvO2V0LylISSFm2Nk42JIEpoVEJDkWEQVH9d0m",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\uFFFD3\uFFFD\uFFFD\uFFFDK\uFFFD\uFFFD_8\uFFFD\\x0017\uFFFD0&\uFFFD{o;et/)HI!f\uFFFD\uFFFD8\u0612\\x0004\uFFFD\uFFFDD$9\\x0016\\x0011\\x0005G\uFFFD\uFFFD&"
 						},
 						{
 							"uri": "https://www.projets-environnement.gouv.fr/pages/home/",
@@ -933,7 +933,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected 2 times, the first in the element starting with: \"<script type=\"text/javascript\">\n            var app = angular.module('ods.core.config', []);\n\n            \n            app.facto\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/import-tps-test/",
+							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/projets-environnement-diffusion/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -941,7 +941,7 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script type=\"text/javascript\">\n            var ods = angular.module('ods.minimal', [\n                'ods.core.config',\n       \", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/import-tps-test/",
+							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/projets-environnement-diffusion/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -949,7 +949,7 @@
 							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected in the element starting with: \"<script type=\"text/javascript\">\n    (function() {\n        var ods = angular.module('ods');\n\n        ods.config(function (ModuleL\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/import-tps-test/",
+							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/projets-environnement-diffusion/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1209,6 +1209,14 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
+							"uri": "https://www.projets-environnement.gouv.fr/api/v2/*/exports/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
 							"uri": "https://www.projets-environnement.gouv.fr/backoffice",
 							"method": "GET",
 							"param": "",
@@ -1217,7 +1225,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/*/download",
+							"uri": "https://www.projets-environnement.gouv.fr/explore/dataset/*/atom/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1289,7 +1297,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request. </p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
@@ -1338,7 +1346,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "81"
+					"sourceid": "78"
 				}
 			]
 		}

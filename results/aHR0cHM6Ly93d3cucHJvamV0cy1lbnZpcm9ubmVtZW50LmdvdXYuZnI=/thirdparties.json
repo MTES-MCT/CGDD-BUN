@@ -127,7 +127,7 @@
       "value": "1",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1684942838,
+      "expires": 1685007143,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -138,10 +138,10 @@
     },
     {
       "name": "_pk_id.1441.b788",
-      "value": "3781a1a05fb2fb04.1684941038.1.1684941038.1684941038.",
+      "value": "420ce039cc5f6a3a.1685005344.1.1685005344.1685005344.",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1718896238,
+      "expires": 1718960544,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -156,7 +156,7 @@
     "content-language": "fr",
     "content-security-policy": "upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Wed, 24 May 2023 15:10:37 GMT",
+    "date": "Thu, 25 May 2023 09:02:22 GMT",
     "permissions-policy": "midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "nginx",
@@ -169,7 +169,7 @@
   "endpoints": [
     {
       "hostname": "www.projets-environnement.gouv.fr",
-      "ip": "34.248.20.69",
+      "ip": "34.249.199.226",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -252,7 +252,7 @@
     },
     {
       "hostname": "s3-eu-west-1.amazonaws.com",
-      "ip": "52.218.101.123",
+      "ip": "52.218.110.35",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -335,7 +335,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.40.42",
+      "ip": "142.251.32.202",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -389,14 +389,8 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.68.35",
+      "ip": "142.251.32.131",
       "geoip": {
-        "city": {
-          "geoname_id": 5139568,
-          "names": {
-            "en": "Staten Island"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -427,13 +421,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 40.5956,
-          "longitude": -74.0806,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "10305"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -448,23 +438,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -525,42 +499,8 @@
     },
     {
       "hostname": "www.jawg.io",
-      "ip": "172.67.39.33",
+      "ip": "104.22.33.109",
       "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
         "registered_country": {
           "geoname_id": 6252001,
           "iso_code": "US",
