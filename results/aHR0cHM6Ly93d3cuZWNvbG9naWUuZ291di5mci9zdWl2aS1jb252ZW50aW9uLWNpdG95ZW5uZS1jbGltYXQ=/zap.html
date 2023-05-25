@@ -127,7 +127,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Wed, 24 May 2023 15:06:22
+		Generated on Thu, 25 May 2023 08:58:07
 	</h3>
 
 	
@@ -144,7 +144,7 @@ td {
 					<div>High</div>
 				</td>
 				<td align="center">
-					<div>0</div>
+					<div>1</div>
 				</td>
 			</tr>
 			<tr>
@@ -194,6 +194,11 @@ td {
 					align="center">Number of Instances</th>
 			</tr>
 			<tr>
+				<td><a href="#10062">PII Disclosure</a></td>
+				<td align="center" class="risk-3">High</td>
+				<td align="center">1</td>
+			</tr>
+			<tr>
 				<td><a href="#10202">Absence of Anti-CSRF Tokens</a></td>
 				<td align="center" class="risk-2">Medium</td>
 				<td align="center">11</td>
@@ -206,7 +211,7 @@ td {
 			<tr>
 				<td><a href="#10020">Missing Anti-clickjacking Header</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">3</td>
+				<td align="center">13</td>
 			</tr>
 			<tr>
 				<td><a href="#10040">Secure Pages Include Mixed Content (Including Scripts)</a></td>
@@ -216,12 +221,12 @@ td {
 			<tr>
 				<td><a href="#90003">Sub Resource Integrity Attribute Missing</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">10</td>
+				<td align="center">9</td>
 			</tr>
 			<tr>
 				<td><a href="#10044">Big Redirect Detected (Potential Sensitive Information Leak)</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">12</td>
+				<td align="center">13</td>
 			</tr>
 			<tr>
 				<td><a href="#10010">Cookie No HttpOnly Flag</a></td>
@@ -231,12 +236,12 @@ td {
 			<tr>
 				<td><a href="#10011">Cookie Without Secure Flag</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">4</td>
+				<td align="center">7</td>
 			</tr>
 			<tr>
 				<td><a href="#10054">Cookie without SameSite Attribute</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">4</td>
+				<td align="center">7</td>
 			</tr>
 			<tr>
 				<td><a href="#10017">Cross-Domain JavaScript Source File Inclusion</a></td>
@@ -246,7 +251,7 @@ td {
 			<tr>
 				<td><a href="#10110">Dangerous JS Functions</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">9</td>
+				<td align="center">4</td>
 			</tr>
 			<tr>
 				<td><a href="#10063">Permissions Policy Header Not Set</a></td>
@@ -266,7 +271,7 @@ td {
 			<tr>
 				<td><a href="#10021">X-Content-Type-Options Header Missing</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">2</td>
+				<td align="center">12</td>
 			</tr>
 			<tr>
 				<td><a href="#10094">Base64 Disclosure</a></td>
@@ -276,7 +281,7 @@ td {
 			<tr>
 				<td><a href="#10027">Information Disclosure - Suspicious Comments</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">12</td>
+				<td align="center">11</td>
 			</tr>
 			<tr>
 				<td><a href="#10109">Modern Web Application</a></td>
@@ -306,7 +311,7 @@ td {
 			<tr>
 				<td><a href="#10031">User Controllable HTML Element Attribute (Potential XSS)</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">7</td>
+				<td align="center">3</td>
 			</tr>
 		</table>
 		<div class="spacer-lg"></div>
@@ -314,6 +319,82 @@ td {
 
 	
 		<h3>Alert Detail</h3>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-3"><a
+						id="10062"></a>
+						<div>High</div></th>
+					<th class="risk-3">PII Disclosure</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>The response contains Personally Identifiable Information, such as CC number, SSN and similar sensitive data.</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/a-la-une">https://www.ecologie.gouv.fr/a-la-une</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">563736693904367</td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					<td width="80%">1</td>
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Check the response for the potential presence of personally identifiable information (PII), ensure nothing sensitive is leaked by the application.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%"></td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/359.html">359</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">13</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10062/">10062</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
 		
 			<table class="results">
 				<tr height="24">
@@ -432,7 +513,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/demarches">https://www.ecologie.gouv.fr/demarches</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css$">https://www.ecologie.gouv.fr/core/*.css$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -458,33 +539,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique">https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;form class=&quot;search-api-page-block-form-recherche search-api-page-block-form search-form search-block-form container-inline&quot; data-drupal-selector=&quot;search-api-page-block-form-recherche&quot; action=&quot;/recherche&quot; method=&quot;get&quot; id=&quot;search-api-page-block-form-recherche&quot; accept-charset=&quot;UTF-8&quot;&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/ministere">https://www.ecologie.gouv.fr/ministere</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js$">https://www.ecologie.gouv.fr/core/*.js$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -615,6 +670,32 @@ td {
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;form action=&quot;https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/spip.php?page=recherche&quot; method=&quot;get&quot;&gt;</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -790,7 +871,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/demarches">https://www.ecologie.gouv.fr/demarches</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css">https://www.ecologie.gouv.fr/core/*.css</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -816,7 +897,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/dominique-faure">https://www.ecologie.gouv.fr/dominique-faure</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css$">https://www.ecologie.gouv.fr/core/*.css$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -842,7 +923,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique">https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.jpeg">https://www.ecologie.gouv.fr/core/*.jpeg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -868,7 +949,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/ministere">https://www.ecologie.gouv.fr/ministere</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.jpg">https://www.ecologie.gouv.fr/core/*.jpg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -894,7 +975,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/organisation-generale-du-ministere-transition-ecologique-et-cohesion-des-territoires">https://www.ecologie.gouv.fr/organisation-generale-du-ministere-transition-ecologique-et-cohesion-des-territoires</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js">https://www.ecologie.gouv.fr/core/*.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -920,7 +1001,33 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/politiques-publiques">https://www.ecologie.gouv.fr/politiques-publiques</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js$">https://www.ecologie.gouv.fr/core/*.js$</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.png">https://www.ecologie.gouv.fr/core/*.png</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -947,32 +1054,6 @@ td {
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/presse">https://www.ecologie.gouv.fr/presse</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/rendez-vous">https://www.ecologie.gouv.fr/rendez-vous</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1095,32 +1176,6 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/archives-presse-2012-2017/">https://www.ecologie.gouv.fr/archives-presse-2012-2017/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">X-Frame-Options</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat</a></td>
 					</tr>
 					<tr>
@@ -1170,9 +1225,295 @@ td {
 						<td width="80%"></td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_auteur=20">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_auteur=20</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_auteur=6">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_auteur=6</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_mot=4">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_mot=4</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_mot=8">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_mot=8</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_mot=9">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_mot=9</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=3">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=3</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=4">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=4</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=5">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=5</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=7">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=7</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=8">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=8</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=9">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=9</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Frame-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">3</td>
+					<td width="80%">13</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -1392,7 +1733,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/rendez-vous">https://www.ecologie.gouv.fr/rendez-vous</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css$">https://www.ecologie.gouv.fr/core/*.css$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1418,7 +1759,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/rendez-vous">https://www.ecologie.gouv.fr/rendez-vous</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css$">https://www.ecologie.gouv.fr/core/*.css$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1444,7 +1785,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/rendez-vous">https://www.ecologie.gouv.fr/rendez-vous</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js$">https://www.ecologie.gouv.fr/core/*.js$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1464,13 +1805,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;link rel=&quot;stylesheet&quot; media=&quot;all&quot; href=&quot;https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css&quot; /&gt;</td>
+						<td width="80%">&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; title=&quot;Ministères Écologie Énergie Territoires - Actualités&quot; href=&quot;https://www.ecologique-solidaire.gouv.fr/rss_actualites.xml&quot; /&gt;</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/rendez-vous">https://www.ecologie.gouv.fr/rendez-vous</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js$">https://www.ecologie.gouv.fr/core/*.js$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1490,33 +1831,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;link rel=&quot;stylesheet&quot; media=&quot;all&quot; href=&quot;https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css&quot; /&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/rendez-vous">https://www.ecologie.gouv.fr/rendez-vous</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script src=&quot;https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js&quot;&gt;&lt;/script&gt;</td>
+						<td width="80%">&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; title=&quot;Ministères Écologie Énergie Territoires - presse&quot; href=&quot;https://www.ecologique-solidaire.gouv.fr/rss_presse.xml&quot; /&gt;</td>
 					</tr>
 				
 					<tr>
@@ -1573,7 +1888,7 @@ td {
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">10</td>
+					<td width="80%">9</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -1627,7 +1942,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/node/5819">https://www.ecologie.gouv.fr/node/5819</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/node/5938">https://www.ecologie.gouv.fr/node/5938</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1653,7 +1968,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/node/5938">https://www.ecologie.gouv.fr/node/5938</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/node/7719">https://www.ecologie.gouv.fr/node/7719</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1887,6 +2202,32 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/user/logout">https://www.ecologie.gouv.fr/user/logout</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/user/password">https://www.ecologie.gouv.fr/user/password</a></td>
 					</tr>
 					<tr>
@@ -1938,7 +2279,7 @@ td {
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">12</td>
+					<td width="80%">13</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -2195,9 +2536,87 @@ td {
 						<td width="80%">Set-Cookie: spip_session</td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=3">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=3</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">spip_session</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: spip_session</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=7">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=7</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">spip_session</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: spip_session</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=9">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=9</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">spip_session</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: spip_session</td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">4</td>
+					<td width="80%">7</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -2352,9 +2771,87 @@ td {
 						<td width="80%">Set-Cookie: spip_session</td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=3">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=3</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">spip_session</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: spip_session</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=7">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=7</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">spip_session</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: spip_session</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=9">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=9</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">spip_session</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: spip_session</td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">4</td>
+					<td width="80%">7</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -2486,6 +2983,32 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/christophe-bechu">https://www.ecologie.gouv.fr/christophe-bechu</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js&quot;&gt;&lt;/script&gt;</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/demarches">https://www.ecologie.gouv.fr/demarches</a></td>
 					</tr>
 					<tr>
@@ -2539,32 +3062,6 @@ td {
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/ministere">https://www.ecologie.gouv.fr/ministere</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/organisation-generale-du-ministere-transition-ecologique-et-cohesion-des-territoires">https://www.ecologie.gouv.fr/organisation-generale-du-ministere-transition-ecologique-et-cohesion-des-territoires</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2770,84 +3267,6 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/sites/default/files/js/js_1cnoCupZ1vPjY2SXYvvYcPrpqaug-syho2pzbsNppWU.js">https://www.ecologie.gouv.fr/sites/default/files/js/js_1cnoCupZ1vPjY2SXYvvYcPrpqaug-syho2pzbsNppWU.js</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Eval</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/sites/default/files/js/js_bXiK4qfeUW-9wi59d3fg0AAhzcDebM49DLqI5H1N-e0.js">https://www.ecologie.gouv.fr/sites/default/files/js/js_bXiK4qfeUW-9wi59d3fg0AAhzcDebM49DLqI5H1N-e0.js</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Eval</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/sites/default/files/js/js_FMjJH4e13LLrHNclGrdSTVdrjuY1-bDkpxwDVOV33Yc.js">https://www.ecologie.gouv.fr/sites/default/files/js/js_FMjJH4e13LLrHNclGrdSTVdrjuY1-bDkpxwDVOV33Yc.js</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Eval</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/sites/default/files/js/js_Gs3H6ks6fwS32zUSj-dYqCrDtJka3KIUbr6gMNVnq20.js">https://www.ecologie.gouv.fr/sites/default/files/js/js_Gs3H6ks6fwS32zUSj-dYqCrDtJka3KIUbr6gMNVnq20.js</a></td>
 					</tr>
 					<tr>
@@ -2874,59 +3293,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/sites/default/files/js/js_j-nFhm6RdPjmjjxpLhcpMWUgHidVy_AR_NIr2vB9kWo.js">https://www.ecologie.gouv.fr/sites/default/files/js/js_j-nFhm6RdPjmjjxpLhcpMWUgHidVy_AR_NIr2vB9kWo.js</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Eval</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/sites/default/files/js/js_Nv4b9yQmdBA7CaFlye0LOcoJhjfBKAG12qs4gGnTQ-k.js">https://www.ecologie.gouv.fr/sites/default/files/js/js_Nv4b9yQmdBA7CaFlye0LOcoJhjfBKAG12qs4gGnTQ-k.js</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Eval</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/sites/default/files/js/js_Siy7vc3Ard4KiTkcwpIHEhbmCBgPo2GAFMHL_8QwX74.js">https://www.ecologie.gouv.fr/sites/default/files/js/js_Siy7vc3Ard4KiTkcwpIHEhbmCBgPo2GAFMHL_8QwX74.js</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/sites/default/files/js/js_P_rnX2atLqj05sGWkAg1QlxkeO-dczrJRQw0Z31JF2A.js">https://www.ecologie.gouv.fr/sites/default/files/js/js_P_rnX2atLqj05sGWkAg1QlxkeO-dczrJRQw0Z31JF2A.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2977,7 +3344,7 @@ td {
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">9</td>
+					<td width="80%">4</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -3057,7 +3424,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/a-la-une">https://www.ecologie.gouv.fr/a-la-une</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css">https://www.ecologie.gouv.fr/core/*.css</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3083,7 +3450,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/christophe-bechu">https://www.ecologie.gouv.fr/christophe-bechu</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css$">https://www.ecologie.gouv.fr/core/*.css$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3109,7 +3476,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/demarches">https://www.ecologie.gouv.fr/demarches</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.jpeg">https://www.ecologie.gouv.fr/core/*.jpeg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3135,7 +3502,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique">https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.jpg">https://www.ecologie.gouv.fr/core/*.jpg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3161,7 +3528,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/ministere">https://www.ecologie.gouv.fr/ministere</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js">https://www.ecologie.gouv.fr/core/*.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3187,7 +3554,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/organisation-generale-du-ministere-transition-ecologique-et-cohesion-des-territoires">https://www.ecologie.gouv.fr/organisation-generale-du-ministere-transition-ecologique-et-cohesion-des-territoires</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js$">https://www.ecologie.gouv.fr/core/*.js$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3213,7 +3580,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/politiques-publiques">https://www.ecologie.gouv.fr/politiques-publiques</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.png">https://www.ecologie.gouv.fr/core/*.png</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3265,7 +3632,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/rendez-vous">https://www.ecologie.gouv.fr/rendez-vous</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3291,7 +3658,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3408,7 +3775,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/a-la-une">https://www.ecologie.gouv.fr/a-la-une</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css">https://www.ecologie.gouv.fr/core/*.css</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3434,7 +3801,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/demarches">https://www.ecologie.gouv.fr/demarches</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css$">https://www.ecologie.gouv.fr/core/*.css$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3460,7 +3827,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique">https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.jpeg">https://www.ecologie.gouv.fr/core/*.jpeg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3486,7 +3853,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/ministere">https://www.ecologie.gouv.fr/ministere</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.jpg">https://www.ecologie.gouv.fr/core/*.jpg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3512,7 +3879,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/politiques-publiques">https://www.ecologie.gouv.fr/politiques-publiques</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js">https://www.ecologie.gouv.fr/core/*.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3538,7 +3905,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/presse">https://www.ecologie.gouv.fr/presse</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js$">https://www.ecologie.gouv.fr/core/*.js$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3564,7 +3931,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/rendez-vous">https://www.ecologie.gouv.fr/rendez-vous</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.png">https://www.ecologie.gouv.fr/core/*.png</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4069,9 +4436,269 @@ td {
 						<td width="80%"></td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_auteur=20">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_auteur=20</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Content-Type-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_mot=4">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_mot=4</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Content-Type-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_mot=8">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_mot=8</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Content-Type-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_mot=9">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_mot=9</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Content-Type-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=3">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=3</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Content-Type-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=4">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=4</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Content-Type-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=5">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=5</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Content-Type-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=7">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=7</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Content-Type-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=8">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=8</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Content-Type-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=9">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_rubrique=9</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">X-Content-Type-Options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">12</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -4157,7 +4784,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/a-la-une">https://www.ecologie.gouv.fr/a-la-une</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css$">https://www.ecologie.gouv.fr/core/*.css$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4183,7 +4810,33 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/christophe-bechu">https://www.ecologie.gouv.fr/christophe-bechu</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js$">https://www.ecologie.gouv.fr/core/*.js$</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">zgQcCBnafU0iVW8z9_b6lL6cS2-a0ODqLPDxyFqU3Ig</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.svg">https://www.ecologie.gouv.fr/core/*.svg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4235,59 +4888,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique">https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">zgQcCBnafU0iVW8z9_b6lL6cS2-a0ODqLPDxyFqU3Ig</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/ministere">https://www.ecologie.gouv.fr/ministere</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">zgQcCBnafU0iVW8z9_b6lL6cS2-a0ODqLPDxyFqU3Ig</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/organisation-generale-du-ministere-transition-ecologique-et-cohesion-des-territoires">https://www.ecologie.gouv.fr/organisation-generale-du-ministere-transition-ecologique-et-cohesion-des-territoires</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4392,6 +4993,32 @@ td {
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">fr/jorf/id/JORFTEXT000044590022</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4522,7 +5149,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/christophe-bechu">https://www.ecologie.gouv.fr/christophe-bechu</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css$">https://www.ecologie.gouv.fr/core/*.css$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4548,7 +5175,33 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/clement-beaune">https://www.ecologie.gouv.fr/clement-beaune</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js$">https://www.ecologie.gouv.fr/core/*.js$</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">user</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.svg">https://www.ecologie.gouv.fr/core/*.svg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4575,32 +5228,6 @@ td {
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/demarches">https://www.ecologie.gouv.fr/demarches</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">user</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/dominique-faure">https://www.ecologie.gouv.fr/dominique-faure</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4653,32 +5280,6 @@ td {
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/ministere">https://www.ecologie.gouv.fr/ministere</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">user</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/organisation-generale-du-ministere-transition-ecologique-et-cohesion-des-territoires">https://www.ecologie.gouv.fr/organisation-generale-du-ministere-transition-ecologique-et-cohesion-des-territoires</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4781,7 +5382,7 @@ td {
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">12</td>
+					<td width="80%">11</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -4858,59 +5459,33 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/chez-nous-aussi-climat-change-quand-neige-se-fait-rare">https://www.ecologie.gouv.fr/chez-nous-aussi-climat-change-quand-neige-se-fait-rare</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;a data-action=&quot;share&quot; target=&quot;_self&quot; href=&quot;&quot; class=&quot;svg-link&quot; title=&quot; Imprimer : Imprimer (Ouvrir dans une nouvelle fenêtre)&quot;&gt; &lt;span&gt;Imprimer&lt;/span&gt;&lt;/a&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/concertation-pacte-territorial-service-public-renovation-habitat">https://www.ecologie.gouv.fr/concertation-pacte-territorial-service-public-renovation-habitat</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;a data-action=&quot;share&quot; target=&quot;_self&quot; href=&quot;&quot; class=&quot;svg-link&quot; title=&quot; Imprimer : Imprimer (Ouvrir dans une nouvelle fenêtre)&quot;&gt; &lt;span&gt;Imprimer&lt;/span&gt;&lt;/a&gt;</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique">https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;a data-action=&quot;share&quot; target=&quot;_self&quot; href=&quot;&quot; class=&quot;svg-link&quot; title=&quot; Imprimer : Imprimer (Ouvrir dans une nouvelle fenêtre)&quot;&gt; &lt;span&gt;Imprimer&lt;/span&gt;&lt;/a&gt;</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/lancement-campagne-old">https://www.ecologie.gouv.fr/lancement-campagne-old</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5067,6 +5642,34 @@ td {
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;a class=&quot;fr-sidemenu__link fr-p-1v fr-text--light&quot; target=&quot;_self&quot; href=&quot;./?id_rubrique=3#affiner&quot;&gt;Consommer 
+                                           &lt;span class=&quot;	
+							fr-text--xs fr-ml-1w&quot;&gt;(14)&lt;/span&gt;&lt;/a&gt;</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5391,6 +5994,32 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/filter/tips">https://www.ecologie.gouv.fr/filter/tips</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Cache-Control</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">max-age=600</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique">https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique</a></td>
 					</tr>
 					<tr>
@@ -5418,32 +6047,6 @@ td {
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/ministere">https://www.ecologie.gouv.fr/ministere</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Cache-Control</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">max-age=600</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/organisation-generale-du-ministere-transition-ecologique-et-cohesion-des-territoires">https://www.ecologie.gouv.fr/organisation-generale-du-ministere-transition-ecologique-et-cohesion-des-territoires</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5684,7 +6287,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/a-la-une">https://www.ecologie.gouv.fr/a-la-une</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css">https://www.ecologie.gouv.fr/core/*.css</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5704,13 +6307,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">HIT</td>
+						<td width="80%">Age: 0</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/demarches">https://www.ecologie.gouv.fr/demarches</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css$">https://www.ecologie.gouv.fr/core/*.css$</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5730,13 +6333,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">HIT</td>
+						<td width="80%">Age: 0</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique">https://www.ecologie.gouv.fr/flux-rss-du-ministere-transition-ecologique</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.gif">https://www.ecologie.gouv.fr/core/*.gif</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5756,13 +6359,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">HIT</td>
+						<td width="80%">Age: 0</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/ministere">https://www.ecologie.gouv.fr/ministere</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.jpeg">https://www.ecologie.gouv.fr/core/*.jpeg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5782,13 +6385,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">HIT</td>
+						<td width="80%">Age: 0</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/politiques-publiques">https://www.ecologie.gouv.fr/politiques-publiques</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.jpg">https://www.ecologie.gouv.fr/core/*.jpg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5808,13 +6411,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">HIT</td>
+						<td width="80%">Age: 0</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/presse">https://www.ecologie.gouv.fr/presse</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js">https://www.ecologie.gouv.fr/core/*.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5834,13 +6437,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">HIT</td>
+						<td width="80%">Age: 0</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/rendez-vous">https://www.ecologie.gouv.fr/rendez-vous</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.png">https://www.ecologie.gouv.fr/core/*.png</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5860,7 +6463,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">HIT</td>
+						<td width="80%">Age: 0</td>
 					</tr>
 				
 					<tr>
@@ -6040,7 +6643,33 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/a-la-une">https://www.ecologie.gouv.fr/a-la-une</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.css">https://www.ecologie.gouv.fr/core/*.css</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">max-age=3600</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.gif">https://www.ecologie.gouv.fr/core/*.gif</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6066,7 +6695,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/demarches">https://www.ecologie.gouv.fr/demarches</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.jpeg">https://www.ecologie.gouv.fr/core/*.jpeg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6086,13 +6715,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">max-age=600</td>
+						<td width="80%">max-age=3600</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/ministere">https://www.ecologie.gouv.fr/ministere</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.jpg">https://www.ecologie.gouv.fr/core/*.jpg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6112,13 +6741,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">max-age=600</td>
+						<td width="80%">max-age=3600</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/politiques-publiques">https://www.ecologie.gouv.fr/politiques-publiques</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.js">https://www.ecologie.gouv.fr/core/*.js</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6138,13 +6767,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">max-age=600</td>
+						<td width="80%">max-age=3600</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/presse">https://www.ecologie.gouv.fr/presse</a></td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/core/*.png">https://www.ecologie.gouv.fr/core/*.png</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6164,33 +6793,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">max-age=600</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/rendez-vous">https://www.ecologie.gouv.fr/rendez-vous</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">max-age=600</td>
+						<td width="80%">max-age=3600</td>
 					</tr>
 				
 					<tr>
@@ -6319,162 +6922,6 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/presse?ministre=Agn%C3%A8s%2520Pannier-Runacher&amp;type=Agenda">https://www.ecologie.gouv.fr/presse?ministre=Agn%C3%A8s%2520Pannier-Runacher&amp;type=Agenda</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">type</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/presse?ministre=Agn%C3%A8s%2520Pannier-Runacher&amp;type=Agenda">https://www.ecologie.gouv.fr/presse?ministre=Agn%C3%A8s%2520Pannier-Runacher&amp;type=Agenda</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">type</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/presse?ministre=Christophe%2520B%C3%A9chu&amp;type=Agenda">https://www.ecologie.gouv.fr/presse?ministre=Christophe%2520B%C3%A9chu&amp;type=Agenda</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">type</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/presse?ministre=Christophe%2520B%C3%A9chu&amp;type=Agenda">https://www.ecologie.gouv.fr/presse?ministre=Christophe%2520B%C3%A9chu&amp;type=Agenda</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">type</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/presse?order=desc&amp;sort=search_api_relevance">https://www.ecologie.gouv.fr/presse?order=desc&amp;sort=search_api_relevance</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">order</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.ecologie.gouv.fr/presse?order=desc&amp;sort=search_api_relevance">https://www.ecologie.gouv.fr/presse?order=desc&amp;sort=search_api_relevance</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">order</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.ecologie.gouv.fr/recherche?keys=ZAP&amp;url=https%3A%2F%2Fzap.example.com">https://www.ecologie.gouv.fr/recherche?keys=ZAP&amp;url=https%3A%2F%2Fzap.example.com</a></td>
 					</tr>
 					<tr>
@@ -6498,9 +6945,61 @@ td {
 						<td width="80%"></td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_auteur=20">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_auteur=20</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">id_auteur</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_auteur=20">https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat/?id_auteur=20</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">id_auteur</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">7</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
