@@ -17,17 +17,38 @@ tools:
   updownio: false
   dependabot: true
   codescan: true
-  stats: false
+  stats: true
   declaration-a11y: true
   ecoindex: true
 urls:
   - url: https://www.notre-environnement.gouv.fr
+  tags:
+      - environnement
   - url: https://www.agenda-2030.fr
+    tags:
+      - ODD
   - url: https://www.alerte-sante-environnement-deontologie.fr
+    tags:
+      - environnement
   - url: http://cnig.gouv.fr
   - url: https://cpp.alerte-sante-environnement-deontologie.fr
+    tags:
+      - environnement
   - url: https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat
+    tags:
+      - ecologie
   - url: https://www.ecologie.gouv.fr/ouipub
+      tags:
+      - ecologie
+      - publicité
   - url: https://www.projets-environnement.gouv.fr
+      tags:
+      - environnement
   - url: https://www.publicite-responsable.ecologie.gouv.fr
+        tags:
+      - ecologie
+      - publicité
   - url: https://www.deforestationimportee.ecologie.gouv.fr
+        tags:
+      - environnement
+      - deforestation
