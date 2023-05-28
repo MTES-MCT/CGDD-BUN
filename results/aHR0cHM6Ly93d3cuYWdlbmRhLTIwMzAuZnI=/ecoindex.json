@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.agenda-2030.fr",
-        "size": 1172.693,
+        "size": 1172.808,
         "nodes": 597,
         "requests": 73,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 1.94,
         "water": 2.91,
         "ecoindex_version": "5.4.2",
-        "date": "2023-05-25 11:52:42.703209",
+        "date": "2023-05-28 00:43:47.812182",
         "page_type": "website"
     }
 ]
