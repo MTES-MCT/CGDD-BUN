@@ -38,7 +38,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=3c2742967c014ff3123c2b9c78718440",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=281225136543f07b505ef7161446d819",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -62,7 +62,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.e07d9ee59530d512f074.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.e5593bb503dbbe02842b.js"
     },
     {
       "type": "unknown",
@@ -70,15 +70,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.624ef8cca1099e095a73.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.9f5f93f064e461f8bcba.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.dc98b8cd8fe4ee8324b3.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.a0e3ef06226fd5c8aa2b.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.10ae2b2d193ea2ccd438.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.fd3e1e49016564df4147.js"
     },
     {
       "type": "unknown",
@@ -94,15 +94,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=8cc3f7e2-29f9-451f-852c-7520b0a58b0e&dmTs=565414&is_native_app=0"
-    },
-    {
-      "type": "google",
-      "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
+      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=2f6f3b4e-d223-4c14-bbbc-d54fddd9143f&dmTs=182378&is_native_app=0"
     },
     {
       "type": "unknown",
@@ -130,6 +122,22 @@
     },
     {
       "type": "google",
+      "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://pebed.dm-event.net/"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static1.dmcdn.net/playerv5/fonts/ABCFavoritRegular.606eba755d8de32177c321d7c0801e64.woff2"
+    },
+    {
+      "type": "google",
       "url": "https://imasdk.googleapis.com/js/core/bridge3.575.0_en.html",
       "details": {
         "id": "google",
@@ -142,27 +150,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/fonts/ABCFavoritRegular.606eba755d8de32177c321d7c0801e64.woff2"
-    },
-    {
-      "type": "unknown",
       "url": "https://pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js"
     },
     {
       "type": "unknown",
-      "url": "https://pebed.dm-event.net/"
-    },
-    {
-      "type": "unknown",
       "url": "https://static1.dmcdn.net/playerv5/fonts/ABCFavoritMedium.49884d379d5f27f75991f15de4d231cb.woff2"
     },
     {
       "type": "unknown",
       "url": "https://static1.dmcdn.net/playerv5/fonts/ABCFavoritMedium.49884d379d5f27f75991f15de4d231cb.woff2"
-    },
-    {
-      "type": "unknown",
-      "url": "https://pebed.dm-event.net/"
     }
   ],
   "cookies": [
@@ -171,7 +167,7 @@
       "value": "*",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1685017263,
+      "expires": 1685236348,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -182,10 +178,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "a4301965fb3239ff.1685015463.1.1685015463.1685015463.",
+      "value": "5092f738cd049c1a.1685234549.1.1685234549.1685234549.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1718970663,
+      "expires": 1719189749,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -201,8 +197,8 @@
     "content-encoding": "gzip",
     "content-length": "20063",
     "content-type": "text/html; charset=utf-8",
-    "date": "Thu, 25 May 2023 11:51:00 GMT",
-    "last-modified": "Thu, 25 May 2023 11:51:01 GMT",
+    "date": "Sun, 28 May 2023 00:42:25 GMT",
+    "last-modified": "Sun, 28 May 2023 00:42:26 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -321,13 +317,18 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.229.1",
+      "ip": "157.240.245.8",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 4951257,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "Somerville",
+            "en": "Somerville",
+            "fr": "Somerville",
+            "ja": "サマービル",
+            "pt-BR": "Somerville",
+            "ru": "Сомервилл",
+            "zh-CN": "萨默维尔"
           }
         },
         "continent": {
@@ -360,13 +361,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
+          "latitude": 42.3797,
+          "longitude": -71.1034,
+          "metro_code": 506,
           "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "20149"
+          "code": "02143"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -384,15 +385,13 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 6254926,
+            "iso_code": "MA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "en": "Massachusetts",
+              "fr": "Massachusetts",
+              "ja": "マサチューセッツ州",
+              "ru": "Массачусетс"
             }
           }
         ]
@@ -400,7 +399,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.62.97",
+      "ip": "142.251.163.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -610,7 +609,7 @@
     },
     {
       "hostname": "pebed.dm-event.net",
-      "ip": "188.65.124.59",
+      "ip": "188.65.124.58",
       "geoip": {
         "city": {
           "geoname_id": 2988507,
@@ -790,62 +789,8 @@
       }
     },
     {
-      "hostname": "imasdk.googleapis.com",
-      "ip": "142.251.163.95",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
       "hostname": "www.gstatic.com",
-      "ip": "172.253.63.94",
+      "ip": "172.253.115.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -968,8 +913,62 @@
       }
     },
     {
+      "hostname": "imasdk.googleapis.com",
+      "ip": "172.253.115.95",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
       "hostname": "s0.2mdn.net",
-      "ip": "142.251.163.149",
+      "ip": "172.253.115.148",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1023,7 +1022,7 @@
     },
     {
       "hostname": "pagead2.googlesyndication.com",
-      "ip": "172.253.122.156",
+      "ip": "172.253.122.155",
       "geoip": {
         "continent": {
           "code": "NA",
