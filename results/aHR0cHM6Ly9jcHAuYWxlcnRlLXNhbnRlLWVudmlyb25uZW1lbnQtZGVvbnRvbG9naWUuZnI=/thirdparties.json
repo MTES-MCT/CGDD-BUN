@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=281225136543f07b505ef7161446d819",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=c467623447a8eb8bd6d374e5121b41fe",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "*",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1685237284,
+      "expires": 1685842622,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -58,10 +58,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "22501d5e333fea96.1685235484.1.1685235484.1685235484.",
+      "value": "0b64734984b670ae.1685840822.1.1685840822.1685840822.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1719190684,
+      "expires": 1719796022,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -77,8 +77,8 @@
     "content-encoding": "gzip",
     "content-length": "12313",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 28 May 2023 00:58:02 GMT",
-    "last-modified": "Sun, 28 May 2023 00:58:01 GMT",
+    "date": "Sun, 04 Jun 2023 01:06:59 GMT",
+    "last-modified": "Sun, 04 Jun 2023 01:06:59 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -143,7 +143,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.132.15",
+      "ip": "172.64.133.15",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -197,7 +197,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "69.16.175.42",
+      "ip": "69.16.175.10",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -251,19 +251,19 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.22.25",
+      "ip": "157.240.254.7",
       "geoip": {
         "city": {
-          "geoname_id": 5393015,
+          "geoname_id": 4887398,
           "names": {
-            "de": "Santa Clara",
-            "en": "Santa Clara",
-            "es": "Santa Clara",
-            "fr": "Santa Clara",
-            "ja": "サンタクララ",
-            "pt-BR": "Santa Clara",
-            "ru": "Санта-Клара",
-            "zh-CN": "圣克拉拉"
+            "de": "Chicago",
+            "en": "Chicago",
+            "es": "Chicago",
+            "fr": "Chicago",
+            "ja": "シカゴ",
+            "pt-BR": "Chicago",
+            "ru": "Чикаго",
+            "zh-CN": "芝加哥"
           }
         },
         "continent": {
@@ -296,13 +296,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.353,
-          "longitude": -121.9543,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 41.8874,
+          "longitude": -87.6318,
+          "metro_code": 602,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "95052"
+          "code": "60602"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -320,17 +320,16 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 4896861,
+            "iso_code": "IL",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "en": "Illinois",
+              "es": "Illinois",
+              "fr": "Illinois",
+              "ja": "イリノイ州",
+              "pt-BR": "Ilinóis",
+              "ru": "Иллинойс",
+              "zh-CN": "伊利诺伊州"
             }
           }
         ]
@@ -338,14 +337,8 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.46.200",
+      "ip": "142.250.114.97",
       "geoip": {
-        "city": {
-          "geoname_id": 5116104,
-          "names": {
-            "en": "East White Plains"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -376,13 +369,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 41.0617,
-          "longitude": -73.7388,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "10604"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -397,23 +386,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
