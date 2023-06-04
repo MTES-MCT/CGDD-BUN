@@ -6,53 +6,53 @@
       "value": "*",
       "domain": "cnig.gouv.fr",
       "path": "/",
-      "expires": 1685237078,
+      "expires": 1685842529,
       "size": 18,
       "httpOnly": false,
       "secure": false,
       "session": false,
       "sameParty": false,
-      "sourceScheme": "NonSecure",
-      "sourcePort": 80
+      "sourceScheme": "Secure",
+      "sourcePort": 443
     },
     {
       "name": "_pk_id.1456.d787",
-      "value": "7df24e94919c46cf.1685235278.1.1685235278.1685235278.",
+      "value": "670cd472574577c8.1685840730.1.1685840730.1685840730.",
       "domain": "cnig.gouv.fr",
       "path": "/",
-      "expires": 1719190478,
+      "expires": 1719795930,
       "size": 68,
       "httpOnly": false,
       "secure": false,
       "session": false,
       "sameParty": false,
-      "sourceScheme": "NonSecure",
-      "sourcePort": 80
+      "sourceScheme": "Secure",
+      "sourcePort": 443
     },
     {
       "name": "cibcInit",
       "value": "oui",
       "domain": "cnig.gouv.fr",
       "path": "/",
-      "expires": 1716771277,
+      "expires": 1717376729,
       "size": 11,
       "httpOnly": false,
       "secure": false,
       "session": false,
       "sameParty": false,
-      "sourceScheme": "NonSecure",
-      "sourcePort": 80
+      "sourceScheme": "Secure",
+      "sourcePort": 443
     }
   ],
   "headers": {
     "composed-by": "SPIP @ www.spip.net",
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "14518",
+    "content-length": "14520",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 28 May 2023 00:54:36 GMT",
+    "date": "Sun, 04 Jun 2023 01:05:27 GMT",
     "keep-alive": "timeout=5, max=100",
-    "last-modified": "Sun, 28 May 2023 00:54:36 GMT",
+    "last-modified": "Sun, 04 Jun 2023 01:05:27 GMT",
     "server": "Apache",
     "vary": "Cookie,Accept-Encoding",
     "x-spip-cache": "3600"
@@ -60,7 +60,7 @@
   "endpoints": [
     {
       "hostname": "cnig.gouv.fr",
-      "ip": "194.5.173.160",
+      "ip": "194.5.173.97",
       "geoip": null
     }
   ]
