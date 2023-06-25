@@ -38,7 +38,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=fba16cfc4ff9ec1f634661e4f2a4f29b",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=9807eca49039a8c3d45b7405d9c2beb4",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -54,7 +54,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.infopack.a443db451f27606715a2.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.infopack.74c4d95277980cd2c940.js"
     },
     {
       "type": "unknown",
@@ -62,23 +62,23 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.b412411755b25e299d12.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.54722be7dc452b63e849.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_vendor.72908afaba5ab5b1a727.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_vendor.ab9ceb61f2f306392b8f.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.f0e2bcbd6b6e652d48c5.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.467d8e990be02af5cb65.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.285abf9e55eee661ae46.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.e5ca546506a25c7e5317.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.3f37a62ba6cdaddb9b3d.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.ba924820af2c69b8b37a.js"
     },
     {
       "type": "unknown",
@@ -90,11 +90,23 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=34ce69fe-3ef0-4f6d-9a1b-92e6f8f10a45&dmTs=393270&is_native_app=0"
+      "url": "https://pebed.dm-event.net/"
+    },
+    {
+      "type": "unknown",
+      "url": "https://pebed.dm-event.net/"
+    },
+    {
+      "type": "unknown",
+      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=81959a67-0844-42c8-ae12-bc88cc481a55&dmTs=233063&is_native_app=0"
     },
     {
       "type": "unknown",
       "url": "https://vendorlist.dmcdn.net/v2/archives/vendor-list-v196.json"
+    },
+    {
+      "type": "unknown",
+      "url": "https://pebed.dm-event.net/"
     },
     {
       "type": "unknown",
@@ -121,16 +133,16 @@
       "url": "https://static1.dmcdn.net/playerv5/fonts/ABCFavoritRegular.606eba755d8de32177c3..woff2"
     },
     {
+      "type": "unknown",
+      "url": "https://pebed.dm-event.net/"
+    },
+    {
       "type": "google",
       "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
       }
-    },
-    {
-      "type": "unknown",
-      "url": "https://pebed.dm-event.net/"
     },
     {
       "type": "unknown",
@@ -161,14 +173,6 @@
       "url": "https://static1.dmcdn.net/playerv5/fonts/ABCFavoritMedium.49884d379d5f27f75991..woff2"
     },
     {
-      "type": "google tag manager",
-      "url": "https://www.googletagmanager.com/a?v=3&t=l&pid=777101532&rv=36e0&cid=GTM-W9PMQ6S&qi=0&l=GTM-W9PMQ6S.L1940.S1.Y16.E1160.EC5.TC0.HTC0~gtm.init.S0.E4~gtm.js.S0.E6~gtm.dom.S0.E6~gtm.load.S0.E2~gtm.init_consent.S0.E5",
-      "details": {
-        "id": "google tag manager",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
       "type": "unknown",
       "url": "https://pebed.dm-event.net/"
     }
@@ -179,7 +183,7 @@
       "value": "*",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1687051223,
+      "expires": 1687656269,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -190,10 +194,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "fe3656eba8e8063b.1687049424.1.1687049424.1687049424.",
+      "value": "e0c1022bab6b5818.1687654469.1.1687654469.1687654469.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1721004624,
+      "expires": 1721609669,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -209,8 +213,8 @@
     "content-encoding": "gzip",
     "content-length": "20063",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 18 Jun 2023 00:50:21 GMT",
-    "last-modified": "Sun, 18 Jun 2023 00:50:21 GMT",
+    "date": "Sun, 25 Jun 2023 00:54:26 GMT",
+    "last-modified": "Sun, 25 Jun 2023 00:54:26 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -275,7 +279,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.132.15",
+      "ip": "172.64.133.15",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -416,7 +420,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.217.14.104",
+      "ip": "142.250.189.232",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -540,19 +544,19 @@
     },
     {
       "hostname": "static1.dmcdn.net",
-      "ip": "68.142.107.88",
+      "ip": "208.111.152.2",
       "geoip": {
         "city": {
-          "geoname_id": 5368361,
+          "geoname_id": 5378538,
           "names": {
-            "de": "Los Angeles",
-            "en": "Los Angeles",
-            "es": "Los Ángeles",
-            "fr": "Los Angeles",
-            "ja": "ロサンゼルス",
-            "pt-BR": "Los Angeles",
-            "ru": "Лос-Анджелес",
-            "zh-CN": "洛杉矶"
+            "de": "Oakland",
+            "en": "Oakland",
+            "es": "Oakland",
+            "fr": "Oakland",
+            "ja": "オークランド",
+            "pt-BR": "Oakland",
+            "ru": "Окленд",
+            "zh-CN": "奥克兰"
           }
         },
         "continent": {
@@ -585,13 +589,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 34.0544,
-          "longitude": -118.2441,
-          "metro_code": 803,
+          "latitude": 37.8075,
+          "longitude": -122.2644,
+          "metro_code": 807,
           "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "90060"
+          "code": "94612"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -627,7 +631,7 @@
     },
     {
       "hostname": "pebed.dm-event.net",
-      "ip": "188.65.124.59",
+      "ip": "188.65.124.58",
       "geoip": {
         "city": {
           "geoname_id": 2988507,
@@ -722,19 +726,19 @@
     },
     {
       "hostname": "vendorlist.dmcdn.net",
-      "ip": "68.142.107.154",
+      "ip": "208.111.152.2",
       "geoip": {
         "city": {
-          "geoname_id": 5368361,
+          "geoname_id": 5378538,
           "names": {
-            "de": "Los Angeles",
-            "en": "Los Angeles",
-            "es": "Los Ángeles",
-            "fr": "Los Angeles",
-            "ja": "ロサンゼルス",
-            "pt-BR": "Los Angeles",
-            "ru": "Лос-Анджелес",
-            "zh-CN": "洛杉矶"
+            "de": "Oakland",
+            "en": "Oakland",
+            "es": "Oakland",
+            "fr": "Oakland",
+            "ja": "オークランド",
+            "pt-BR": "Oakland",
+            "ru": "Окленд",
+            "zh-CN": "奥克兰"
           }
         },
         "continent": {
@@ -767,13 +771,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 34.0544,
-          "longitude": -118.2441,
-          "metro_code": 803,
+          "latitude": 37.8075,
+          "longitude": -122.2644,
+          "metro_code": 807,
           "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "90060"
+          "code": "94612"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -809,7 +813,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.251.40.35",
+      "ip": "142.250.191.35",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -933,14 +937,8 @@
     },
     {
       "hostname": "imasdk.googleapis.com",
-      "ip": "142.250.72.138",
+      "ip": "142.251.46.170",
       "geoip": {
-        "city": {
-          "geoname_id": 5139568,
-          "names": {
-            "en": "Staten Island"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -970,14 +968,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
-          "latitude": 40.5956,
-          "longitude": -74.0806,
-          "metro_code": 501,
+          "accuracy_radius": 1000,
+          "latitude": 38.894,
+          "longitude": -77.0365,
           "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "10305"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -995,17 +989,15 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
+            "geoname_id": 4138106,
+            "iso_code": "DC",
             "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
+              "de": "Washington, D.C.",
+              "en": "District of Columbia",
+              "es": "Washington D.C.",
+              "fr": "District de Columbia",
+              "ja": "ワシントン・コロンビア特別区",
+              "ru": "Округ Колумбия"
             }
           }
         ]
@@ -1013,7 +1005,75 @@
     },
     {
       "hostname": "s0.2mdn.net",
-      "ip": "142.250.217.134",
+      "ip": "142.251.46.166",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 38.894,
+          "longitude": -77.0365,
+          "time_zone": "America/New_York"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4138106,
+            "iso_code": "DC",
+            "names": {
+              "de": "Washington, D.C.",
+              "en": "District of Columbia",
+              "es": "Washington D.C.",
+              "fr": "District de Columbia",
+              "ja": "ワシントン・コロンビア特別区",
+              "ru": "Округ Колумбия"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "pagead2.googlesyndication.com",
+      "ip": "142.251.214.130",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1063,86 +1123,6 @@
             "zh-CN": "美国"
           }
         }
-      }
-    },
-    {
-      "hostname": "pagead2.googlesyndication.com",
-      "ip": "142.250.68.34",
-      "geoip": {
-        "city": {
-          "geoname_id": 5139568,
-          "names": {
-            "en": "Staten Island"
-          }
-        },
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 200,
-          "latitude": 40.5956,
-          "longitude": -74.0806,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "10305"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
       }
     }
   ]
