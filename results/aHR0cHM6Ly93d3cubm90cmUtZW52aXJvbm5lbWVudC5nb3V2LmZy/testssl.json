@@ -339,7 +339,7 @@
               "ip"           : "www.notre-environnement.gouv.fr/92.175.135.130",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "213 >= 60 days"
+              "finding"      : "206 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,14 +535,14 @@
               "ip"           : "www.notre-environnement.gouv.fr/92.175.135.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "-2 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.notre-environnement.gouv.fr/92.175.135.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1687655438"
+              "finding"      : "1688259990"
           }
 ,         {
               "id"           : "HSTS",
@@ -1127,6 +1127,6 @@
               "ip"           : "www.notre-environnement.gouv.fr/92.175.135.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "81"
+              "finding"      : "152"
           }
 ]
