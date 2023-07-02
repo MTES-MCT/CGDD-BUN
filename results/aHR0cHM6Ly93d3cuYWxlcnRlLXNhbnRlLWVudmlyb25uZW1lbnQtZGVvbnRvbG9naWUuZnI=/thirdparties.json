@@ -37,14 +37,6 @@
       }
     },
     {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=9807eca49039a8c3d45b7405d9c2beb4",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
-    },
-    {
       "type": "FontAwesome",
       "url": "https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.woff2",
       "details": {
@@ -53,8 +45,16 @@
       }
     },
     {
+      "type": "facebook",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=fc27e351f5b0990f6162776ee3e3843b",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
+    },
+    {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.infopack.74c4d95277980cd2c940.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.infopack.345e850e6045865c346d.js"
     },
     {
       "type": "unknown",
@@ -62,7 +62,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.54722be7dc452b63e849.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.7bb38751758a10878735.js"
     },
     {
       "type": "unknown",
@@ -70,15 +70,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.467d8e990be02af5cb65.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.d6a2fc7093c0f0ec65f8.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.e5ca546506a25c7e5317.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.1358aef73103f8a751e3.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.ba924820af2c69b8b37a.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.6c73eb144820f429ed88.js"
     },
     {
       "type": "unknown",
@@ -98,7 +98,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=81959a67-0844-42c8-ae12-bc88cc481a55&dmTs=233063&is_native_app=0"
+      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=f19388eb-f22f-46b5-87bf-794e7cfdd6d8&dmTs=634621&is_native_app=0"
     },
     {
       "type": "unknown",
@@ -133,16 +133,16 @@
       "url": "https://static1.dmcdn.net/playerv5/fonts/ABCFavoritRegular.606eba755d8de32177c3..woff2"
     },
     {
-      "type": "unknown",
-      "url": "https://pebed.dm-event.net/"
-    },
-    {
       "type": "google",
       "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
       }
+    },
+    {
+      "type": "unknown",
+      "url": "https://pebed.dm-event.net/"
     },
     {
       "type": "unknown",
@@ -183,7 +183,7 @@
       "value": "*",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1687656269,
+      "expires": 1688260955,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -194,10 +194,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "e0c1022bab6b5818.1687654469.1.1687654469.1687654469.",
+      "value": "d7e428d565200399.1688259156.1.1688259156.1688259156.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1721609669,
+      "expires": 1722214356,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -213,8 +213,8 @@
     "content-encoding": "gzip",
     "content-length": "20063",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 25 Jun 2023 00:54:26 GMT",
-    "last-modified": "Sun, 25 Jun 2023 00:54:26 GMT",
+    "date": "Sun, 02 Jul 2023 00:52:34 GMT",
+    "last-modified": "Sun, 02 Jul 2023 00:52:34 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -279,7 +279,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.133.15",
+      "ip": "172.64.132.15",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -333,19 +333,19 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.22.25",
+      "ip": "157.240.249.8",
       "geoip": {
         "city": {
-          "geoname_id": 5393015,
+          "geoname_id": 4887398,
           "names": {
-            "de": "Santa Clara",
-            "en": "Santa Clara",
-            "es": "Santa Clara",
-            "fr": "Santa Clara",
-            "ja": "サンタクララ",
-            "pt-BR": "Santa Clara",
-            "ru": "Санта-Клара",
-            "zh-CN": "圣克拉拉"
+            "de": "Chicago",
+            "en": "Chicago",
+            "es": "Chicago",
+            "fr": "Chicago",
+            "ja": "シカゴ",
+            "pt-BR": "Chicago",
+            "ru": "Чикаго",
+            "zh-CN": "芝加哥"
           }
         },
         "continent": {
@@ -378,13 +378,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.353,
-          "longitude": -121.9543,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 41.8874,
+          "longitude": -87.6318,
+          "metro_code": 602,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "95052"
+          "code": "60602"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -402,17 +402,16 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 4896861,
+            "iso_code": "IL",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "en": "Illinois",
+              "es": "Illinois",
+              "fr": "Illinois",
+              "ja": "イリノイ州",
+              "pt-BR": "Ilinóis",
+              "ru": "Иллинойс",
+              "zh-CN": "伊利诺伊州"
             }
           }
         ]
@@ -420,7 +419,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.189.232",
+      "ip": "172.217.212.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -474,7 +473,7 @@
     },
     {
       "hostname": "www.dailymotion.com",
-      "ip": "198.54.200.90",
+      "ip": "198.54.201.90",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -506,9 +505,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 34.0544,
-          "longitude": -118.244,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 40.7064,
+          "longitude": -73.9473,
+          "time_zone": "America/New_York"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -526,17 +525,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 5128638,
+            "iso_code": "NY",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
             }
           }
         ]
@@ -544,19 +543,18 @@
     },
     {
       "hostname": "static1.dmcdn.net",
-      "ip": "208.111.152.2",
+      "ip": "208.111.176.129",
       "geoip": {
         "city": {
-          "geoname_id": 5378538,
+          "geoname_id": 4684888,
           "names": {
-            "de": "Oakland",
-            "en": "Oakland",
-            "es": "Oakland",
-            "fr": "Oakland",
-            "ja": "オークランド",
-            "pt-BR": "Oakland",
-            "ru": "Окленд",
-            "zh-CN": "奥克兰"
+            "de": "Dallas",
+            "en": "Dallas",
+            "es": "Dallas",
+            "fr": "Dallas",
+            "ja": "ダラス",
+            "pt-BR": "Dallas",
+            "ru": "Даллас"
           }
         },
         "continent": {
@@ -589,13 +587,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.8075,
-          "longitude": -122.2644,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 32.7797,
+          "longitude": -96.8022,
+          "metro_code": 623,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "94612"
+          "code": "75270"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -613,17 +611,15 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 4736286,
+            "iso_code": "TX",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "en": "Texas",
+              "es": "Texas",
+              "fr": "Texas",
+              "ja": "テキサス州",
+              "ru": "Техас",
+              "zh-CN": "德克萨斯州"
             }
           }
         ]
@@ -726,19 +722,18 @@
     },
     {
       "hostname": "vendorlist.dmcdn.net",
-      "ip": "208.111.152.2",
+      "ip": "208.111.176.129",
       "geoip": {
         "city": {
-          "geoname_id": 5378538,
+          "geoname_id": 4684888,
           "names": {
-            "de": "Oakland",
-            "en": "Oakland",
-            "es": "Oakland",
-            "fr": "Oakland",
-            "ja": "オークランド",
-            "pt-BR": "Oakland",
-            "ru": "Окленд",
-            "zh-CN": "奥克兰"
+            "de": "Dallas",
+            "en": "Dallas",
+            "es": "Dallas",
+            "fr": "Dallas",
+            "ja": "ダラス",
+            "pt-BR": "Dallas",
+            "ru": "Даллас"
           }
         },
         "continent": {
@@ -771,13 +766,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.8075,
-          "longitude": -122.2644,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 32.7797,
+          "longitude": -96.8022,
+          "metro_code": 623,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "94612"
+          "code": "75270"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -795,17 +790,15 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 4736286,
+            "iso_code": "TX",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "en": "Texas",
+              "es": "Texas",
+              "fr": "Texas",
+              "ja": "テキサス州",
+              "ru": "Техас",
+              "zh-CN": "德克萨斯州"
             }
           }
         ]
@@ -813,7 +806,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.250.191.35",
+      "ip": "142.251.171.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -867,7 +860,7 @@
     },
     {
       "hostname": "speedtest.dailymotion.com",
-      "ip": "198.54.200.91",
+      "ip": "198.54.201.91",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -899,9 +892,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 34.0544,
-          "longitude": -118.244,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 40.7064,
+          "longitude": -73.9473,
+          "time_zone": "America/New_York"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -919,17 +912,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 5128638,
+            "iso_code": "NY",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
             }
           }
         ]
@@ -937,7 +930,7 @@
     },
     {
       "hostname": "imasdk.googleapis.com",
-      "ip": "142.251.46.170",
+      "ip": "142.251.6.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -969,9 +962,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 38.894,
-          "longitude": -77.0365,
-          "time_zone": "America/New_York"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -986,26 +979,12 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 4138106,
-            "iso_code": "DC",
-            "names": {
-              "de": "Washington, D.C.",
-              "en": "District of Columbia",
-              "es": "Washington D.C.",
-              "fr": "District de Columbia",
-              "ja": "ワシントン・コロンビア特別区",
-              "ru": "Округ Колумбия"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "s0.2mdn.net",
-      "ip": "142.251.46.166",
+      "ip": "173.194.192.149",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1037,9 +1016,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 38.894,
-          "longitude": -77.0365,
-          "time_zone": "America/New_York"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -1054,26 +1033,12 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 4138106,
-            "iso_code": "DC",
-            "names": {
-              "de": "Washington, D.C.",
-              "en": "District of Columbia",
-              "es": "Washington D.C.",
-              "fr": "District de Columbia",
-              "ja": "ワシントン・コロンビア特別区",
-              "ru": "Округ Колумбия"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "pagead2.googlesyndication.com",
-      "ip": "142.251.214.130",
+      "ip": "209.85.147.156",
       "geoip": {
         "continent": {
           "code": "NA",
