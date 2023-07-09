@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=500564eafb58a4147f35477a8992e3ef",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=8094381da2ad09f8ff91329ed2a0ee37",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "*",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1688261864,
+      "expires": 1688866677,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -58,10 +58,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "10ac05cd80ac959b.1688260064.1.1688260064.1688260064.",
+      "value": "151b4114693aa6d4.1688864878.1.1688864878.1688864878.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1722215264,
+      "expires": 1722820078,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -77,8 +77,8 @@
     "content-encoding": "gzip",
     "content-length": "12313",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 02 Jul 2023 01:07:42 GMT",
-    "last-modified": "Sun, 02 Jul 2023 01:07:42 GMT",
+    "date": "Sun, 09 Jul 2023 01:07:55 GMT",
+    "last-modified": "Sun, 09 Jul 2023 01:07:55 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -143,7 +143,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.132.15",
+      "ip": "172.64.133.15",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -251,17 +251,13 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.24.13",
+      "ip": "157.240.229.1",
       "geoip": {
         "city": {
-          "geoname_id": 4699066,
+          "geoname_id": 4744870,
           "names": {
-            "en": "Houston",
-            "fr": "Houston",
-            "ja": "ヒューストン",
-            "pt-BR": "Houston",
-            "ru": "Хьюстон",
-            "zh-CN": "休斯敦"
+            "en": "Ashburn",
+            "ru": "Ашберн"
           }
         },
         "continent": {
@@ -294,13 +290,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 29.7646,
-          "longitude": -95.3657,
-          "metro_code": 618,
-          "time_zone": "America/Chicago"
+          "latitude": 39.0469,
+          "longitude": -77.4903,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "77002"
+          "code": "20149"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -318,15 +314,15 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 4736286,
-            "iso_code": "TX",
+            "geoname_id": 6254928,
+            "iso_code": "VA",
             "names": {
-              "en": "Texas",
-              "es": "Texas",
-              "fr": "Texas",
-              "ja": "テキサス州",
-              "ru": "Техас",
-              "zh-CN": "德克萨斯州"
+              "en": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
             }
           }
         ]
@@ -334,7 +330,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.32.168",
+      "ip": "172.253.115.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -366,9 +362,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 38.894,
-          "longitude": -77.0365,
-          "time_zone": "America/New_York"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -383,21 +379,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 4138106,
-            "iso_code": "DC",
-            "names": {
-              "de": "Washington, D.C.",
-              "en": "District of Columbia",
-              "es": "Washington D.C.",
-              "fr": "District de Columbia",
-              "ja": "ワシントン・コロンビア特別区",
-              "ru": "Округ Колумбия"
-            }
-          }
-        ]
+        }
       }
     }
   ]
