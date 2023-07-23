@@ -269,7 +269,7 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "112CFA7511839CE24278BCB52C4CE64E"
+              "finding"      : "D7615927564C14DE69C282C5A5FE8B66"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "504C62FA82BF6752CB973348A0332E1C3029138A"
+              "finding"      : "8B50E4C389523E98CC29DCC3180E42F0C8505DF6"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ED82A153B74234DDECBC214B53C1ED59CE8B09854EFC95209DFD2FF62B0544F5"
+              "finding"      : "45C8ED218EF772EB49D8D10F66F9E412F84236EBB3FDA7E42585C60E6AE27500"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -318,7 +318,7 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.ecologie.gouv.fr www.jnqa.ecologie.gouv.fr ecologie.gouv.fr jnqa.ecologie.gouv.fr"
+              "finding"      : "jnqa.ecologie.gouv.fr ecologie.gouv.fr www.ecologie.gouv.fr www.jnqa.ecologie.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -345,22 +345,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (9)"
+              "severity"     : "OK",
+              "finding"      : "360 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2022-07-25 22:00"
+              "finding"      : "2023-07-18 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2023-07-25 21:59"
+              "severity"     : "OK",
+              "finding"      : "2024-07-17 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,14 +381,14 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -542,21 +542,21 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+591 seconds from localtime"
+              "finding"      : "+239 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1689470131"
+              "finding"      : "1690074320"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "591 seconds"
+              "finding"      : "239 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -750,7 +750,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=ED82A153B74234DDECBC214B53C1ED59CE8B09854EFC95209DFD2FF62B0544F5"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=45C8ED218EF772EB49D8D10F66F9E412F84236EBB3FDA7E42585C60E6AE27500"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1133,6 +1133,6 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "137"
+              "finding"      : "133"
           }
 ]
