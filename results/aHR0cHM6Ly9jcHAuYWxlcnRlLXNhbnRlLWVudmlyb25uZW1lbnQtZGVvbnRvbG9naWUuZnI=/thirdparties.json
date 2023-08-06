@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=b3e2dfc26eb2c6970b0c7a8129ca9440",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=6e9b3947f76d5b3e3d98b25f0bddcbd6",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "*",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1690680541,
+      "expires": 1691284922,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -58,10 +58,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "21a22904b6c0354c.1690678742.1.1690678742.1690678742.",
+      "value": "ad88c2c09715d4d2.1691283122.1.1691283122.1691283122.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1724633942,
+      "expires": 1725238322,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -77,8 +77,8 @@
     "content-encoding": "gzip",
     "content-length": "12313",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 30 Jul 2023 00:58:58 GMT",
-    "last-modified": "Sun, 30 Jul 2023 00:58:58 GMT",
+    "date": "Sun, 06 Aug 2023 00:52:00 GMT",
+    "last-modified": "Sun, 06 Aug 2023 00:51:59 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -143,7 +143,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.133.15",
+      "ip": "172.64.103.11",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -197,7 +197,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "69.16.175.42",
+      "ip": "69.16.175.10",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -338,14 +338,8 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.189.200",
+      "ip": "172.217.12.104",
       "geoip": {
-        "city": {
-          "geoname_id": 4994862,
-          "names": {
-            "en": "Grosse Pointe"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -375,14 +369,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 42.3769,
-          "longitude": -82.9152,
-          "metro_code": 505,
-          "time_zone": "America/Detroit"
-        },
-        "postal": {
-          "code": "48230"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -397,22 +387,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5001836,
-            "iso_code": "MI",
-            "names": {
-              "en": "Michigan",
-              "es": "Michigan",
-              "fr": "Michigan",
-              "ja": "ミシガン州",
-              "pt-BR": "Michigão",
-              "ru": "Мичиган",
-              "zh-CN": "密歇根州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
