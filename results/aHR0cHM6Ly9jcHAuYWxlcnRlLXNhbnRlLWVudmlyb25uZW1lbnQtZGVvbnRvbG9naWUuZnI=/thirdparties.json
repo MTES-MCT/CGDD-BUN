@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=6e9b3947f76d5b3e3d98b25f0bddcbd6",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=422bb1ec7bef2d8b2a5d47d36fcb81af",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "*",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1691284922,
+      "expires": 1691889538,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -58,10 +58,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "ad88c2c09715d4d2.1691283122.1.1691283122.1691283122.",
+      "value": "b7697485d665695c.1691887738.1.1691887738.1691887738.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1725238322,
+      "expires": 1725842938,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -77,8 +77,8 @@
     "content-encoding": "gzip",
     "content-length": "12313",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 06 Aug 2023 00:52:00 GMT",
-    "last-modified": "Sun, 06 Aug 2023 00:51:59 GMT",
+    "date": "Sun, 13 Aug 2023 00:48:53 GMT",
+    "last-modified": "Sun, 13 Aug 2023 00:48:53 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -143,7 +143,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.103.11",
+      "ip": "172.64.102.11",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -197,7 +197,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "69.16.175.10",
+      "ip": "69.16.175.42",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -251,19 +251,13 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.22.25",
+      "ip": "157.240.229.1",
       "geoip": {
         "city": {
-          "geoname_id": 5393015,
+          "geoname_id": 4744870,
           "names": {
-            "de": "Santa Clara",
-            "en": "Santa Clara",
-            "es": "Santa Clara",
-            "fr": "Santa Clara",
-            "ja": "サンタクララ",
-            "pt-BR": "Santa Clara",
-            "ru": "Санта-Клара",
-            "zh-CN": "圣克拉拉"
+            "en": "Ashburn",
+            "ru": "Ашберн"
           }
         },
         "continent": {
@@ -296,13 +290,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.353,
-          "longitude": -121.9543,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 39.0469,
+          "longitude": -77.4903,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "95052"
+          "code": "20149"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -320,17 +314,15 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 6254928,
+            "iso_code": "VA",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "en": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
             }
           }
         ]
@@ -338,7 +330,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.217.12.104",
+      "ip": "142.251.163.97",
       "geoip": {
         "continent": {
           "code": "NA",
