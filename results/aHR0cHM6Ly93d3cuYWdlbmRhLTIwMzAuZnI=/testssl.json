@@ -262,7 +262,7 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "03549F96523038BE94DD11A40FF2C8A77C76"
+              "finding"      : "0461BFFB1FA9E77B86D4DB0567F4682BD4F8"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "CC810C8581DC5D67B1F9709835186BCDE7DAAA1B"
+              "finding"      : "BBB114B10F6E79D5B755CF8AC9831BDEBFE0D422"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "06AD04F217C6E53425B8328FD2871DB9D8B26A2835F894073596E1A5939F8095"
+              "finding"      : "E5BD44939884B016280A02E433347971A285932CE4C1F2E249B83C923BE0C976"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEVzCCAz+gAwIBAgISA1SfllIwOL6U3RGkD/LIp3x2MA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzA2MjIwMTExMDZaFw0yMzA5MjAwMTExMDVaMB0xGzAZBgNVBAMTEnd3dy5hZ2VuZGEtMjAzMC5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABGVPV3CwbG3IsQeLoZcnLdXrrWkab3bc+Bfq8bZqAPuJ2aJOUGSBaBxrzkEg/kVZJUvFNmr5Sy6tfkkbHOcJg+WjggJFMIICQTAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFG8yFxm6SekEDIhYEdFg1vWv1CjkMB8GA1UdIwQYMBaAFBQusxe3WFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcvME8GA1UdEQRIMEaCDmFnZW5kYS0yMDMwLmZygg1hZ2VuZGEyMDMwLmZyghJ3d3cuYWdlbmRhLTIwMzAuZnKCEXd3dy5hZ2VuZGEyMDMwLmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBAwYKKwYBBAHWeQIEAgSB9ASB8QDvAHYAejKMVNi3LbYg6jjgUh7phBZwMhOFTTvSK8E6V6NS61IAAAGI4N6hRwAABAMARzBFAiBRvo/ChIT0YLE9BBD8nCeN3F7jXeRTCRsaiFHstieGyAIhAOPquoDNdsu9N+HxAqZrO6XXG3wfVBTf87f/FHTOqTnEAHUArfe++nz/EMiLnT2cHj4YarRnKV3PsQwkyoWGNOvcgooAAAGI4N6hXwAABAMARjBEAiBG3HZfbSsdTi23BsdMRHvy4I9ZzhAJhBv6OS6jIWk97gIgAJXNwUBAk10ynLbFuRD+y2pGiMqNssPpEK/nW7h3wdIwDQYJKoZIhvcNAQELBQADggEBAB8+dJBMPxx4guEAbQL8y9ASBH5CCGfuhQepWQGGp2up8hZhqgu8Ir8WmJ5rfShyfIH4a+v5p18dYyrAV92eAYtsFFzr/Tn4/w4FGTUD4nljmHteyive7gee7gHQjeZVC2XofbxyjcKYxdphrAGvkIIqsgoQyGI9UBEEDu6fj1Xky26CkcNjes+NV8/rMDbzxawOxMIhQkVGQtFhDqLZ6YSdhX8s4QdQSX7Z66ib4hFDOfpaH6zhIvOWBYKbYKQltTU69ShEpGMYy1lcFW5FsZf1BGziVFZIqTdEpN+XdfCSbHhe9r7VezYVBf4D9F3zLPjhCLpGjBLADjpOJq8GJ9Q=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEVzCCAz+gAwIBAgISBGG/+x+p53uG1NsFZ/RoK9T4MA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzA4MjEwMTEzMTJaFw0yMzExMTkwMTEzMTFaMB0xGzAZBgNVBAMTEnd3dy5hZ2VuZGEtMjAzMC5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABB0bjvwP0duX5SDZAobqDehiePe9SoA5CXifl7Jzha95GCrgdupWQINlM030sEsj2+ay3GGIhI98HNjekNqfOQKjggJFMIICQTAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFP2+vbOY7ikGoD04+/u6mSyMc5gwMB8GA1UdIwQYMBaAFBQusxe3WFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcvME8GA1UdEQRIMEaCDmFnZW5kYS0yMDMwLmZygg1hZ2VuZGEyMDMwLmZyghJ3d3cuYWdlbmRhLTIwMzAuZnKCEXd3dy5hZ2VuZGEyMDMwLmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBAwYKKwYBBAHWeQIEAgSB9ASB8QDvAHUAtz77JN+cTbp18jnFulj0bF38Qs96nzXEnh0JgSXttJkAAAGKFd4dBwAABAMARjBEAiB9mMs9L/EXG+RTpuGmVD5EqDgLXmlIDVlz5YixnnUZOgIgJM3Wr60WMlrVwdjXAPZyktgsco5d7DsuODWGBfnmHnoAdgB6MoxU2LcttiDqOOBSHumEFnAyE4VNO9IrwTpXo1LrUgAAAYoV3h0bAAAEAwBHMEUCIBzpO4HCw2wxID2X6nioofRXrM4wn7t5EMKUlaqJgp0pAiEA/g1h+YcTK1elsJsHEo+c5PtsxKZ1vhkhYu/DMkeIOmgwDQYJKoZIhvcNAQELBQADggEBAGMj0q/reqkuSNdm7Uus0AIvpP+qrlBREauP2oBJmVJ/GXwkYiTP95JfuGcOnZ74ablre9To8Gl2bMRmlTXYQfks1/pN0W7c8xwiS6BHR9nRU6uO3tH2vvPmfVD1+P8To5pl5u/WxXT/jNJjjC7GN/TAS86tRe1L2vqYe0el9Fjz0ADEQaP3PnQwP8yZgAY+i1z4mjntvmSXQlfGaJoQNo/vqQMBE95G1s8bcHHsffaeqHLkP0U4fVmMAAMH5gNVx1msdKrQ+5Aa+3b+nT1vCDXsuBwDr7rsBmu2M/a4G9sTiKxzIYyBHFsGMcLTwduZbdgfeNt4oss+o1USGuCqk/Y=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -339,21 +339,21 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "31 >= 30 days"
+              "finding"      : "84 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-06-22 01:11"
+              "finding"      : "2023-08-21 01:13"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2023-09-20 01:11"
+              "finding"      : "2023-11-19 01:13"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -535,14 +535,14 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-2 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1692492459"
+              "finding"      : "1693097369"
           }
 ,         {
               "id"           : "HSTS",
@@ -1119,6 +1119,6 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "58"
+              "finding"      : "97"
           }
 ]
