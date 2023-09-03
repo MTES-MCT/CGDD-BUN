@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=8d85fc1e21dbd7ba4d7b2780355b1c3d",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=74a0d271881ecd2ffe449a79b3864137",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "*",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1693099274,
+      "expires": 1693704095,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -58,10 +58,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "b6f2cd4994797ca5.1693097474.1.1693097474.1693097474.",
+      "value": "bb3e1148aee5ec33.1693702295.1.1693702295.1693702295.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1727052674,
+      "expires": 1727657495,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -77,8 +77,8 @@
     "content-encoding": "gzip",
     "content-length": "12315",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 27 Aug 2023 00:51:11 GMT",
-    "last-modified": "Sun, 27 Aug 2023 00:51:10 GMT",
+    "date": "Sun, 03 Sep 2023 00:51:32 GMT",
+    "last-modified": "Sun, 03 Sep 2023 00:51:30 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -143,7 +143,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.102.11",
+      "ip": "172.64.103.11",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -197,7 +197,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "69.16.175.10",
+      "ip": "69.16.175.42",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -337,14 +337,8 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.46.200",
+      "ip": "142.250.189.8",
       "geoip": {
-        "city": {
-          "geoname_id": 4361736,
-          "names": {
-            "en": "Marriottsville"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -375,13 +369,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 39.3385,
-          "longitude": -76.9201,
-          "metro_code": 512,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "21104"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -396,23 +386,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 4361885,
-            "iso_code": "MD",
-            "names": {
-              "de": "Maryland",
-              "en": "Maryland",
-              "es": "Maryland",
-              "fr": "Maryland",
-              "ja": "メリーランド州",
-              "pt-BR": "Maryland",
-              "ru": "Мэриленд",
-              "zh-CN": "马里兰州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
