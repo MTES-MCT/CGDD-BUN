@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.ecologie.gouv.fr/suivi-convention-citoyenne-climat",
-        "size": 1063.446,
-        "nodes": 1089,
+        "size": 1063.805,
+        "nodes": 1091,
         "requests": 68,
         "grade": "D",
         "score": 41.0,
         "ges": 2.18,
         "water": 3.27,
         "ecoindex_version": "5.4.2",
-        "date": "2023-08-27 00:53:10.095128",
+        "date": "2023-09-03 00:54:12.786600",
         "page_type": "website"
     }
 ]
