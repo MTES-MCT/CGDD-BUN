@@ -127,7 +127,7 @@
       "value": "1",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1693099694,
+      "expires": 1693704493,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -138,10 +138,10 @@
     },
     {
       "name": "_pk_id.1441.b788",
-      "value": "c39c20659ee66fc4.1693097895.1.1693097895.1693097895.",
+      "value": "d0744b14490c7ccf.1693702694.1.1693702694.1693702694.",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1727053095,
+      "expires": 1727657894,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -156,7 +156,7 @@
     "content-language": "fr-fr",
     "content-security-policy": "upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 27 Aug 2023 00:58:13 GMT",
+    "date": "Sun, 03 Sep 2023 00:58:12 GMT",
     "permissions-policy": "midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "openresty",
@@ -169,7 +169,7 @@
   "endpoints": [
     {
       "hostname": "www.projets-environnement.gouv.fr",
-      "ip": "34.248.20.69",
+      "ip": "34.249.199.226",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -252,7 +252,7 @@
     },
     {
       "hostname": "s3-eu-west-1.amazonaws.com",
-      "ip": "52.92.2.192",
+      "ip": "52.218.110.139",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -335,7 +335,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.188.234",
+      "ip": "142.250.115.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -389,14 +389,8 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.68.99",
+      "ip": "142.250.138.94",
       "geoip": {
-        "city": {
-          "geoname_id": 5102162,
-          "names": {
-            "en": "Old Bridge"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -426,14 +420,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.3913,
-          "longitude": -74.3247,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "08857"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -448,22 +438,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5101760,
-            "iso_code": "NJ",
-            "names": {
-              "en": "New Jersey",
-              "es": "Nueva Jersey",
-              "fr": "New Jersey",
-              "ja": "ニュージャージー州",
-              "pt-BR": "Nova Jérsia",
-              "ru": "Нью-Джерси",
-              "zh-CN": "新泽西州"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -524,7 +499,7 @@
     },
     {
       "hostname": "www.jawg.io",
-      "ip": "104.22.33.109",
+      "ip": "104.22.32.109",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
