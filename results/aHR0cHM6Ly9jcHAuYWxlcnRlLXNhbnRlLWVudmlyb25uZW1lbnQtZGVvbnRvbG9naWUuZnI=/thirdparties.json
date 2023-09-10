@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=74a0d271881ecd2ffe449a79b3864137",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=b15c134d4ceb541eb5aebe323b4a94e5",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "*",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1693704095,
+      "expires": 1694308894,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -58,10 +58,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "bb3e1148aee5ec33.1693702295.1.1693702295.1693702295.",
+      "value": "5538e50a2a95bf2a.1694307095.1.1694307095.1694307095.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1727657495,
+      "expires": 1728262295,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -77,8 +77,8 @@
     "content-encoding": "gzip",
     "content-length": "12315",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 03 Sep 2023 00:51:32 GMT",
-    "last-modified": "Sun, 03 Sep 2023 00:51:30 GMT",
+    "date": "Sun, 10 Sep 2023 00:51:31 GMT",
+    "last-modified": "Sun, 10 Sep 2023 00:51:32 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -197,7 +197,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "69.16.175.42",
+      "ip": "69.16.175.10",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -337,8 +337,14 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.189.8",
+      "ip": "142.250.72.136",
       "geoip": {
+        "city": {
+          "geoname_id": 5102162,
+          "names": {
+            "en": "Old Bridge"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -368,10 +374,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.3913,
+          "longitude": -74.3247,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "08857"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -386,7 +396,22 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5101760,
+            "iso_code": "NJ",
+            "names": {
+              "en": "New Jersey",
+              "es": "Nueva Jersey",
+              "fr": "New Jersey",
+              "ja": "ニュージャージー州",
+              "pt-BR": "Nova Jérsia",
+              "ru": "Нью-Джерси",
+              "zh-CN": "新泽西州"
+            }
+          }
+        ]
       }
     }
   ]
