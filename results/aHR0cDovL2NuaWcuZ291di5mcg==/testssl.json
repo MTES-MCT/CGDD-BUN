@@ -192,7 +192,7 @@
               "ip"           : "cnig.gouv.fr/194.5.173.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -339,7 +339,7 @@
               "ip"           : "cnig.gouv.fr/194.5.173.97",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "48 >= 30 days"
+              "finding"      : "41 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,14 +535,14 @@
               "ip"           : "cnig.gouv.fr/194.5.173.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-5 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "cnig.gouv.fr/194.5.173.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1693703066"
+              "finding"      : "1694307641"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "cnig.gouv.fr/194.5.173.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "158"
+              "finding"      : "211"
           }
 ]
