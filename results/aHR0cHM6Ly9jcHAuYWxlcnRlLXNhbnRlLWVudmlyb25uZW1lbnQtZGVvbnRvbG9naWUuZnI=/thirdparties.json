@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=b15c134d4ceb541eb5aebe323b4a94e5",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=065bbc1e15aca6a05200aeaeb41015a0",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "*",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1694308894,
+      "expires": 1694913744,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -58,10 +58,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "5538e50a2a95bf2a.1694307095.1.1694307095.1694307095.",
+      "value": "b08381c06916ea5e.1694911944.1.1694911944.1694911944.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1728262295,
+      "expires": 1728867144,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -77,8 +77,8 @@
     "content-encoding": "gzip",
     "content-length": "12315",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 10 Sep 2023 00:51:31 GMT",
-    "last-modified": "Sun, 10 Sep 2023 00:51:32 GMT",
+    "date": "Sun, 17 Sep 2023 00:52:22 GMT",
+    "last-modified": "Sun, 17 Sep 2023 00:52:21 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -197,7 +197,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "69.16.175.10",
+      "ip": "151.101.2.137",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -251,19 +251,19 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.254.7",
+      "ip": "157.240.22.25",
       "geoip": {
         "city": {
-          "geoname_id": 4887398,
+          "geoname_id": 5393015,
           "names": {
-            "de": "Chicago",
-            "en": "Chicago",
-            "es": "Chicago",
-            "fr": "Chicago",
-            "ja": "シカゴ",
-            "pt-BR": "Chicago",
-            "ru": "Чикаго",
-            "zh-CN": "芝加哥"
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
           }
         },
         "continent": {
@@ -296,13 +296,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 41.8874,
-          "longitude": -87.6318,
-          "metro_code": 602,
-          "time_zone": "America/Chicago"
+          "latitude": 37.353,
+          "longitude": -121.9543,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "60602"
+          "code": "95052"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -320,16 +320,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 4896861,
-            "iso_code": "IL",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Illinois",
-              "es": "Illinois",
-              "fr": "Illinois",
-              "ja": "イリノイ州",
-              "pt-BR": "Ilinóis",
-              "ru": "Иллинойс",
-              "zh-CN": "伊利诺伊州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -337,7 +338,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.72.136",
+      "ip": "142.250.72.168",
       "geoip": {
         "city": {
           "geoname_id": 5102162,
