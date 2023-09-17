@@ -37,19 +37,19 @@
       }
     },
     {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=b15c134d4ceb541eb5aebe323b4a94e5",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
-    },
-    {
       "type": "FontAwesome",
       "url": "https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.woff2",
       "details": {
         "id": "FontAwesome",
         "message": "Host fonts directly"
+      }
+    },
+    {
+      "type": "facebook",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=065bbc1e15aca6a05200aeaeb41015a0",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
       }
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.3bfe75b510ed1a6af854.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.4597f10f3937a9166784.js"
     },
     {
       "type": "unknown",
@@ -70,15 +70,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.f74d4755421380ab95b5.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.7ce74d4196d22dd0e9fa.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.df75c25dabd262da2ec2.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.f3571f9d3d23ebed4c99.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.cecfeb34be38cbe8dfb7.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.693813fa44ccd599960a.js"
     },
     {
       "type": "google",
@@ -110,7 +110,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=5d25eb9c-1942-49c5-b9e8-e7e0ad5189ee&dmTs=518950&is_native_app=0"
+      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=b61c8da2-d51a-496f-a914-a30d47915419&dmTs=559187&is_native_app=0"
     },
     {
       "type": "unknown",
@@ -118,11 +118,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://pebed.dm-event.net/"
+      "url": "https://vendorlist.dmcdn.net/v3/archives/vendor-list-v7.json"
     },
     {
       "type": "unknown",
-      "url": "https://vendorlist.dmcdn.net/v3/archives/vendor-list-v7.json"
+      "url": "https://pebed.dm-event.net/"
     },
     {
       "type": "unknown",
@@ -153,8 +153,12 @@
       "url": "https://pebed.dm-event.net/"
     },
     {
+      "type": "unknown",
+      "url": "https://static1.dmcdn.net/ABCFavorit-Regular.woff2"
+    },
+    {
       "type": "google",
-      "url": "https://imasdk.googleapis.com/js/core/bridge3.588.0_en.html",
+      "url": "https://imasdk.googleapis.com/js/core/bridge3.589.0_en.html",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -167,10 +171,6 @@
     {
       "type": "unknown",
       "url": "https://pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static1.dmcdn.net/ABCFavorit-Regular.woff2"
     },
     {
       "type": "unknown",
@@ -191,7 +191,7 @@
       "value": "*",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1694307992,
+      "expires": 1694912819,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -202,10 +202,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "15fe1d822677df9a.1694306193.1.1694306193.1694306193.",
+      "value": "4d44b86b238e1705.1694911019.1.1694911019.1694911019.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1728261393,
+      "expires": 1728866219,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -221,8 +221,8 @@
     "content-encoding": "gzip",
     "content-length": "19741",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 10 Sep 2023 00:36:30 GMT",
-    "last-modified": "Sun, 10 Sep 2023 00:36:30 GMT",
+    "date": "Sun, 17 Sep 2023 00:36:57 GMT",
+    "last-modified": "Sun, 17 Sep 2023 00:36:56 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -341,13 +341,19 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "31.13.66.19",
+      "ip": "157.240.22.25",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 5393015,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
           }
         },
         "continent": {
@@ -380,40 +386,41 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 37.353,
+          "longitude": -121.9543,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20149"
+          "code": "95052"
         },
         "registered_country": {
-          "geoname_id": 2963597,
-          "is_in_european_union": true,
-          "iso_code": "IE",
+          "geoname_id": 6252001,
+          "iso_code": "US",
           "names": {
-            "de": "Irland",
-            "en": "Ireland",
-            "es": "Irlanda",
-            "fr": "Irlande",
-            "ja": "アイルランド",
-            "pt-BR": "Irlanda",
-            "ru": "Ирландия",
-            "zh-CN": "爱尔兰"
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
           }
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -421,8 +428,14 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.167.97",
+      "ip": "142.251.40.40",
       "geoip": {
+        "city": {
+          "geoname_id": 5133273,
+          "names": {
+            "en": "Queens"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -453,63 +466,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "www.dailymotion.com",
-      "ip": "198.54.201.90",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 40.7064,
-          "longitude": -73.9473,
+          "latitude": 40.66,
+          "longitude": -73.839,
+          "metro_code": 501,
           "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11414"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -544,14 +507,90 @@
       }
     },
     {
+      "hostname": "www.dailymotion.com",
+      "ip": "198.54.200.90",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "time_zone": "America/Los_Angeles"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
+      }
+    },
+    {
       "hostname": "static1.dmcdn.net",
-      "ip": "69.28.157.216",
+      "ip": "69.164.56.161",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 5308655,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "Phoenix",
+            "en": "Phoenix",
+            "es": "Phoenix",
+            "fr": "Phoenix",
+            "ja": "フェニックス",
+            "pt-BR": "Phoenix",
+            "ru": "Финикс",
+            "zh-CN": "凤凰城"
           }
         },
         "continent": {
@@ -584,13 +623,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 33.4475,
+          "longitude": -112.0866,
+          "metro_code": 753,
+          "time_zone": "America/Phoenix"
         },
         "postal": {
-          "code": "20149"
+          "code": "85036"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -608,15 +647,16 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5551752,
+            "iso_code": "AZ",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Arizona",
+              "en": "Arizona",
+              "es": "Arizona",
+              "fr": "Arizona",
+              "ja": "アリゾナ州",
+              "pt-BR": "Arizona",
+              "ru": "Аризона"
             }
           }
         ]
@@ -624,7 +664,7 @@
     },
     {
       "hostname": "imasdk.googleapis.com",
-      "ip": "142.251.167.95",
+      "ip": "142.250.176.10",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -678,7 +718,7 @@
     },
     {
       "hostname": "pebed.dm-event.net",
-      "ip": "188.65.124.58",
+      "ip": "188.65.124.59",
       "geoip": {
         "city": {
           "geoname_id": 2988507,
@@ -773,13 +813,19 @@
     },
     {
       "hostname": "vendorlist.dmcdn.net",
-      "ip": "69.28.157.216",
+      "ip": "69.164.56.15",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 5308655,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "Phoenix",
+            "en": "Phoenix",
+            "es": "Phoenix",
+            "fr": "Phoenix",
+            "ja": "フェニックス",
+            "pt-BR": "Phoenix",
+            "ru": "Финикс",
+            "zh-CN": "凤凰城"
           }
         },
         "continent": {
@@ -812,13 +858,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 33.4475,
+          "longitude": -112.0866,
+          "metro_code": 753,
+          "time_zone": "America/Phoenix"
         },
         "postal": {
-          "code": "20149"
+          "code": "85036"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -836,15 +882,16 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5551752,
+            "iso_code": "AZ",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Arizona",
+              "en": "Arizona",
+              "es": "Arizona",
+              "fr": "Arizona",
+              "ja": "アリゾナ州",
+              "pt-BR": "Arizona",
+              "ru": "Аризона"
             }
           }
         ]
@@ -852,8 +899,14 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.251.167.94",
+      "ip": "142.250.68.99",
       "geoip": {
+        "city": {
+          "geoname_id": 5102162,
+          "names": {
+            "en": "Old Bridge"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -883,64 +936,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "speedtest.dailymotion.com",
-      "ip": "198.54.201.91",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 40.7064,
-          "longitude": -73.9473,
+          "accuracy_radius": 500,
+          "latitude": 40.3913,
+          "longitude": -74.3247,
+          "metro_code": 501,
           "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "08857"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -958,17 +961,86 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
+            "geoname_id": 5101760,
+            "iso_code": "NJ",
             "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
+              "en": "New Jersey",
+              "es": "Nueva Jersey",
+              "fr": "New Jersey",
+              "ja": "ニュージャージー州",
+              "pt-BR": "Nova Jérsia",
+              "ru": "Нью-Джерси",
+              "zh-CN": "新泽西州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "speedtest.dailymotion.com",
+      "ip": "198.54.200.91",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "time_zone": "America/Los_Angeles"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -976,8 +1048,14 @@
     },
     {
       "hostname": "s0.2mdn.net",
-      "ip": "142.251.163.149",
+      "ip": "142.250.68.38",
       "geoip": {
+        "city": {
+          "geoname_id": 5102162,
+          "names": {
+            "en": "Old Bridge"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -1007,10 +1085,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.3913,
+          "longitude": -74.3247,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "08857"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -1025,13 +1107,34 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5101760,
+            "iso_code": "NJ",
+            "names": {
+              "en": "New Jersey",
+              "es": "Nueva Jersey",
+              "fr": "New Jersey",
+              "ja": "ニュージャージー州",
+              "pt-BR": "Nova Jérsia",
+              "ru": "Нью-Джерси",
+              "zh-CN": "新泽西州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "pagead2.googlesyndication.com",
-      "ip": "142.251.167.157",
+      "ip": "142.250.72.162",
       "geoip": {
+        "city": {
+          "geoname_id": 5102162,
+          "names": {
+            "en": "Old Bridge"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -1061,10 +1164,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.3913,
+          "longitude": -74.3247,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "08857"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -1079,7 +1186,22 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5101760,
+            "iso_code": "NJ",
+            "names": {
+              "en": "New Jersey",
+              "es": "Nueva Jersey",
+              "fr": "New Jersey",
+              "ja": "ニュージャージー州",
+              "pt-BR": "Nova Jérsia",
+              "ru": "Нью-Джерси",
+              "zh-CN": "新泽西州"
+            }
+          }
+        ]
       }
     }
   ]
