@@ -199,7 +199,7 @@
               "ip"           : "www.projets-environnement.gouv.fr/34.249.199.226",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.projets-environnement.gouv.fr/34.249.199.226",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "36 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (29)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.projets-environnement.gouv.fr/34.249.199.226",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2023-10-30 07:45"
           }
 ,         {
@@ -549,7 +549,7 @@
               "ip"           : "www.projets-environnement.gouv.fr/34.249.199.226",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1695517745"
+              "finding"      : "1696122543"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1349,7 +1349,7 @@
               "ip"           : "www.projets-environnement.gouv.fr/34.248.20.69",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -1495,8 +1495,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.projets-environnement.gouv.fr/34.248.20.69",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "36 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (29)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1509,7 +1509,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.projets-environnement.gouv.fr/34.248.20.69",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2023-10-30 07:45"
           }
 ,         {
@@ -1699,7 +1699,7 @@
               "ip"           : "www.projets-environnement.gouv.fr/34.248.20.69",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1695517845"
+              "finding"      : "1696122646"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -2304,6 +2304,6 @@
               "ip"           : "www.projets-environnement.gouv.fr/34.248.20.69",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "205"
+              "finding"      : "209"
           }
 ]
