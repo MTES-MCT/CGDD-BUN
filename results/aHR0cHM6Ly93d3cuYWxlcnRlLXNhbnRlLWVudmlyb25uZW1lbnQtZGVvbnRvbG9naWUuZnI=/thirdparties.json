@@ -38,7 +38,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=de9d5cbacf81a2c51028c9301c2467c8",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=1a17c35f2c42956e2f4deecfa681f28d",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -62,7 +62,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.c98345bd4bc1ab58beca.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.251ab511451e7cd91d1f.js"
     },
     {
       "type": "unknown",
@@ -70,15 +70,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.702ea352f56cbe360c98.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.c671ccea80960ae5fd7e.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.b719d6d6d4eb67b27348.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.c4aece00f70aac1efde7.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.f947b8b6b5a346e89706.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.3c51bf1877d167503827.js"
     },
     {
       "type": "google",
@@ -110,7 +110,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=7a9d151f-139f-4c99-9f24-c44e71bb8a2d&dmTs=115289&is_native_app=0"
+      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=0f7667da-52fe-49f3-abcb-3d9c92f0d451&dmTs=50366&is_native_app=0"
     },
     {
       "type": "unknown",
@@ -153,12 +153,8 @@
       "url": "https://pebed.dm-event.net/"
     },
     {
-      "type": "unknown",
-      "url": "https://static1.dmcdn.net/ABCFavorit-Regular.woff2"
-    },
-    {
       "type": "google",
-      "url": "https://imasdk.googleapis.com/js/core/bridge3.591.2_en.html",
+      "url": "https://imasdk.googleapis.com/js/core/bridge3.593.1_en.html",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -171,6 +167,10 @@
     {
       "type": "unknown",
       "url": "https://pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static1.dmcdn.net/ABCFavorit-Regular.woff2"
     },
     {
       "type": "unknown",
@@ -191,7 +191,7 @@
       "value": "*",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1695517625,
+      "expires": 1696122616,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -202,10 +202,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "f766a82a10122051.1695515826.1.1695515826.1695515826.",
+      "value": "27b7b79b75d50bd7.1696120817.1.1696120817.1696120817.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1729471026,
+      "expires": 1730076017,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -221,8 +221,8 @@
     "content-encoding": "gzip",
     "content-length": "19741",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 24 Sep 2023 00:37:03 GMT",
-    "last-modified": "Sun, 24 Sep 2023 00:37:03 GMT",
+    "date": "Sun, 01 Oct 2023 00:40:12 GMT",
+    "last-modified": "Sun, 01 Oct 2023 00:40:14 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -287,7 +287,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.103.11",
+      "ip": "172.64.102.11",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -341,19 +341,18 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.22.25",
+      "ip": "157.240.19.26",
       "geoip": {
         "city": {
-          "geoname_id": 5393015,
+          "geoname_id": 4684888,
           "names": {
-            "de": "Santa Clara",
-            "en": "Santa Clara",
-            "es": "Santa Clara",
-            "fr": "Santa Clara",
-            "ja": "サンタクララ",
-            "pt-BR": "Santa Clara",
-            "ru": "Санта-Клара",
-            "zh-CN": "圣克拉拉"
+            "de": "Dallas",
+            "en": "Dallas",
+            "es": "Dallas",
+            "fr": "Dallas",
+            "ja": "ダラス",
+            "pt-BR": "Dallas",
+            "ru": "Даллас"
           }
         },
         "continent": {
@@ -386,13 +385,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.353,
-          "longitude": -121.9543,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 32.7797,
+          "longitude": -96.8022,
+          "metro_code": 623,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "95052"
+          "code": "75270"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -410,17 +409,15 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 4736286,
+            "iso_code": "TX",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "en": "Texas",
+              "es": "Texas",
+              "fr": "Texas",
+              "ja": "テキサス州",
+              "ru": "Техас",
+              "zh-CN": "德克萨斯州"
             }
           }
         ]
@@ -428,14 +425,8 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.72.168",
+      "ip": "142.250.138.97",
       "geoip": {
-        "city": {
-          "geoname_id": 5102162,
-          "names": {
-            "en": "Old Bridge"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -465,14 +456,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.3913,
-          "longitude": -74.3247,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "08857"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -487,22 +474,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5101760,
-            "iso_code": "NJ",
-            "names": {
-              "en": "New Jersey",
-              "es": "Nueva Jersey",
-              "fr": "New Jersey",
-              "ja": "ニュージャージー州",
-              "pt-BR": "Nova Jérsia",
-              "ru": "Нью-Джерси",
-              "zh-CN": "新泽西州"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -577,19 +549,17 @@
     },
     {
       "hostname": "static1.dmcdn.net",
-      "ip": "208.111.152.2",
+      "ip": "69.28.174.2",
       "geoip": {
         "city": {
-          "geoname_id": 5378538,
+          "geoname_id": 4699066,
           "names": {
-            "de": "Oakland",
-            "en": "Oakland",
-            "es": "Oakland",
-            "fr": "Oakland",
-            "ja": "オークランド",
-            "pt-BR": "Oakland",
-            "ru": "Окленд",
-            "zh-CN": "奥克兰"
+            "en": "Houston",
+            "fr": "Houston",
+            "ja": "ヒューストン",
+            "pt-BR": "Houston",
+            "ru": "Хьюстон",
+            "zh-CN": "休斯敦"
           }
         },
         "continent": {
@@ -622,13 +592,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.8075,
-          "longitude": -122.2644,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 29.7646,
+          "longitude": -95.3657,
+          "metro_code": 618,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "94612"
+          "code": "77002"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -646,17 +616,15 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 4736286,
+            "iso_code": "TX",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "en": "Texas",
+              "es": "Texas",
+              "fr": "Texas",
+              "ja": "テキサス州",
+              "ru": "Техас",
+              "zh-CN": "德克萨斯州"
             }
           }
         ]
@@ -664,7 +632,7 @@
     },
     {
       "hostname": "imasdk.googleapis.com",
-      "ip": "142.250.189.234",
+      "ip": "142.250.113.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -718,7 +686,7 @@
     },
     {
       "hostname": "pebed.dm-event.net",
-      "ip": "188.65.124.59",
+      "ip": "188.65.124.58",
       "geoip": {
         "city": {
           "geoname_id": 2988507,
@@ -813,19 +781,17 @@
     },
     {
       "hostname": "vendorlist.dmcdn.net",
-      "ip": "208.111.152.2",
+      "ip": "69.28.174.130",
       "geoip": {
         "city": {
-          "geoname_id": 5378538,
+          "geoname_id": 4699066,
           "names": {
-            "de": "Oakland",
-            "en": "Oakland",
-            "es": "Oakland",
-            "fr": "Oakland",
-            "ja": "オークランド",
-            "pt-BR": "Oakland",
-            "ru": "Окленд",
-            "zh-CN": "奥克兰"
+            "en": "Houston",
+            "fr": "Houston",
+            "ja": "ヒューストン",
+            "pt-BR": "Houston",
+            "ru": "Хьюстон",
+            "zh-CN": "休斯敦"
           }
         },
         "continent": {
@@ -858,13 +824,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.8075,
-          "longitude": -122.2644,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 29.7646,
+          "longitude": -95.3657,
+          "metro_code": 618,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "94612"
+          "code": "77002"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -882,17 +848,15 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 4736286,
+            "iso_code": "TX",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "en": "Texas",
+              "es": "Texas",
+              "fr": "Texas",
+              "ja": "テキサス州",
+              "ru": "Техас",
+              "zh-CN": "德克萨斯州"
             }
           }
         ]
@@ -900,14 +864,8 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.250.72.163",
+      "ip": "142.250.138.94",
       "geoip": {
-        "city": {
-          "geoname_id": 5102162,
-          "names": {
-            "en": "Old Bridge"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -937,14 +895,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.3913,
-          "longitude": -74.3247,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "08857"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -959,22 +913,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5101760,
-            "iso_code": "NJ",
-            "names": {
-              "en": "New Jersey",
-              "es": "Nueva Jersey",
-              "fr": "New Jersey",
-              "ja": "ニュージャージー州",
-              "pt-BR": "Nova Jérsia",
-              "ru": "Нью-Джерси",
-              "zh-CN": "新泽西州"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -1049,7 +988,7 @@
     },
     {
       "hostname": "s0.2mdn.net",
-      "ip": "142.251.214.134",
+      "ip": "142.250.114.149",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1103,7 +1042,7 @@
     },
     {
       "hostname": "pagead2.googlesyndication.com",
-      "ip": "142.250.188.2",
+      "ip": "142.250.115.156",
       "geoip": {
         "continent": {
           "code": "NA",
