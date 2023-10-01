@@ -262,7 +262,7 @@
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "045F0DAF879DD8485321EDFBC29E954E2FD6"
+              "finding"      : "041378B5261050420A6C926C13F18C879A26"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "51BF995562AC9EE3A913BF9C6C387D17B2988E59"
+              "finding"      : "F9EDB7929E9F5E9BAB18536A1B4E143C41B9EABB"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "347320F3AFDFE1D479CFAD1638394CB492F0509A1B31F74BF5DE76D3EB0C6911"
+              "finding"      : "8A7FEEAC06E0290BCE0CBF6B1683ECC376B9A560E0D30AC6CE7F829F022BDF86"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFVjCCBD6gAwIBAgISBF8Nr4ed2EhTIe37wp6VTi/WMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzA3MzAxNDUzMjJaFw0yMzEwMjgxNDUzMjFaMDgxNjA0BgNVBAMTLWNwcC5hbGVydGUtc2FudGUtZW52aXJvbm5lbWVudC1kZW9udG9sb2dpZS5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMHM7CEIymrCDZDqT1JJJgG0Q1cM0RIukLgVuzmAgX4a2NGpQ7yjCAA7AVzdL4IJz7rGuMlvwAOnDPNfYKddwRx9p/CMvm50Zf3U4LYfHR+j1+XYsZtCT4srqJnUGTGkLE0ekJD503DrP4n38Ff2cvmUl5Uiz8PPKlJ9kTZQtZgJOwJ+vEu/k1MsUIUuzioPk0rvbU3G02l+WTUzsS2FQBkdwUNZ5FCTuE/aN2f4UuR+yoSAdehvv+QhBwSHlr8Uwtn3t1WdtWqOxBFeSCc7U2wP4saNKqEclka+Galfp/CL2aMcF2vxPlZOS8rUSLUoevV3RMg7oMuiY/yUwMC9VucCAwEAAaOCAl4wggJaMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUyEgyP09pWzAIfStk8COoo77XVNgwHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wZwYDVR0RBGAwXoItY3BwLmFsZXJ0ZS1zYW50ZS1lbnZpcm9ubmVtZW50LWRlb250b2xvZ2llLmZygi13d3cuYWxlcnRlLXNhbnRlLWVudmlyb25uZW1lbnQtZGVvbnRvbG9naWUuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdQC3Pvsk35xNunXyOcW6WPRsXfxCz3qfNcSeHQmBJe20mQAAAYmngRdMAAAEAwBGMEQCIAtH3kpWK4WY5dTjVh9wVsNyKpODvDt8cjPTPELURSnUAiAmy3Lo/rIKCT1qQawyKsQjwG+vDaer4pxNbTDmumITzgB3AHoyjFTYty22IOo44FIe6YQWcDIThU070ivBOlejUutSAAABiaeBF2MAAAQDAEgwRgIhAKJO4JcVCeA4W6FPJ/5Vu8XUAOycapoZtFpB0Z+5TFtKAiEAjnjtjnNOM3E6DBN6rqA76jAoDTyVpyOeRuHC5a7fzGIwDQYJKoZIhvcNAQELBQADggEBAHyZdFFgY6Sq3hojbJQAh6d+lHTCUmH1X55CZjRJPBzFyUpRCcesQxniJb/vUGPFSuDyHnM4N7gtWeQuhKPN3XHeKM6R1KO0QXJ674VC1EeINOAf44JHCNHeV1pc7IdVsyJwJ1njXWPEllQd4jergyxiQ2xa5gp8IDBVgClbyi2SlxiwJvoXP2SV1rJlKKi+fOtmAwjqoMPskPo0KdZoiC7djKJv1Fk2xg0sGw2HlU90LpkA8NiO+c5AIkM00PNYgli5O8u9SS2VJJgzEvLxZnOgdoyM5Mm2daG0s5WFCRtgHRq/qe+nisvsar3igZpzec2vhFIWA1mZkwlD6wADWtg=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFVzCCBD+gAwIBAgISBBN4tSYQUEIKbJJsE/GMh5omMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzA5MjgyMTU3NDJaFw0yMzEyMjcyMTU3NDFaMDgxNjA0BgNVBAMTLWNwcC5hbGVydGUtc2FudGUtZW52aXJvbm5lbWVudC1kZW9udG9sb2dpZS5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKTrJyJ8XxRRn8mh9byEEUt6hfqWEzZKSFBB8172k917XXmGynX+DKAF9GmlGerrcng12Vnhgh9lgn5FMMiX52OFX5jHSF8JJ/OL9Pwa9nMER+0urdqBdf4WlAuKkxKn4h601So7faFhVKEyvBaIkr/TGOveTdF64NmlKdCUDeLOxldVJcraRsyUny58VcCj1ac2vL0rYZfgPlQlMnK//YerQtEDgMW6J1XJCMy4DFWMTvy1As/PU13D/VllyV0Vvcdks7bbbbpj9vhh3ODIu8jRQvN2iaGXK+XQYm4n17jvmdqRaqcNT9FW15PRe5QeMvTB8XX64GRhNAfm9SgqlUcCAwEAAaOCAl8wggJbMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU8hjIjnL0bD/U6SCSROPl4nLLfC8wHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wZwYDVR0RBGAwXoItY3BwLmFsZXJ0ZS1zYW50ZS1lbnZpcm9ubmVtZW50LWRlb250b2xvZ2llLmZygi13d3cuYWxlcnRlLXNhbnRlLWVudmlyb25uZW1lbnQtZGVvbnRvbG9naWUuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwggEFBgorBgEEAdZ5AgQCBIH2BIHzAPEAdwC3Pvsk35xNunXyOcW6WPRsXfxCz3qfNcSeHQmBJe20mQAAAYreAyUpAAAEAwBIMEYCIQCX3DjchQYlS1W7p5JoxiRkPaPnIpA7N18UJ1akGjscsQIhAMs6Z92P9jNY8gId5Z7RSd8hPeEmJaA+9/dlapISYAcbAHYA6D7Q2j71BjUy51covIlryQPTy9ERa+zraeF3fW0GvW4AAAGK3gMlMQAABAMARzBFAiBTrF+mu8hRepmgwRQmk/ENwOXQObiTmPV0GTmUO9B0OwIhAJbNPWkmg2gZHQr1vBSS+2aJMJCEBcmlShb/G4GdF2uZMA0GCSqGSIb3DQEBCwUAA4IBAQC3Mfj1EUhU0nl6c9EwsqL4e+VRfHoeo2DKrWjtixbH9PWtcnt8nSOzqCyZpGZ+xwhKErIzycPdt2bVzNtLINBw+wKA3T1JCOS2DT5Mdt0N7PEdg5oddGQo4iX+3aXJKa6okl1NXjU+n7l4SlXb5j4y6wITF3AZllRnmYsKZE8RSgdLy97HM64kc+CmoUe3vWnDZhF6MForutTFjs4uMHHCDhm0IkGPoaCRkZQeYyqUFgNaukD7Y7ZFzNN2GzHTJ8Wz/MLWIecR/iXFRNPjYXCkUMX23Hc1e9pH1x33f+WEJdkrkIalA3I109KS8fjF3XWgoOwVmipDLYwKeJrva7Ia\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -339,21 +339,21 @@
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "34 >= 30 days"
+              "finding"      : "87 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-07-30 14:53"
+              "finding"      : "2023-09-28 21:57"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2023-10-28 14:53"
+              "finding"      : "2023-12-27 21:57"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -535,14 +535,14 @@
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1695516859"
+              "finding"      : "1696122098"
           }
 ,         {
               "id"           : "HSTS",
@@ -715,7 +715,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=347320F3AFDFE1D479CFAD1638394CB492F0509A1B31F74BF5DE76D3EB0C6911"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=8A7FEEAC06E0290BCE0CBF6B1683ECC376B9A560E0D30AC6CE7F829F022BDF86"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1098,6 +1098,6 @@
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "75"
+              "finding"      : "133"
           }
 ]
