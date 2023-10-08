@@ -199,7 +199,7 @@
               "ip"           : "cnig.gouv.fr/194.5.173.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "cnig.gouv.fr/194.5.173.97",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 30 days (20)"
+              "severity"     : "HIGH",
+              "finding"      : "expires < 15 days (13)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "cnig.gouv.fr/194.5.173.97",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "HIGH",
               "finding"      : "2023-10-21 09:20"
           }
 ,         {
@@ -457,15 +457,15 @@
               "id"           : "intermediate_cert_notAfter <#1>",
               "ip"           : "cnig.gouv.fr/194.5.173.97",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "HIGH",
               "finding"      : "2023-10-21 09:20"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
               "ip"           : "cnig.gouv.fr/194.5.173.97",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires <= 40 days"
+              "severity"     : "HIGH",
+              "finding"      : "expires <= 20 days"
           }
 ,         {
               "id"           : "intermediate_cert_chain <#1>",
@@ -542,7 +542,7 @@
               "ip"           : "cnig.gouv.fr/194.5.173.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1696122622"
+              "finding"      : "1696726986"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "cnig.gouv.fr/194.5.173.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "142"
+              "finding"      : "182"
           }
 ]
