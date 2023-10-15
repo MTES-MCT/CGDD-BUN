@@ -3,10 +3,10 @@
   "cookies": [
     {
       "name": "_pk_id.1521.e155",
-      "value": "4f666b9054580d83.1696726770.1.1696726770.1696726770.",
+      "value": "4568107c42ac1248.1697332217.1.1697332217.1697332217.",
       "domain": ".www.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1730681970,
+      "expires": 1731287417,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -20,7 +20,7 @@
       "value": "*",
       "domain": ".www.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1696728569,
+      "expires": 1697334016,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -31,7 +31,7 @@
     },
     {
       "name": "PHPSESSID",
-      "value": "rfeh273sfo3n33vg1ajd849hl2",
+      "value": "l3368potjjmlhaci867qfc2hi4",
       "domain": "www.ecologie.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -48,7 +48,7 @@
       "value": "fr",
       "domain": "www.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1699318768,
+      "expires": 1699924215,
       "size": 13,
       "httpOnly": false,
       "secure": false,
@@ -59,10 +59,10 @@
     },
     {
       "name": "spip_session",
-      "value": "0_09d0eae98c0c499a313ff8885504b5c7",
+      "value": "0_70a72b7cf676a21087d3db56b6a2ca1f",
       "domain": "www.ecologie.gouv.fr",
       "path": "/ouipub/",
-      "expires": 1696813166.238806,
+      "expires": 1697418614.923332,
       "size": 46,
       "httpOnly": true,
       "secure": false,
@@ -78,14 +78,14 @@
     "cache-control": "no-store, no-cache, must-revalidate",
     "composed-by": "SPIP 3.2.16 @ www.spip.net + https://www.ecologie.gouv.fr/ouipub/local/config.txt",
     "content-encoding": "gzip",
-    "content-length": "7112",
+    "content-length": "7113",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 08 Oct 2023 00:59:24 GMT",
+    "date": "Sun, 15 Oct 2023 01:10:13 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-    "last-modified": "Sun, 08 Oct 2023 00:59:26 GMT",
+    "last-modified": "Sun, 15 Oct 2023 01:10:14 GMT",
     "pragma": "no-cache",
     "server": "nginx",
-    "set-cookie": "PHPSESSID=rfeh273sfo3n33vg1ajd849hl2; path=/\nspip_session=0_09d0eae98c0c499a313ff8885504b5c7; expires=Mon, 09-Oct-2023 00:59:26 GMT; Max-Age=86400; path=/ouipub/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/ouipub/",
+    "set-cookie": "PHPSESSID=l3368potjjmlhaci867qfc2hi4; path=/\nspip_session=0_70a72b7cf676a21087d3db56b6a2ca1f; expires=Mon, 16-Oct-2023 01:10:14 GMT; Max-Age=86400; path=/ouipub/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/ouipub/",
     "vary": "Cookie,Accept-Encoding",
     "x-cache": "MISS",
     "x-proto": "https",
@@ -98,6 +98,12 @@
       "hostname": "www.ecologie.gouv.fr",
       "ip": "37.235.89.97",
       "geoip": {
+        "city": {
+          "geoname_id": 3008388,
+          "names": {
+            "en": "La Madelaine-de-Riviere"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -129,9 +135,12 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "latitude": 44.6128,
+          "longitude": 2.0018,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "46100"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -147,7 +156,27 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071623,
+            "iso_code": "OCC",
+            "names": {
+              "en": "Occitanie",
+              "fr": "Occitanie"
+            }
+          },
+          {
+            "geoname_id": 2997524,
+            "iso_code": "46",
+            "names": {
+              "de": "Lot",
+              "en": "Lot",
+              "es": "Lot",
+              "fr": "Lot"
+            }
+          }
+        ]
       }
     }
   ]
