@@ -3,10 +3,10 @@
   "cookies": [
     {
       "name": "_pk_id.1467.83a7",
-      "value": "0141345aa9b1c89a.1696727159.1.1696727159.1696727159.",
+      "value": "c166ae876c93f226.1697332563.1.1697332563.1697332563.",
       "domain": ".www.publicite-responsable.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1730682359,
+      "expires": 1731287763,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -20,7 +20,7 @@
       "value": "*",
       "domain": ".www.publicite-responsable.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1696728959,
+      "expires": 1697334363,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -31,10 +31,10 @@
     },
     {
       "name": "spip_session",
-      "value": "0_f087b92cd613e1ff4ccc417e7beaa594",
+      "value": "0_4cdd9eb7f823142256d2e002bb119002",
       "domain": "www.publicite-responsable.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1696813558.389772,
+      "expires": 1697418961.851604,
       "size": 46,
       "httpOnly": true,
       "secure": false,
@@ -45,7 +45,7 @@
     },
     {
       "name": "PHPSESSID",
-      "value": "lt58c2ek17r52vrb3siupqon1f",
+      "value": "qp1q65j375fa9j6ua9mka75d82",
       "domain": "www.publicite-responsable.ecologie.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -63,14 +63,14 @@
     "cache-control": "no-store, no-cache, must-revalidate",
     "connection": "keep-alive",
     "content-encoding": "gzip",
-    "content-length": "7938",
+    "content-length": "7937",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 08 Oct 2023 01:05:57 GMT",
+    "date": "Sun, 15 Oct 2023 01:16:00 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-    "last-modified": "Sun, 08 Oct 2023 01:05:58 GMT",
+    "last-modified": "Sun, 15 Oct 2023 01:16:01 GMT",
     "pragma": "no-cache",
     "server": "nginx",
-    "set-cookie": "PHPSESSID=lt58c2ek17r52vrb3siupqon1f; path=/\nspip_session=0_f087b92cd613e1ff4ccc417e7beaa594; expires=Mon, 09-Oct-2023 01:05:58 GMT; Max-Age=86400; path=/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/",
+    "set-cookie": "PHPSESSID=qp1q65j375fa9j6ua9mka75d82; path=/\nspip_session=0_4cdd9eb7f823142256d2e002bb119002; expires=Mon, 16-Oct-2023 01:16:01 GMT; Max-Age=86400; path=/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
     "grace": ""
@@ -80,6 +80,12 @@
       "hostname": "www.publicite-responsable.ecologie.gouv.fr",
       "ip": "37.235.89.249",
       "geoip": {
+        "city": {
+          "geoname_id": 3008388,
+          "names": {
+            "en": "La Madelaine-de-Riviere"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -111,9 +117,12 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "latitude": 44.6128,
+          "longitude": 2.0018,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "46100"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -129,7 +138,27 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071623,
+            "iso_code": "OCC",
+            "names": {
+              "en": "Occitanie",
+              "fr": "Occitanie"
+            }
+          },
+          {
+            "geoname_id": 2997524,
+            "iso_code": "46",
+            "names": {
+              "de": "Lot",
+              "en": "Lot",
+              "es": "Lot",
+              "fr": "Lot"
+            }
+          }
+        ]
       }
     }
   ]
