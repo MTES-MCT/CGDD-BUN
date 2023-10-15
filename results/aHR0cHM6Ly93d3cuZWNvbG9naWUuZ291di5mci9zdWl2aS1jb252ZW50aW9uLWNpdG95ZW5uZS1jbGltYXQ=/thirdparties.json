@@ -6,7 +6,7 @@
       "value": "*",
       "domain": "www.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1696728241,
+      "expires": 1697333647,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -17,10 +17,10 @@
     },
     {
       "name": "_pk_id.1549.49d4",
-      "value": "1e95ab368c6665b0.1696726441.1.1696726441.1696726441.",
+      "value": "7255169f6f1e8bb9.1697331847.1.1697331847.1697331847.",
       "domain": "www.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1730681641,
+      "expires": 1731287047,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -34,7 +34,7 @@
       "value": "fr",
       "domain": "www.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1699318438,
+      "expires": 1699923846,
       "size": 13,
       "httpOnly": false,
       "secure": false,
@@ -45,7 +45,7 @@
     },
     {
       "name": "PHPSESSID",
-      "value": "rjjiq073j9fh7b6l2d17qn4m71",
+      "value": "7c1gccmqr6de4ou1o08iu57d43",
       "domain": "www.ecologie.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -59,10 +59,10 @@
     },
     {
       "name": "spip_session",
-      "value": "0_c05ba2a34ec4f5cc29c62e7dd64a8dd1",
+      "value": "0_c5770a3cb407c5a55a7cea9ca19461c9",
       "domain": "www.ecologie.gouv.fr",
       "path": "/suivi-convention-citoyenne-climat/",
-      "expires": 1696812837.925475,
+      "expires": 1697418245.996362,
       "size": 46,
       "httpOnly": true,
       "secure": false,
@@ -80,12 +80,12 @@
     "content-encoding": "gzip",
     "content-length": "28772",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 08 Oct 2023 00:53:56 GMT",
+    "date": "Sun, 15 Oct 2023 01:04:04 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-    "last-modified": "Sun, 08 Oct 2023 00:53:57 GMT",
+    "last-modified": "Sun, 15 Oct 2023 01:04:04 GMT",
     "pragma": "no-cache",
     "server": "nginx",
-    "set-cookie": "PHPSESSID=rjjiq073j9fh7b6l2d17qn4m71; path=/\nspip_session=0_c05ba2a34ec4f5cc29c62e7dd64a8dd1; expires=Mon, 09-Oct-2023 00:53:57 GMT; Max-Age=86400; path=/suivi-convention-citoyenne-climat/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/suivi-convention-citoyenne-climat/\nspip_session=0_c05ba2a34ec4f5cc29c62e7dd64a8dd1; expires=Mon, 09-Oct-2023 00:53:57 GMT; Max-Age=86400; path=/suivi-convention-citoyenne-climat/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/suivi-convention-citoyenne-climat/",
+    "set-cookie": "PHPSESSID=7c1gccmqr6de4ou1o08iu57d43; path=/\nspip_session=0_c5770a3cb407c5a55a7cea9ca19461c9; expires=Mon, 16-Oct-2023 01:04:04 GMT; Max-Age=86400; path=/suivi-convention-citoyenne-climat/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/suivi-convention-citoyenne-climat/\nspip_session=0_c5770a3cb407c5a55a7cea9ca19461c9; expires=Mon, 16-Oct-2023 01:04:05 GMT; Max-Age=86400; path=/suivi-convention-citoyenne-climat/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/suivi-convention-citoyenne-climat/",
     "vary": "Cookie,Accept-Encoding",
     "x-cache": "MISS",
     "x-proto": "https",
@@ -98,6 +98,12 @@
       "hostname": "www.ecologie.gouv.fr",
       "ip": "37.235.89.97",
       "geoip": {
+        "city": {
+          "geoname_id": 3008388,
+          "names": {
+            "en": "La Madelaine-de-Riviere"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -129,9 +135,12 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "latitude": 44.6128,
+          "longitude": 2.0018,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "46100"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -147,7 +156,27 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071623,
+            "iso_code": "OCC",
+            "names": {
+              "en": "Occitanie",
+              "fr": "Occitanie"
+            }
+          },
+          {
+            "geoname_id": 2997524,
+            "iso_code": "46",
+            "names": {
+              "de": "Lot",
+              "en": "Lot",
+              "es": "Lot",
+              "fr": "Lot"
+            }
+          }
+        ]
       }
     }
   ]
