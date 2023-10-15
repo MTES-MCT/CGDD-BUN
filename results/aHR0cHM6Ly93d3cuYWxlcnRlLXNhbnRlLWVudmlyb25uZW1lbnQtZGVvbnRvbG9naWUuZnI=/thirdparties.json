@@ -37,19 +37,19 @@
       }
     },
     {
+      "type": "facebook",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=458cc22b44eff41529525f554bbbfcd8",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
+    },
+    {
       "type": "FontAwesome",
       "url": "https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.woff2",
       "details": {
         "id": "FontAwesome",
         "message": "Host fonts directly"
-      }
-    },
-    {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=89fa4c57147333af02066dac132bf960",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
       }
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.e3518556283eeb4eaf22.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.c215bbb8ae083845b9bd.js"
     },
     {
       "type": "unknown",
@@ -70,15 +70,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.bd92cfe7a90858b96bed.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.2a65a69ee5117e526644.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.3d32c1c7cd5968425917.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.03b61ab312b0aa9b5f5b.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.559bfbfb0c2e012ce526.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.dd8564575cb2c83bac0c.js"
     },
     {
       "type": "google",
@@ -90,15 +90,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.advertising.f436f3688f4323282339.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.advertising.e61ef4f6de752e2def8d.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.locale-en-US.392361d874e0355190a5.json"
-    },
-    {
-      "type": "unknown",
-      "url": "https://pebed.dm-event.net/"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.locale-en-US.7ea9e0789b5df615c7aa.json"
     },
     {
       "type": "unknown",
@@ -110,7 +106,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=18dc8b43-5ab8-43a6-99b7-6d2aab719898&dmTs=671956&is_native_app=0"
+      "url": "https://pebed.dm-event.net/"
+    },
+    {
+      "type": "unknown",
+      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=dda8db52-5103-4253-9497-3b62dff73770&dmTs=754570&is_native_app=0"
     },
     {
       "type": "unknown",
@@ -123,14 +123,6 @@
     {
       "type": "unknown",
       "url": "https://pebed.dm-event.net/"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.omweb.6d674f5d8d1ae05bd07b.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.omid_session_client.e7bc3ce23397a711080e.js"
     },
     {
       "type": "google",
@@ -146,6 +138,14 @@
     },
     {
       "type": "unknown",
+      "url": "https://static1.dmcdn.net/playerv5/dmp.omweb.bfe89c2d028fb07534be.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static1.dmcdn.net/playerv5/dmp.omid_session_client.b1d60b053fa0dabbdda9.js"
+    },
+    {
+      "type": "unknown",
       "url": "https://static1.dmcdn.net/ABCFavorit-Regular.woff2"
     },
     {
@@ -153,12 +153,8 @@
       "url": "https://pebed.dm-event.net/"
     },
     {
-      "type": "unknown",
-      "url": "https://static1.dmcdn.net/ABCFavorit-Regular.woff2"
-    },
-    {
       "type": "google",
-      "url": "https://imasdk.googleapis.com/js/core/bridge3.594.1_en.html",
+      "url": "https://imasdk.googleapis.com/js/core/bridge3.595.0_en.html",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -171,6 +167,10 @@
     {
       "type": "unknown",
       "url": "https://pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static1.dmcdn.net/ABCFavorit-Regular.woff2"
     },
     {
       "type": "unknown",
@@ -191,7 +191,7 @@
       "value": "*",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1696727263,
+      "expires": 1697332080,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -202,10 +202,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "236c3a5ffafe1c31.1696725463.1.1696725463.1696725463.",
+      "value": "abe846929405eaa3.1697330280.1.1697330280.1697330280.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1730680663,
+      "expires": 1731285480,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -221,8 +221,8 @@
     "content-encoding": "gzip",
     "content-length": "19665",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 08 Oct 2023 00:37:41 GMT",
-    "last-modified": "Sun, 08 Oct 2023 00:37:42 GMT",
+    "date": "Sun, 15 Oct 2023 00:37:57 GMT",
+    "last-modified": "Sun, 15 Oct 2023 00:37:58 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -233,6 +233,12 @@
       "hostname": "www.alerte-sante-environnement-deontologie.fr",
       "ip": "37.235.89.249",
       "geoip": {
+        "city": {
+          "geoname_id": 3008388,
+          "names": {
+            "en": "La Madelaine-de-Riviere"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -264,9 +270,12 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "latitude": 44.6128,
+          "longitude": 2.0018,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "46100"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -282,7 +291,27 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071623,
+            "iso_code": "OCC",
+            "names": {
+              "en": "Occitanie",
+              "fr": "Occitanie"
+            }
+          },
+          {
+            "geoname_id": 2997524,
+            "iso_code": "46",
+            "names": {
+              "de": "Lot",
+              "en": "Lot",
+              "es": "Lot",
+              "fr": "Lot"
+            }
+          }
+        ]
       }
     },
     {
@@ -866,7 +895,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.251.16.94",
+      "ip": "142.251.163.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -990,7 +1019,7 @@
     },
     {
       "hostname": "s0.2mdn.net",
-      "ip": "172.253.63.149",
+      "ip": "172.253.115.148",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1044,7 +1073,7 @@
     },
     {
       "hostname": "pagead2.googlesyndication.com",
-      "ip": "142.251.111.154",
+      "ip": "172.253.122.155",
       "geoip": {
         "continent": {
           "code": "NA",
