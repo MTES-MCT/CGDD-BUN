@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=10808837ea3d8ad0af48a4f77b305af3",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=588fc9c3b4d231a31412dcfe82f21c6a",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "*",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1696728228,
+      "expires": 1697333319,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -58,10 +58,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "18711eccbeef9a43.1696726429.1.1696726429.1696726429.",
+      "value": "22a7d9856bdd0c7f.1697331519.1.1697331519.1697331519.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1730681629,
+      "expires": 1731286719,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -77,8 +77,8 @@
     "content-encoding": "gzip",
     "content-length": "12315",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 08 Oct 2023 00:53:46 GMT",
-    "last-modified": "Sun, 08 Oct 2023 00:53:47 GMT",
+    "date": "Sun, 15 Oct 2023 00:58:36 GMT",
+    "last-modified": "Sun, 15 Oct 2023 00:58:37 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -89,6 +89,12 @@
       "hostname": "cpp.alerte-sante-environnement-deontologie.fr",
       "ip": "37.235.89.249",
       "geoip": {
+        "city": {
+          "geoname_id": 3008388,
+          "names": {
+            "en": "La Madelaine-de-Riviere"
+          }
+        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -120,9 +126,12 @@
         },
         "location": {
           "accuracy_radius": 500,
-          "latitude": 48.8582,
-          "longitude": 2.3387,
+          "latitude": 44.6128,
+          "longitude": 2.0018,
           "time_zone": "Europe/Paris"
+        },
+        "postal": {
+          "code": "46100"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -138,7 +147,27 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 11071623,
+            "iso_code": "OCC",
+            "names": {
+              "en": "Occitanie",
+              "fr": "Occitanie"
+            }
+          },
+          {
+            "geoname_id": 2997524,
+            "iso_code": "46",
+            "names": {
+              "de": "Lot",
+              "en": "Lot",
+              "es": "Lot",
+              "fr": "Lot"
+            }
+          }
+        ]
       }
     },
     {
@@ -251,7 +280,7 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.229.1",
+      "ip": "31.13.66.19",
       "geoip": {
         "city": {
           "geoname_id": 4744870,
@@ -299,17 +328,18 @@
           "code": "20149"
         },
         "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
+          "geoname_id": 2963597,
+          "is_in_european_union": true,
+          "iso_code": "IE",
           "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
+            "de": "Irland",
+            "en": "Ireland",
+            "es": "Irlanda",
+            "fr": "Irlande",
+            "ja": "アイルランド",
+            "pt-BR": "Irlanda",
+            "ru": "Ирландия",
+            "zh-CN": "爱尔兰"
           }
         },
         "subdivisions": [
@@ -330,7 +360,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.62.97",
+      "ip": "173.194.194.97",
       "geoip": {
         "continent": {
           "code": "NA",
