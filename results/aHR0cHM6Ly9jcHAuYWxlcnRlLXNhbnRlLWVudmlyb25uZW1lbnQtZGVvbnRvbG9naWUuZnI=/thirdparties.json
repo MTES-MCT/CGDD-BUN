@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=588fc9c3b4d231a31412dcfe82f21c6a",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=27a59fcab09ea593034e75781b3de8f9",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "*",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1697333319,
+      "expires": 1697938280,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -58,10 +58,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "22a7d9856bdd0c7f.1697331519.1.1697331519.1697331519.",
+      "value": "49d47f8f5a5a741d.1697936480.1.1697936480.1697936480.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1731286719,
+      "expires": 1731891680,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -77,8 +77,8 @@
     "content-encoding": "gzip",
     "content-length": "12315",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 15 Oct 2023 00:58:36 GMT",
-    "last-modified": "Sun, 15 Oct 2023 00:58:37 GMT",
+    "date": "Sun, 22 Oct 2023 01:01:18 GMT",
+    "last-modified": "Sun, 22 Oct 2023 01:01:18 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -226,7 +226,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "151.101.194.137",
+      "ip": "151.101.2.137",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -360,7 +360,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "173.194.194.97",
+      "ip": "209.85.147.97",
       "geoip": {
         "continent": {
           "code": "NA",
