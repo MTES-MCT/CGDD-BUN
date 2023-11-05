@@ -37,6 +37,22 @@
       }
     },
     {
+      "type": "facebook",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=990b427526ae03ba5d04456ab838d875",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
+    },
+    {
+      "type": "FontAwesome",
+      "url": "https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.woff2",
+      "details": {
+        "id": "FontAwesome",
+        "message": "Host fonts directly"
+      }
+    },
+    {
       "type": "unknown",
       "url": "https://static1.dmcdn.net/playerv5/dmp.infopack.396090fd571a88ed18f9.js"
     },
@@ -46,7 +62,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.624b74c5e7ff88b5eab1.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_manifest.f2c74aa2690e3744fffd.js"
     },
     {
       "type": "unknown",
@@ -54,23 +70,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.2a16ed02475b21c9daf5.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.87aa6eeb4bb3199f6931.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.64640b0fc902f36dc995.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.4684d77095e5254638a9.js"
     },
     {
       "type": "unknown",
       "url": "https://static1.dmcdn.net/playerv5/dmp.photon_player.dae7c0e5589e0ef8dd46.js"
-    },
-    {
-      "type": "FontAwesome",
-      "url": "https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.woff2",
-      "details": {
-        "id": "FontAwesome",
-        "message": "Host fonts directly"
-      }
     },
     {
       "type": "google",
@@ -102,15 +110,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=1c7f28a5-d595-42da-b7b6-66c219fd9b51&dmTs=992507&is_native_app=0"
-    },
-    {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=d83f4621fcbe1fe43fe2daa5ff9ec611",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
+      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=109d99ca-e8c5-40ef-a5a7-2a093fbb8a07&dmTs=82854&is_native_app=0"
     },
     {
       "type": "unknown",
@@ -146,7 +146,7 @@
     },
     {
       "type": "google",
-      "url": "https://imasdk.googleapis.com/js/core/bridge3.599.0_en.html",
+      "url": "https://imasdk.googleapis.com/js/core/bridge3.600.0_en.html",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -183,7 +183,7 @@
       "value": "*",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1698541689,
+      "expires": 1699146521,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -194,10 +194,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "3e6278f9a3bc4d56.1698539889.1.1698539889.1698539889.",
+      "value": "5aa7b5e39e365b54.1699144722.1.1699144722.1699144722.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1732495089,
+      "expires": 1733099922,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -213,8 +213,8 @@
     "content-encoding": "gzip",
     "content-length": "19665",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 29 Oct 2023 00:38:05 GMT",
-    "last-modified": "Sun, 29 Oct 2023 00:38:06 GMT",
+    "date": "Sun, 05 Nov 2023 00:38:39 GMT",
+    "last-modified": "Sun, 05 Nov 2023 00:38:39 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -308,7 +308,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.102.11",
+      "ip": "172.64.103.11",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -449,7 +449,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.188.8",
+      "ip": "142.250.191.72",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -660,14 +660,8 @@
     },
     {
       "hostname": "imasdk.googleapis.com",
-      "ip": "142.251.46.202",
+      "ip": "142.251.214.138",
       "geoip": {
-        "city": {
-          "geoname_id": 5133273,
-          "names": {
-            "en": "Queens"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -697,14 +691,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.66,
-          "longitude": -73.839,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11414"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -719,28 +709,12 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "pebed.dm-event.net",
-      "ip": "188.65.124.59",
+      "ip": "188.65.124.58",
       "geoip": {
         "city": {
           "geoname_id": 2988507,
@@ -992,7 +966,7 @@
     },
     {
       "hostname": "s0.2mdn.net",
-      "ip": "142.251.214.134",
+      "ip": "142.250.191.70",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1046,14 +1020,8 @@
     },
     {
       "hostname": "pagead2.googlesyndication.com",
-      "ip": "142.251.46.194",
+      "ip": "142.250.188.2",
       "geoip": {
-        "city": {
-          "geoname_id": 5133273,
-          "names": {
-            "en": "Queens"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -1083,14 +1051,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.66,
-          "longitude": -73.839,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11414"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -1105,23 +1069,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
