@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.notre-environnement.gouv.fr",
-        "size": 1843.507,
+        "size": 1818.935,
         "nodes": 984,
         "requests": 70,
         "grade": "E",
-        "score": 39.0,
-        "ges": 2.22,
-        "water": 3.33,
+        "score": 40.0,
+        "ges": 2.2,
+        "water": 3.3,
         "ecoindex_version": "5.4.2",
-        "date": "2023-11-12 00:40:03.967173",
+        "date": "2023-11-19 00:41:00.951139",
         "page_type": "website"
     }
 ]
