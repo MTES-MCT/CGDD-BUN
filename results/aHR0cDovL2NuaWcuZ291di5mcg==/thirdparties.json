@@ -6,7 +6,7 @@
       "value": "*",
       "domain": "cnig.gouv.fr",
       "path": "/",
-      "expires": 1699752245,
+      "expires": 1700357926,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -17,10 +17,10 @@
     },
     {
       "name": "_pk_id.1456.d787",
-      "value": "35ba8c95d7bb87f2.1699750446.1.1699750446.1699750446.",
+      "value": "b791e4816b3d559f.1700356126.1.1700356126.1700356126.",
       "domain": "cnig.gouv.fr",
       "path": "/",
-      "expires": 1733705646,
+      "expires": 1734311326,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -34,7 +34,7 @@
       "value": "oui",
       "domain": "cnig.gouv.fr",
       "path": "/",
-      "expires": 1731286445,
+      "expires": 1731892125,
       "size": 11,
       "httpOnly": false,
       "secure": false,
@@ -42,25 +42,38 @@
       "sameParty": false,
       "sourceScheme": "Secure",
       "sourcePort": 443
+    },
+    {
+      "name": "SRV",
+      "value": "ede1c6b9-b509-43e3-a454-23f32633704a",
+      "domain": "cnig.gouv.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 39,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
     }
   ],
   "headers": {
     "composed-by": "SPIP @ www.spip.net",
-    "connection": "Keep-Alive",
     "content-encoding": "gzip",
-    "content-length": "14605",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 12 Nov 2023 00:54:03 GMT",
-    "keep-alive": "timeout=5, max=100",
-    "last-modified": "Sun, 12 Nov 2023 00:54:03 GMT",
-    "server": "Apache",
+    "date": "Sun, 19 Nov 2023 01:08:45 GMT",
+    "last-modified": "Sun, 19 Nov 2023 01:08:44 GMT",
+    "server": "nginx/1.18.0",
+    "strict-transport-security": "max-age=31536000",
     "vary": "Cookie,Accept-Encoding",
+    "x-powered-by": "PHP/7.4.33",
     "x-spip-cache": "3600"
   },
   "endpoints": [
     {
       "hostname": "cnig.gouv.fr",
-      "ip": "194.5.173.97",
+      "ip": "194.5.170.186",
       "geoip": {
         "continent": {
           "code": "EU",
