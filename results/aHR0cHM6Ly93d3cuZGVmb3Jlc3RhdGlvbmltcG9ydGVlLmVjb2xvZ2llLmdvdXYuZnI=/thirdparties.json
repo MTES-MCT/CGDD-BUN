@@ -3,10 +3,10 @@
   "cookies": [
     {
       "name": "_pk_id.1472.ef22",
-      "value": "c0ee37d1ca49bea1.1700357639.1.1700357639.1700357639.",
+      "value": "96be3b9f7da99530.1700962270.1.1700962270.1700962270.",
       "domain": "www.deforestationimportee.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1734312839,
+      "expires": 1734917470,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -20,7 +20,7 @@
       "value": "*",
       "domain": "www.deforestationimportee.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1700359438,
+      "expires": 1700964070,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -31,10 +31,10 @@
     },
     {
       "name": "spip_session",
-      "value": "0_f6d85f2544e893b63830c937d36194b9",
+      "value": "0_9debeb87c3592403b6bb9657cefd94c6",
       "domain": "www.deforestationimportee.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1700444037.725682,
+      "expires": 1701048668.170628,
       "size": 46,
       "httpOnly": true,
       "secure": false,
@@ -49,7 +49,7 @@
       "value": "fr",
       "domain": "www.deforestationimportee.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1702949638,
+      "expires": 1703554269,
       "size": 13,
       "httpOnly": false,
       "secure": false,
@@ -60,7 +60,7 @@
     },
     {
       "name": "PHPSESSID",
-      "value": "dtdi4a34j2d0fmejc73gge74ka",
+      "value": "l6aeopo6pjlhpa7f8ri2vkh9q0",
       "domain": "www.deforestationimportee.ecologie.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -78,14 +78,14 @@
     "cache-control": "no-store, no-cache, must-revalidate",
     "connection": "keep-alive",
     "content-encoding": "gzip",
-    "content-length": "10307",
+    "content-length": "10004",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 19 Nov 2023 01:33:56 GMT",
+    "date": "Sun, 26 Nov 2023 01:31:07 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-    "last-modified": "Sun, 19 Nov 2023 01:33:57 GMT",
+    "last-modified": "Sun, 26 Nov 2023 01:31:08 GMT",
     "pragma": "no-cache",
     "server": "nginx",
-    "set-cookie": "PHPSESSID=dtdi4a34j2d0fmejc73gge74ka; path=/\nspip_session=0_f6d85f2544e893b63830c937d36194b9; expires=Mon, 20-Nov-2023 01:33:57 GMT; Max-Age=86400; path=/; HttpOnly; SameSite=Lax\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; SameSite=Lax",
+    "set-cookie": "PHPSESSID=l6aeopo6pjlhpa7f8ri2vkh9q0; path=/\nspip_session=0_9debeb87c3592403b6bb9657cefd94c6; expires=Mon, 27-Nov-2023 01:31:08 GMT; Max-Age=86400; path=/; HttpOnly; SameSite=Lax\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; SameSite=Lax",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
     "grace": ""
@@ -96,9 +96,11 @@
       "ip": "37.235.89.249",
       "geoip": {
         "city": {
-          "geoname_id": 3008388,
+          "geoname_id": 2971887,
           "names": {
-            "en": "La Madelaine-de-Riviere"
+            "en": "Trélon",
+            "ru": "Трелон",
+            "zh-CN": "特雷隆"
           }
         },
         "continent": {
@@ -131,13 +133,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 44.6128,
-          "longitude": 2.0018,
+          "accuracy_radius": 200,
+          "latitude": 50.0608,
+          "longitude": 4.1065,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "46100"
+          "code": "59132"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -156,21 +158,21 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 11071623,
-            "iso_code": "OCC",
+            "geoname_id": 11071624,
+            "iso_code": "HDF",
             "names": {
-              "en": "Occitanie",
-              "fr": "Occitanie"
+              "en": "Hauts-de-France",
+              "fr": "Hauts-de-France"
             }
           },
           {
-            "geoname_id": 2997524,
-            "iso_code": "46",
+            "geoname_id": 2990129,
+            "iso_code": "59",
             "names": {
-              "de": "Lot",
-              "en": "Lot",
-              "es": "Lot",
-              "fr": "Lot"
+              "de": "Nord",
+              "en": "North",
+              "es": "Norte",
+              "fr": "Nord"
             }
           }
         ]
