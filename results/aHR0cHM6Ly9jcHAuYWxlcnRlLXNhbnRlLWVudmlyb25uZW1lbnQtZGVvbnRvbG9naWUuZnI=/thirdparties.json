@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=4399afc39ff52bf90d4f7c1a52c4e450",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=651048f979e26f514cf5a41adaf3e358",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "*",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1700962075,
+      "expires": 1701566994,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -58,10 +58,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "c1aa165655c044d1.1700960275.1.1700960275.1700960275.",
+      "value": "945106a98ad67fb5.1701565195.1.1701565195.1701565195.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1734915475,
+      "expires": 1735520395,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -77,8 +77,8 @@
     "content-encoding": "gzip",
     "content-length": "12315",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 26 Nov 2023 00:57:52 GMT",
-    "last-modified": "Sun, 26 Nov 2023 00:57:53 GMT",
+    "date": "Sun, 03 Dec 2023 00:59:52 GMT",
+    "last-modified": "Sun, 03 Dec 2023 00:59:53 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -174,7 +174,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.140.13",
+      "ip": "172.64.141.13",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -282,19 +282,13 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.22.25",
+      "ip": "157.240.229.1",
       "geoip": {
         "city": {
-          "geoname_id": 5393015,
+          "geoname_id": 4744870,
           "names": {
-            "de": "Santa Clara",
-            "en": "Santa Clara",
-            "es": "Santa Clara",
-            "fr": "Santa Clara",
-            "ja": "サンタクララ",
-            "pt-BR": "Santa Clara",
-            "ru": "Санта-Клара",
-            "zh-CN": "圣克拉拉"
+            "en": "Ashburn",
+            "ru": "Ашберн"
           }
         },
         "continent": {
@@ -327,13 +321,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.353,
-          "longitude": -121.9543,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 39.0469,
+          "longitude": -77.4903,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "95052"
+          "code": "20149"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -351,17 +345,15 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 6254928,
+            "iso_code": "VA",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "en": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
             }
           }
         ]
@@ -369,14 +361,8 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.191.40",
+      "ip": "142.251.163.97",
       "geoip": {
-        "city": {
-          "geoname_id": 4994868,
-          "names": {
-            "en": "Grosse Pointe Park"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -406,14 +392,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
-          "latitude": 42.3769,
-          "longitude": -82.9152,
-          "metro_code": 505,
-          "time_zone": "America/Detroit"
-        },
-        "postal": {
-          "code": "48230"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -428,22 +410,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5001836,
-            "iso_code": "MI",
-            "names": {
-              "en": "Michigan",
-              "es": "Michigan",
-              "fr": "Michigan",
-              "ja": "ミシガン州",
-              "pt-BR": "Michigão",
-              "ru": "Мичиган",
-              "zh-CN": "密歇根州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
