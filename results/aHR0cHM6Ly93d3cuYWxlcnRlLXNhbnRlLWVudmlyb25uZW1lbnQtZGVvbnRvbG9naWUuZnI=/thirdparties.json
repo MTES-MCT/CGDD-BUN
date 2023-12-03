@@ -38,7 +38,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=cd218437267024c8df745d9839118e3c",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=93059aeada52c40897d7519cca6438c4",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -66,11 +66,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.ef33525fcf07a32a8bcc.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_boot.c9625aa1837611b5c202.js"
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.e282e8762fba0008fdee.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.photon_app.98ff1fe5a437123f010e.js"
     },
     {
       "type": "unknown",
@@ -86,7 +86,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://static1.dmcdn.net/playerv5/dmp.advertising.dc5bca3ee760035212cb.js"
+      "url": "https://static1.dmcdn.net/playerv5/dmp.advertising.addcd9af4b8891dfe5e2.js"
     },
     {
       "type": "unknown",
@@ -106,7 +106,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=d4ea9234-3f00-4bb1-8792-1d443c1b3a37&dmTs=499764&is_native_app=0"
+      "url": "https://www.dailymotion.com/player/metadata/video/k5KSwyWWypoOhRyRRKP?embedder=https%3A%2F%2Fwww.alerte-sante-environnement-deontologie.fr%2F&locale=en-US&dmV1st=aad18f0d-e93e-4984-af13-2dba3cfa0774&dmTs=632283&is_native_app=0"
     },
     {
       "type": "unknown",
@@ -167,10 +167,6 @@
     {
       "type": "unknown",
       "url": "https://pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://pebed.dm-event.net/"
     }
   ],
   "cookies": [
@@ -179,7 +175,7 @@
       "value": "*",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1700960977,
+      "expires": 1701565786,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -190,10 +186,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "ad4fa821894a9a33.1700959177.1.1700959177.1700959177.",
+      "value": "070d2d7fdf931811.1701563987.1.1701563987.1701563987.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1734914377,
+      "expires": 1735519187,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -209,8 +205,8 @@
     "content-encoding": "gzip",
     "content-length": "19594",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 26 Nov 2023 00:39:35 GMT",
-    "last-modified": "Sun, 26 Nov 2023 00:39:36 GMT",
+    "date": "Sun, 03 Dec 2023 00:39:43 GMT",
+    "last-modified": "Sun, 03 Dec 2023 00:39:45 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -306,7 +302,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.140.13",
+      "ip": "172.64.141.13",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -360,13 +356,19 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.229.1",
+      "ip": "157.240.249.8",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 4887398,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "Chicago",
+            "en": "Chicago",
+            "es": "Chicago",
+            "fr": "Chicago",
+            "ja": "シカゴ",
+            "pt-BR": "Chicago",
+            "ru": "Чикаго",
+            "zh-CN": "芝加哥"
           }
         },
         "continent": {
@@ -399,13 +401,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 41.8874,
+          "longitude": -87.6318,
+          "metro_code": 602,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "20149"
+          "code": "60602"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -423,15 +425,16 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 4896861,
+            "iso_code": "IL",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "en": "Illinois",
+              "es": "Illinois",
+              "fr": "Illinois",
+              "ja": "イリノイ州",
+              "pt-BR": "Ilinóis",
+              "ru": "Иллинойс",
+              "zh-CN": "伊利诺伊州"
             }
           }
         ]
@@ -439,7 +442,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.115.97",
+      "ip": "142.250.190.104",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -563,13 +566,19 @@
     },
     {
       "hostname": "static1.dmcdn.net",
-      "ip": "69.28.157.216",
+      "ip": "208.111.186.130",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 4887398,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "Chicago",
+            "en": "Chicago",
+            "es": "Chicago",
+            "fr": "Chicago",
+            "ja": "シカゴ",
+            "pt-BR": "Chicago",
+            "ru": "Чикаго",
+            "zh-CN": "芝加哥"
           }
         },
         "continent": {
@@ -602,13 +611,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 41.8874,
+          "longitude": -87.6318,
+          "metro_code": 602,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "20149"
+          "code": "60602"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -626,15 +635,16 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 4896861,
+            "iso_code": "IL",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "en": "Illinois",
+              "es": "Illinois",
+              "fr": "Illinois",
+              "ja": "イリノイ州",
+              "pt-BR": "Ilinóis",
+              "ru": "Иллинойс",
+              "zh-CN": "伊利诺伊州"
             }
           }
         ]
@@ -642,8 +652,14 @@
     },
     {
       "hostname": "imasdk.googleapis.com",
-      "ip": "172.253.115.95",
+      "ip": "142.250.191.138",
       "geoip": {
+        "city": {
+          "geoname_id": 4994868,
+          "names": {
+            "en": "Grosse Pointe Park"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -673,10 +689,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 200,
+          "latitude": 42.3769,
+          "longitude": -82.9152,
+          "metro_code": 505,
+          "time_zone": "America/Detroit"
+        },
+        "postal": {
+          "code": "48230"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -691,7 +711,22 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5001836,
+            "iso_code": "MI",
+            "names": {
+              "en": "Michigan",
+              "es": "Michigan",
+              "fr": "Michigan",
+              "ja": "ミシガン州",
+              "pt-BR": "Michigão",
+              "ru": "Мичиган",
+              "zh-CN": "密歇根州"
+            }
+          }
+        ]
       }
     },
     {
@@ -791,18 +826,19 @@
     },
     {
       "hostname": "vendorlist.dmcdn.net",
-      "ip": "69.28.187.147",
+      "ip": "208.111.186.2",
       "geoip": {
         "city": {
-          "geoname_id": 5128581,
+          "geoname_id": 4887398,
           "names": {
-            "de": "New York City",
-            "en": "New York",
-            "es": "Nueva York",
-            "fr": "New York",
-            "ja": "ニューヨーク",
-            "pt-BR": "Nova Iorque",
-            "ru": "Нью-Йорк"
+            "de": "Chicago",
+            "en": "Chicago",
+            "es": "Chicago",
+            "fr": "Chicago",
+            "ja": "シカゴ",
+            "pt-BR": "Chicago",
+            "ru": "Чикаго",
+            "zh-CN": "芝加哥"
           }
         },
         "continent": {
@@ -835,13 +871,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 40.7123,
-          "longitude": -74.0068,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
+          "latitude": 41.8874,
+          "longitude": -87.6318,
+          "metro_code": 602,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "10118"
+          "code": "60602"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -859,17 +895,16 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
+            "geoname_id": 4896861,
+            "iso_code": "IL",
             "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
+              "en": "Illinois",
+              "es": "Illinois",
+              "fr": "Illinois",
+              "ja": "イリノイ州",
+              "pt-BR": "Ilinóis",
+              "ru": "Иллинойс",
+              "zh-CN": "伊利诺伊州"
             }
           }
         ]
@@ -947,7 +982,7 @@
     },
     {
       "hostname": "s0.2mdn.net",
-      "ip": "172.253.63.148",
+      "ip": "142.250.190.134",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1001,7 +1036,7 @@
     },
     {
       "hostname": "pagead2.googlesyndication.com",
-      "ip": "142.251.111.155",
+      "ip": "142.250.190.98",
       "geoip": {
         "continent": {
           "code": "NA",
