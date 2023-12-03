@@ -54,14 +54,6 @@
     },
     {
       "type": "unknown",
-      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
-    },
-    {
-      "type": "unknown",
-      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
-    },
-    {
-      "type": "unknown",
       "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/6/32/22.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
     },
     {
@@ -102,6 +94,14 @@
     },
     {
       "type": "unknown",
+      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
+    },
+    {
+      "type": "unknown",
+      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
+    },
+    {
+      "type": "unknown",
       "url": "https://www.jawg.io/icons/icon-48x48.png"
     }
   ],
@@ -111,7 +111,7 @@
       "value": "1",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1700963232,
+      "expires": 1701568154,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -122,10 +122,10 @@
     },
     {
       "name": "_pk_id.1441.b788",
-      "value": "5da0b65d36596b7b.1700961433.1.1700961433.1700961433.",
+      "value": "84cdff09e9b86ee4.1701566354.1.1701566354.1701566354.",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1734916633,
+      "expires": 1735521554,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -140,7 +140,7 @@
     "content-language": "fr-fr",
     "content-security-policy": "upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 26 Nov 2023 01:17:12 GMT",
+    "date": "Sun, 03 Dec 2023 01:19:13 GMT",
     "permissions-policy": "midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "openresty",
@@ -236,7 +236,7 @@
     },
     {
       "hostname": "s3-eu-west-1.amazonaws.com",
-      "ip": "52.218.100.155",
+      "ip": "52.218.41.43",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -373,7 +373,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.63.94",
+      "ip": "172.253.122.94",
       "geoip": {
         "continent": {
           "code": "NA",
