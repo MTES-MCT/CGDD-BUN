@@ -54,6 +54,14 @@
     },
     {
       "type": "unknown",
+      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
+    },
+    {
+      "type": "unknown",
+      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
+    },
+    {
+      "type": "unknown",
       "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/6/32/22.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
     },
     {
@@ -94,15 +102,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
-    },
-    {
-      "type": "unknown",
-      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
-    },
-    {
-      "type": "unknown",
       "url": "https://www.jawg.io/icons/icon-48x48.png"
+    },
+    {
+      "type": "unknown",
+      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=1&_=1702170953357"
     }
   ],
   "cookies": [
@@ -111,7 +115,7 @@
       "value": "1",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1701568154,
+      "expires": 1702172748,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -122,10 +126,10 @@
     },
     {
       "name": "_pk_id.1441.b788",
-      "value": "84cdff09e9b86ee4.1701566354.1.1701566354.1701566354.",
+      "value": "733158c96d8f60cc.1702170948.1.1702170948.1702170948.",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1735521554,
+      "expires": 1736126148,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -140,7 +144,7 @@
     "content-language": "fr-fr",
     "content-security-policy": "upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 03 Dec 2023 01:19:13 GMT",
+    "date": "Sun, 10 Dec 2023 01:15:47 GMT",
     "permissions-policy": "midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "openresty",
@@ -236,7 +240,7 @@
     },
     {
       "hostname": "s3-eu-west-1.amazonaws.com",
-      "ip": "52.218.41.43",
+      "ip": "52.218.116.64",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -319,7 +323,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.122.95",
+      "ip": "172.253.62.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -373,7 +377,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.122.94",
+      "ip": "172.253.115.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -483,8 +487,40 @@
     },
     {
       "hostname": "www.jawg.io",
-      "ip": "172.67.39.33",
+      "ip": "104.22.33.109",
       "geoip": {
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "api-js.mixpanel.com",
+      "ip": "35.186.241.51",
+      "geoip": {
+        "city": {
+          "geoname_id": 4393217,
+          "names": {
+            "de": "Kansas City",
+            "en": "Kansas City",
+            "es": "Kansas City",
+            "fr": "Kansas City",
+            "ja": "カンザスシティ",
+            "pt-BR": "Kansas City",
+            "ru": "Канзас-Сити"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -514,10 +550,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
+          "accuracy_radius": 20,
+          "latitude": 39.1027,
+          "longitude": -94.5778,
+          "metro_code": 616,
           "time_zone": "America/Chicago"
+        },
+        "postal": {
+          "code": "64184"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -532,7 +572,22 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4398678,
+            "iso_code": "MO",
+            "names": {
+              "en": "Missouri",
+              "es": "Missouri",
+              "fr": "Missouri",
+              "ja": "ミズーリ州",
+              "pt-BR": "Missúri",
+              "ru": "Миссури",
+              "zh-CN": "密苏里州"
+            }
+          }
+        ]
       }
     }
   ]
