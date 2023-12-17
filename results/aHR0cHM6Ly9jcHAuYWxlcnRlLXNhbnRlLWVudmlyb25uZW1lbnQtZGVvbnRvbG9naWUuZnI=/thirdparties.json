@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=bb7c3163320261e683d511cbf27fe460",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=0cbde341d34043b27769f4304c566d8d",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "*",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1702171730,
+      "expires": 1702776699,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -58,10 +58,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "1d67c35ad9d96a1a.1702169930.1.1702169930.1702169930.",
+      "value": "522ad5b0d2fd13bf.1702774899.1.1702774899.1702774899.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1736125130,
+      "expires": 1736730099,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -77,8 +77,8 @@
     "content-encoding": "gzip",
     "content-length": "12315",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 10 Dec 2023 00:58:47 GMT",
-    "last-modified": "Sun, 10 Dec 2023 00:58:48 GMT",
+    "date": "Sun, 17 Dec 2023 01:01:36 GMT",
+    "last-modified": "Sun, 17 Dec 2023 01:01:36 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -174,7 +174,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.140.13",
+      "ip": "172.64.141.13",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -369,14 +369,8 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.68.40",
+      "ip": "142.251.46.200",
       "geoip": {
-        "city": {
-          "geoname_id": 5131638,
-          "names": {
-            "en": "Plainview"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -407,13 +401,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 40.7746,
-          "longitude": -73.4761,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11803"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -428,23 +418,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
