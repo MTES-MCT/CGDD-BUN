@@ -339,7 +339,7 @@
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "71 >= 30 days"
+              "finding"      : "64 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1702775148"
+              "finding"      : "1703379839"
           }
 ,         {
               "id"           : "HSTS",
@@ -1098,6 +1098,6 @@
               "ip"           : "cpp.alerte-sante-environnement-deontologie.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "133"
+              "finding"      : "72"
           }
 ]
