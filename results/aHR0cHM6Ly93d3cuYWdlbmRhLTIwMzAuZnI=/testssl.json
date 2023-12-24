@@ -262,7 +262,7 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "03C3934395AA19CE204CE90D7260E6327CD3"
+              "finding"      : "0464130E4A66AA53CEC3EE6A3EE58A1BDD87"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4BFAF8862BB0C05C6DB328C9ABDA10F38D8BCAAE"
+              "finding"      : "D37F0AD3F8F0740D715811BB4916CB1CFEBC8D50"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4E7539F612F91E4D1580E9A0563DFF5EDBA8D07BEF30AECFC6B9374E3DB88CE0"
+              "finding"      : "878BC0D49E1F0D440A1EAF361FC57BEED0B23C9BD98A2AF2807F63FC170900A8"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEWDCCA0CgAwIBAgISA8OTQ5WqGc4gTOkNcmDmMnzTMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzEwMjAwNTQ0MTZaFw0yNDAxMTgwNTQ0MTVaMB0xGzAZBgNVBAMTEnd3dy5hZ2VuZGEtMjAzMC5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABH02oDrlQlUAY9KzO/bi37K8XReyCdNA9/zXeqCxMrAXvluN2Ns4/rwW1+FvuqxcotPPw/Eet1uNkjHc20kKGb6jggJGMIICQjAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFI5t6NATkT4O/H82A4Rn/XhbHd5XMB8GA1UdIwQYMBaAFBQusxe3WFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcvME8GA1UdEQRIMEaCDmFnZW5kYS0yMDMwLmZygg1hZ2VuZGEyMDMwLmZyghJ3d3cuYWdlbmRhLTIwMzAuZnKCEXd3dy5hZ2VuZGEyMDMwLmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBAYKKwYBBAHWeQIEAgSB9QSB8gDwAHUAO1N3dT4tuYBOizBbBv5AO2fYT8P0x70ADS1yb+H61BcAAAGLS9PWxQAABAMARjBEAiBd5KXnJxOsYOYRTHLQrbn0ZTvu9aIv56EViHu5ayWsAQIgUZqLw5xfVUNiDx6SKMV0UMD/vr1gl3W6S8xRDLqnXSUAdwDuzdBk1dsazsVct520zROiModGfLzs3sNRSFlGcR+1mwAAAYtL09bDAAAEAwBIMEYCIQCgV9V4armhXy8Y1pRvAHq5UZQryu5bEThxd5tS0wdBWAIhALbJAiP4I9zzIXjqbx6ULdUChXD3VB9dihMolFsDo2SwMA0GCSqGSIb3DQEBCwUAA4IBAQBAgnJJuxIosseCA88x8JmtmQYJvF8JctGaA5N3v0GWl9WgZ2w9GuzLahQcUmq6X53LQK3AJhOjZd/CIo/pgXfmGI8L3UUIVmtolHAj192fPzyVDqJN13knUOtRHixWxyxVCjUJz53WBgP+HpxUBqDfHvjMcmGuURnRqSIIwmtaJ7uVOikpHejccGvMwo0yMQx1Zty7R0FQArMQ1uGl5j0iSmkOWbruxwvYj0MdU1CDmOIsTO/0k9hW+zx2f9e18bEyzS+Wu0DuoJJeWq0EhkFOrSaJ3mYFXllGIrmbsN5KKzTeLfhJ08oH5C08KH+pludkQo2xdUPogFtoT+9ViPHX\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEVjCCAz6gAwIBAgISBGQTDkpmqlPOw+5qPuWKG92HMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzEyMTkwOTUxMjhaFw0yNDAzMTgwOTUxMjdaMB0xGzAZBgNVBAMTEnd3dy5hZ2VuZGEtMjAzMC5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIqUuHwHYQSGrLa5DlthzJaei+VMIaqJ5ajbrZNLBe8eSlyMIga+TmpGr1MyaY55X05kEqrWJzn/81ShAOHyot2jggJEMIICQDAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFOznleqYQtZ/dvbQmw0m1xPlcEBfMB8GA1UdIwQYMBaAFBQusxe3WFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcvME8GA1UdEQRIMEaCDmFnZW5kYS0yMDMwLmZygg1hZ2VuZGEyMDMwLmZyghJ3d3cuYWdlbmRhLTIwMzAuZnKCEXd3dy5hZ2VuZGEyMDMwLmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBAgYKKwYBBAHWeQIEAgSB8wSB8ADuAHUA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGMgbO44QAABAMARjBEAiAdhFf9rG0tOdbz9EY4p04AWChdA4kckKcC6jYqtmdYlgIgP0iT1vc5IIcyIQpozkvZyqZpvpaE4L7uHJEgyQ7ro6EAdQBIsONr2qZHNA/lagL6nTDrHFIBy1bdLIHZu7+rOdiEcwAAAYyBs7rOAAAEAwBGMEQCIHGAdYbxoYasBD62oYxMxENBjIynQUTQaZOTUpWU4x+eAiBWvjkntrPnJJKlP2xskleZU9EKY7sKq9c1fruK61+sgTANBgkqhkiG9w0BAQsFAAOCAQEACvA0hYKYcdxTpx21HGmVAiuE89s12NH5Tt0d/PN838+rQ3eRZZh6oI3BgiDLIaBq7MRR28dkNVdvIYu9WWZpW+OBAVe4SNzkQAel5HcU5qGn+eYXu1X+jyo8WQJ2tQ8W2Ll1ZyBfgeNvGsbSpkPdgMKN6q3HKNkQvBulRx3G0QS1z4FwqTLD9PBErG2wpZw4QuDeolx3WV6kLe8xh0zXxzlYRkXsSTFX6Yt8iqlTpkp4yiTwvPAz/7NWj+Kpp9mdX6Z7sISD1iGQsxTJ/JLZxKOGbTx2frXuoMrVdZsC5uxzLhUzsvWo3HLpOfPq1L4vhsYuR+Zvg7P95o+z1cuwNA==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -339,21 +339,21 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "32 >= 30 days"
+              "finding"      : "85 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-10-20 05:44"
+              "finding"      : "2023-12-19 09:51"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-01-18 05:44"
+              "finding"      : "2024-03-18 09:51"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -542,7 +542,7 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1702774559"
+              "finding"      : "1703379196"
           }
 ,         {
               "id"           : "HSTS",
@@ -1119,6 +1119,6 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55"
+              "finding"      : "95"
           }
 ]
