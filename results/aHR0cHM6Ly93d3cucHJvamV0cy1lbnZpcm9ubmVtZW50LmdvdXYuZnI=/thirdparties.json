@@ -18,7 +18,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
+      "url": "https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -42,7 +42,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2",
+      "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -51,14 +51,6 @@
     {
       "type": "unknown",
       "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_image/banniere.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
-    },
-    {
-      "type": "unknown",
-      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
     },
     {
       "type": "unknown",
@@ -106,7 +98,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=1&_=1704590192440"
+      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
+    },
+    {
+      "type": "unknown",
+      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
+    },
+    {
+      "type": "unknown",
+      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=1&_=1705195094469"
     }
   ],
   "cookies": [
@@ -115,7 +115,7 @@
       "value": "1",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1704591987,
+      "expires": 1705196889,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -126,10 +126,10 @@
     },
     {
       "name": "_pk_id.1441.b788",
-      "value": "0e5c47eb14011510.1704590187.1.1704590187.1704590187.",
+      "value": "a00ef2f9c7974a8d.1705195089.1.1705195089.1705195089.",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1738545387,
+      "expires": 1739150289,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -144,7 +144,7 @@
     "content-language": "fr-fr",
     "content-security-policy": "upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 07 Jan 2024 01:16:26 GMT",
+    "date": "Sun, 14 Jan 2024 01:18:08 GMT",
     "permissions-policy": "midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "openresty",
@@ -157,7 +157,7 @@
   "endpoints": [
     {
       "hostname": "www.projets-environnement.gouv.fr",
-      "ip": "34.249.199.226",
+      "ip": "34.248.20.69",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -214,7 +214,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "Vereinigte Staaten",
+            "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -240,7 +240,7 @@
     },
     {
       "hostname": "s3-eu-west-1.amazonaws.com",
-      "ip": "52.218.116.216",
+      "ip": "52.92.32.72",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -297,7 +297,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "Vereinigte Staaten",
+            "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -323,7 +323,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.164.106",
+      "ip": "172.253.63.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -343,7 +343,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "Vereinigte Staaten",
+            "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -363,7 +363,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "Vereinigte Staaten",
+            "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -377,7 +377,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.67",
+      "ip": "172.253.122.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -397,7 +397,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "Vereinigte Staaten",
+            "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -417,7 +417,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "Vereinigte Staaten",
+            "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -493,7 +493,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "Vereinigte Staaten",
+            "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -539,7 +539,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "Vereinigte Staaten",
+            "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
@@ -563,7 +563,7 @@
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
-            "de": "Vereinigte Staaten",
+            "de": "USA",
             "en": "United States",
             "es": "Estados Unidos",
             "fr": "États Unis",
