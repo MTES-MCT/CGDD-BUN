@@ -276,7 +276,7 @@
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "04FCBEC4F4FA940B308A2F923A8AAB2F685C"
+              "finding"      : "04B3B84DDFE59118A1AD8E8CC852D52BBC43"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -290,21 +290,21 @@
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "17569B21C62A85A3648B0E9F24D393966F9DAF0E"
+              "finding"      : "0B0CA4E9DE5BCC7735A2B4AF77C69E0FB1E36471"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3DB54489AE2024135AD3A09FE2B377613658348A74945A7CA4A0DB65602B1320"
+              "finding"      : "82B737FF61AC9AD8F59BB53C55C5A7B0A7B2A3466AE23303CEDC6CA05F62558C"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEeTCCA2GgAwIBAgISBPy+xPT6lAswii+SOoqrL2hcMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzExMTcxNjMxNDJaFw0yNDAyMTUxNjMxNDFaMDExLzAtBgNVBAMTJmRlZm9yZXN0YXRpb25pbXBvcnRlZS5lY29sb2dpZS5nb3V2LmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEF8ibI7UI8qZSGjFb2H9OasA4QxBx//2ApcVWMqmVbmiGlKplMJJx548va8ox+/dN2q6wYIGXfbA4KJoui6qPVKOCAlMwggJPMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUHD6Mv/Th6+bVj3OTvArt7U76HYAwHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wXQYDVR0RBFYwVIImZGVmb3Jlc3RhdGlvbmltcG9ydGVlLmVjb2xvZ2llLmdvdXYuZnKCKnd3dy5kZWZvcmVzdGF0aW9uaW1wb3J0ZWUuZWNvbG9naWUuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AEiw42vapkc0D+VqAvqdMOscUgHLVt0sgdm7v6s52IRzAAABi95WqFIAAAQDAEcwRQIgSHlzEvrcMmeQfzw42NHGwfX+Tevz8c0P7FBKL2yHKVYCIQDMemvyISUMm2ZYmiNwE7wU5JOCl01QWo2i0JBhNk0XewB1ADtTd3U+LbmAToswWwb+QDtn2E/D9Me9AA0tcm/h+tQXAAABi95WqE8AAAQDAEYwRAIgeXuIMx3TMVP42iq+hIOsHMQ6DtiWY4N26naFkyfAiVQCIH/ynGlzjCssErBK3hoID4CI91+scWaIMpLSj8fgFUifMA0GCSqGSIb3DQEBCwUAA4IBAQBhQfCvbAj1MdgYafpfzwFV4OhWaX1vt5Vapst52SzugAaUAJi/8gBdBZRhUlMS8mD5ieh151P2Z/9AsmGduu2xUZUANs9SaiJd7dl7YFNczOzNRrN0Bi5KZRSN9KmDu+Gbkg/JFGxKg7hhzm2dfYruPwtwXbHuQKCt/gRN9UPgH80HGckvKIXuE9r9udPZirvzGLZ0IgPiTmIG9mhT3Hzvq3V9EBRYujCdzOp5T7irOlJZ73ULcqB0ZZWH7/cVEyFemEgVz7QtpsrxK7bkiuSUME25rcr675bG8UymskPuEpfuPT51H/ElBQPICUjHBWBF4NANwR3UV9D+2TiVqoHO\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEezCCA2OgAwIBAgISBLO4Td/lkRihrY6MyFLVK7xDMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yNDAxMTYyMzI3MjlaFw0yNDA0MTUyMzI3MjhaMDExLzAtBgNVBAMTJmRlZm9yZXN0YXRpb25pbXBvcnRlZS5lY29sb2dpZS5nb3V2LmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJC/xYCXtkdHrNUyDs4YWCadF2Dlm95LtqIB/sNOVhA0363SIYWybZ9OC1SYU5ViT8SnveMEYU+/lRSjJX6M9caOCAlUwggJRMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUtBMP2LXbEP7otuKDNEwDm3CC/xkwHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wXQYDVR0RBFYwVIImZGVmb3Jlc3RhdGlvbmltcG9ydGVlLmVjb2xvZ2llLmdvdXYuZnKCKnd3dy5kZWZvcmVzdGF0aW9uaW1wb3J0ZWUuZWNvbG9naWUuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB3AEiw42vapkc0D+VqAvqdMOscUgHLVt0sgdm7v6s52IRzAAABjRTQ4CwAAAQDAEgwRgIhANg2mRksiCZYT8I2tzQFiUI5QTNkVmL7hjxQ+sugr+awAiEA+ya8OLGRHLPDUYSekdSHYrXuMuZtWh0/OvGqfQMsZaMAdgB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAY0U0OJeAAAEAwBHMEUCIFPm8LRMuGCdkhoxZtkUyKqgw6LgceR+AYGZjM3vgDNkAiEAmUhsDYdeSjZq0kcglfUXqDH6BgHqB7GE3+kAwh6p0iswDQYJKoZIhvcNAQELBQADggEBAF60Uni+daXD7Oo/Zfe6FakcdgWzQAmTW+4oLU1lgCiIFiaE3NDZ3XwidnOtgK7n/JgxY5rzSF8XYU0GMEZxbkqO37vnlOwb/Y035uXa+wygPPdXgSnEXqgktuzX0caedXgBzQDRig1w/GD4bJ55THa3/a3RQTDhGP28hFywXsBpMC3Vk/vCyX4JVnmpjLP6gbsHGo9XfUoe9ibxL98A3KYpcSsu6af09QUFrLpRMHKGSxJiOinsf6DGOdxrubvyXBNJHn8/DrPhIO0oqQn9JMK3lIpF0kFPReyCZJjdgHdQmx0f0JrC9kRUyb+VSCYAFwQiJ+Fv7Ipu3CLFvJc/lvU=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -353,21 +353,21 @@
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "32 >= 30 days"
+              "finding"      : "85 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-11-17 16:31"
+              "finding"      : "2024-01-16 23:27"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-02-15 16:31"
+              "finding"      : "2024-04-15 23:27"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -556,7 +556,7 @@
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1705196425"
+              "finding"      : "1705801154"
           }
 ,         {
               "id"           : "HSTS",
@@ -1133,6 +1133,6 @@
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "55"
           }
 ]
