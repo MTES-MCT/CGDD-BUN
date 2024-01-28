@@ -106,7 +106,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=1&_=1705799809587"
+      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=0&_=1706404350124"
     }
   ],
   "cookies": [
@@ -115,7 +115,7 @@
       "value": "1",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1705801604,
+      "expires": 1706406145,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -126,10 +126,10 @@
     },
     {
       "name": "_pk_id.1441.b788",
-      "value": "745934c9b812a073.1705799805.1.1705799805.1705799805.",
+      "value": "ef73a407fde865ca.1706404345.1.1706404345.1706404345.",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1739755005,
+      "expires": 1740359545,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -144,7 +144,7 @@
     "content-language": "fr-fr",
     "content-security-policy": "upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 21 Jan 2024 01:16:43 GMT",
+    "date": "Sun, 28 Jan 2024 01:12:24 GMT",
     "permissions-policy": "midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "openresty",
@@ -157,7 +157,7 @@
   "endpoints": [
     {
       "hostname": "www.projets-environnement.gouv.fr",
-      "ip": "34.248.20.69",
+      "ip": "34.249.199.226",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -240,7 +240,7 @@
     },
     {
       "hostname": "s3-eu-west-1.amazonaws.com",
-      "ip": "52.92.2.200",
+      "ip": "52.92.0.184",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -323,7 +323,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.46.234",
+      "ip": "172.217.4.202",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -377,7 +377,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.46.163",
+      "ip": "172.217.4.195",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -463,7 +463,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
+          "accuracy_radius": 1000,
           "latitude": 48.8582,
           "longitude": 2.3387,
           "time_zone": "Europe/Paris"
@@ -541,7 +541,7 @@
     },
     {
       "hostname": "api-js.mixpanel.com",
-      "ip": "107.178.240.159",
+      "ip": "35.190.25.25",
       "geoip": {
         "city": {
           "geoname_id": 4393217,
