@@ -3,10 +3,10 @@
   "cookies": [
     {
       "name": "_pk_id.1472.ef22",
-      "value": "c5d965df30c55dd6.1705800768.1.1705800768.1705800768.",
+      "value": "0cbc79996d16a807.1706404981.1.1706404981.1706404981.",
       "domain": "www.deforestationimportee.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1739755968,
+      "expires": 1740360181,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -20,7 +20,7 @@
       "value": "*",
       "domain": "www.deforestationimportee.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1705802568,
+      "expires": 1706406780,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -31,10 +31,10 @@
     },
     {
       "name": "spip_session",
-      "value": "0_794cb895813427d24c9a76a5ce14ff92",
+      "value": "0_230fa98017202ba3d9b39fa6d9db515d",
       "domain": "www.deforestationimportee.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1705887166.88394,
+      "expires": 1706491379.689012,
       "size": 46,
       "httpOnly": true,
       "secure": false,
@@ -49,7 +49,7 @@
       "value": "fr",
       "domain": "www.deforestationimportee.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1708392767,
+      "expires": 1708996980,
       "size": 13,
       "httpOnly": false,
       "secure": false,
@@ -60,7 +60,7 @@
     },
     {
       "name": "PHPSESSID",
-      "value": "26oj7jbsc7k04vh0meijmu9655",
+      "value": "haok58ll919nsn54nihfogc7n5",
       "domain": "www.deforestationimportee.ecologie.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -80,12 +80,12 @@
     "content-encoding": "gzip",
     "content-length": "10043",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 21 Jan 2024 01:32:46 GMT",
+    "date": "Sun, 28 Jan 2024 01:22:59 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-    "last-modified": "Sun, 21 Jan 2024 01:32:46 GMT",
+    "last-modified": "Sun, 28 Jan 2024 01:22:59 GMT",
     "pragma": "no-cache",
     "server": "nginx",
-    "set-cookie": "PHPSESSID=26oj7jbsc7k04vh0meijmu9655; path=/\nspip_session=0_794cb895813427d24c9a76a5ce14ff92; expires=Mon, 22-Jan-2024 01:32:46 GMT; Max-Age=86400; path=/; HttpOnly; SameSite=Lax\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; SameSite=Lax",
+    "set-cookie": "PHPSESSID=haok58ll919nsn54nihfogc7n5; path=/\nspip_session=0_230fa98017202ba3d9b39fa6d9db515d; expires=Mon, 29-Jan-2024 01:22:59 GMT; Max-Age=86400; path=/; HttpOnly; SameSite=Lax\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; SameSite=Lax",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
     "grace": ""
@@ -95,14 +95,6 @@
       "hostname": "www.deforestationimportee.ecologie.gouv.fr",
       "ip": "37.235.89.249",
       "geoip": {
-        "city": {
-          "geoname_id": 2971887,
-          "names": {
-            "en": "Trélon",
-            "ru": "Трелон",
-            "zh-CN": "特雷隆"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -133,13 +125,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
-          "latitude": 50.0608,
-          "longitude": 4.1065,
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "59132"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -155,27 +144,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 11071624,
-            "iso_code": "HDF",
-            "names": {
-              "en": "Hauts-de-France",
-              "fr": "Hauts-de-France"
-            }
-          },
-          {
-            "geoname_id": 2990129,
-            "iso_code": "59",
-            "names": {
-              "de": "Nord",
-              "en": "North",
-              "es": "Norte",
-              "fr": "Nord"
-            }
-          }
-        ]
+        }
       }
     }
   ]
