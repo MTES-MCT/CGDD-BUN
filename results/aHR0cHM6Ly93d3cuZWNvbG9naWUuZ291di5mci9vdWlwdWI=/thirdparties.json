@@ -3,10 +3,10 @@
   "cookies": [
     {
       "name": "_pk_id.1521.e155",
-      "value": "4d2ff1b8d3ea7028.1705799541.1.1705799541.1705799541.",
+      "value": "72af9744247b9d6f.1706403878.1.1706403878.1706403878.",
       "domain": ".www.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1739754741,
+      "expires": 1740359078,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -20,7 +20,7 @@
       "value": "*",
       "domain": ".www.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1705801340,
+      "expires": 1706405677,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -31,7 +31,7 @@
     },
     {
       "name": "PHPSESSID",
-      "value": "cn8ganc42q122qcfrbhujl4k45",
+      "value": "7s08fusr01r5d81pjf3a5bf624",
       "domain": "www.ecologie.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -48,7 +48,7 @@
       "value": "fr",
       "domain": "www.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1708391539,
+      "expires": 1708995877,
       "size": 13,
       "httpOnly": false,
       "secure": false,
@@ -59,10 +59,10 @@
     },
     {
       "name": "spip_session",
-      "value": "0_775449ba20b12a71efc96bd690733203",
+      "value": "0_6e8a708428efa4f1d481249beb7fed9a",
       "domain": "www.ecologie.gouv.fr",
       "path": "/ouipub/",
-      "expires": 1705885938.323114,
+      "expires": 1706490276.952813,
       "size": 46,
       "httpOnly": true,
       "secure": false,
@@ -80,12 +80,12 @@
     "content-encoding": "gzip",
     "content-length": "7114",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 21 Jan 2024 01:12:16 GMT",
+    "date": "Sun, 28 Jan 2024 01:04:35 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-    "last-modified": "Sun, 21 Jan 2024 01:12:18 GMT",
+    "last-modified": "Sun, 28 Jan 2024 01:04:36 GMT",
     "pragma": "no-cache",
     "server": "nginx",
-    "set-cookie": "PHPSESSID=cn8ganc42q122qcfrbhujl4k45; path=/\nspip_session=0_775449ba20b12a71efc96bd690733203; expires=Mon, 22-Jan-2024 01:12:18 GMT; Max-Age=86400; path=/ouipub/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/ouipub/",
+    "set-cookie": "PHPSESSID=7s08fusr01r5d81pjf3a5bf624; path=/\nspip_session=0_6e8a708428efa4f1d481249beb7fed9a; expires=Mon, 29-Jan-2024 01:04:36 GMT; Max-Age=86400; path=/ouipub/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/ouipub/",
     "vary": "Cookie,Accept-Encoding",
     "x-cache": "MISS",
     "x-proto": "https",
@@ -98,14 +98,6 @@
       "hostname": "www.ecologie.gouv.fr",
       "ip": "37.235.89.97",
       "geoip": {
-        "city": {
-          "geoname_id": 2971887,
-          "names": {
-            "en": "Trélon",
-            "ru": "Трелон",
-            "zh-CN": "特雷隆"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -136,13 +128,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
-          "latitude": 50.0608,
-          "longitude": 4.1065,
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "59132"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -158,27 +147,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 11071624,
-            "iso_code": "HDF",
-            "names": {
-              "en": "Hauts-de-France",
-              "fr": "Hauts-de-France"
-            }
-          },
-          {
-            "geoname_id": 2990129,
-            "iso_code": "59",
-            "names": {
-              "de": "Nord",
-              "en": "North",
-              "es": "Norte",
-              "fr": "Nord"
-            }
-          }
-        ]
+        }
       }
     }
   ]
