@@ -42,7 +42,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=6cc1e566680465c254cc1436ee7ac4c1",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=9648dfcddc8a5aade2862ac1b8ee8927",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -58,7 +58,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/787e9b63/www-player.css",
+      "url": "https://www.youtube.com/s/player/cb886c6c/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -66,7 +66,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/787e9b63/player_ias.vflset/en_US/embed.js",
+      "url": "https://www.youtube.com/s/player/cb886c6c/player_ias.vflset/en_US/embed.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -74,7 +74,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/787e9b63/www-embed-player.vflset/www-embed-player.js",
+      "url": "https://www.youtube.com/s/player/cb886c6c/www-embed-player.vflset/www-embed-player.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -82,7 +82,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/787e9b63/player_ias.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/player/cb886c6c/player_ias.vflset/en_US/base.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -137,24 +137,8 @@
       }
     },
     {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/787e9b63/player_ias.vflset/en_US/remote.js",
+      "url": "https://www.youtube.com/s/player/cb886c6c/player_ias.vflset/en_US/remote.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -162,7 +146,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/Ds_pDKslpu-iWcXddHrDyyVH9ulM38tH3FG5TexbKIk.js",
+      "url": "https://www.google.com/js/th/GmRahjSf3JbDLJ_8drlGuzLn-semBsnMOpTLfEePKCI.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -194,22 +178,6 @@
     },
     {
       "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
       "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
       "details": {
         "id": "google",
@@ -218,7 +186,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?GsIqVw",
+      "url": "https://www.youtube.com/generate_204?Q5ofsA",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -239,7 +207,7 @@
       "value": "*",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1705799494,
+      "expires": 1706404080,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -250,10 +218,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "16da91b1f9ce7dd1.1705797695.1.1705797695.1705797695.",
+      "value": "611794173d5382da.1706402281.1.1706402281.1706402281.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1739752895,
+      "expires": 1740357481,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -269,8 +237,8 @@
     "content-encoding": "gzip",
     "content-length": "19751",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 21 Jan 2024 00:41:33 GMT",
-    "last-modified": "Sun, 21 Jan 2024 00:41:33 GMT",
+    "date": "Sun, 28 Jan 2024 00:37:59 GMT",
+    "last-modified": "Sun, 28 Jan 2024 00:37:59 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -281,14 +249,6 @@
       "hostname": "www.alerte-sante-environnement-deontologie.fr",
       "ip": "37.235.89.249",
       "geoip": {
-        "city": {
-          "geoname_id": 2971887,
-          "names": {
-            "en": "Trélon",
-            "ru": "Трелон",
-            "zh-CN": "特雷隆"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -319,13 +279,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
-          "latitude": 50.0608,
-          "longitude": 4.1065,
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "59132"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -341,32 +298,12 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 11071624,
-            "iso_code": "HDF",
-            "names": {
-              "en": "Hauts-de-France",
-              "fr": "Hauts-de-France"
-            }
-          },
-          {
-            "geoname_id": 2990129,
-            "iso_code": "59",
-            "names": {
-              "de": "Nord",
-              "en": "North",
-              "es": "Norte",
-              "fr": "Nord"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.141.13",
+      "ip": "172.64.140.13",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -420,7 +357,7 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.229.1",
+      "ip": "31.13.66.19",
       "geoip": {
         "city": {
           "geoname_id": 4744870,
@@ -468,17 +405,18 @@
           "code": "20149"
         },
         "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
+          "geoname_id": 2963597,
+          "is_in_european_union": true,
+          "iso_code": "IE",
           "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
+            "de": "Irland",
+            "en": "Ireland",
+            "es": "Irlanda",
+            "fr": "Irlande",
+            "ja": "アイルランド",
+            "pt-BR": "Irlanda",
+            "ru": "Ирландия",
+            "zh-CN": "爱尔兰"
           }
         },
         "subdivisions": [
@@ -499,7 +437,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.122.97",
+      "ip": "172.253.62.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -553,8 +491,14 @@
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "172.253.115.91",
+      "ip": "142.251.16.91",
       "geoip": {
+        "city": {
+          "geoname_id": 5133273,
+          "names": {
+            "en": "Queens"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -584,10 +528,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.66,
+          "longitude": -73.839,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11414"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -602,13 +550,35 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.163.94",
+      "ip": "142.251.167.94",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -638,10 +608,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -656,13 +630,36 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "172.253.115.155",
+      "ip": "142.250.31.156",
       "geoip": {
+        "city": {
+          "geoname_id": 4364745,
+          "names": {
+            "en": "Oxford",
+            "ru": "Оксфорд"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -693,9 +690,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 38.6828,
+          "longitude": -76.1563,
+          "metro_code": 512,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "21654"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -710,66 +711,28 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4361885,
+            "iso_code": "MD",
+            "names": {
+              "de": "Maryland",
+              "en": "Maryland",
+              "es": "Maryland",
+              "fr": "Maryland",
+              "ja": "メリーランド州",
+              "pt-BR": "Maryland",
+              "ru": "Мэриленд",
+              "zh-CN": "马里兰州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "172.253.115.148",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "jnn-pa.googleapis.com",
-      "ip": "172.253.115.95",
+      "ip": "172.253.63.149",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -823,8 +786,14 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.251.16.147",
+      "ip": "142.251.163.105",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -854,10 +823,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -872,13 +845,35 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "142.251.16.119",
+      "ip": "142.251.167.119",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -908,10 +903,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -926,13 +925,35 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "yt3.ggpht.com",
-      "ip": "172.253.63.132",
+      "ip": "142.251.163.132",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -962,10 +983,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -980,12 +1005,28 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.251.111.94",
+      "ip": "172.253.63.94",
       "geoip": {
         "continent": {
           "code": "NA",
