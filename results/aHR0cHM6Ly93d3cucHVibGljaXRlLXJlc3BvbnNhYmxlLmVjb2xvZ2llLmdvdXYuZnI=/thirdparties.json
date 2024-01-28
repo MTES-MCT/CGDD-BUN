@@ -3,10 +3,10 @@
   "cookies": [
     {
       "name": "_pk_id.1467.83a7",
-      "value": "9b1524df9022f96e.1705799909.1.1705799909.1705799909.",
+      "value": "9bf9bdac81134200.1706404680.1.1706404680.1706404680.",
       "domain": ".www.publicite-responsable.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1739755109,
+      "expires": 1740359880,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -20,7 +20,7 @@
       "value": "*",
       "domain": ".www.publicite-responsable.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1705801709,
+      "expires": 1706406479,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -31,10 +31,10 @@
     },
     {
       "name": "spip_session",
-      "value": "0_da54c2d52d576857ccb92747438451b1",
+      "value": "0_f3ab8bd926b451f7030ef77faa1c26dc",
       "domain": "www.publicite-responsable.ecologie.gouv.fr",
       "path": "/",
-      "expires": 1705886308.031561,
+      "expires": 1706491078.812825,
       "size": 46,
       "httpOnly": true,
       "secure": false,
@@ -45,7 +45,7 @@
     },
     {
       "name": "PHPSESSID",
-      "value": "a5hks6rpp11krk16hs5d9ll9mg",
+      "value": "knadaukalijq2lolof0274q7k1",
       "domain": "www.publicite-responsable.ecologie.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -63,14 +63,14 @@
     "cache-control": "no-store, no-cache, must-revalidate",
     "connection": "keep-alive",
     "content-encoding": "gzip",
-    "content-length": "7961",
+    "content-length": "7950",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 21 Jan 2024 01:18:27 GMT",
+    "date": "Sun, 28 Jan 2024 01:17:58 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-    "last-modified": "Sun, 21 Jan 2024 01:18:27 GMT",
+    "last-modified": "Sun, 28 Jan 2024 01:17:58 GMT",
     "pragma": "no-cache",
     "server": "nginx",
-    "set-cookie": "PHPSESSID=a5hks6rpp11krk16hs5d9ll9mg; path=/\nspip_session=0_da54c2d52d576857ccb92747438451b1; expires=Mon, 22-Jan-2024 01:18:27 GMT; Max-Age=86400; path=/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/",
+    "set-cookie": "PHPSESSID=knadaukalijq2lolof0274q7k1; path=/\nspip_session=0_f3ab8bd926b451f7030ef77faa1c26dc; expires=Mon, 29-Jan-2024 01:17:58 GMT; Max-Age=86400; path=/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
     "grace": ""
@@ -80,14 +80,6 @@
       "hostname": "www.publicite-responsable.ecologie.gouv.fr",
       "ip": "37.235.89.249",
       "geoip": {
-        "city": {
-          "geoname_id": 2971887,
-          "names": {
-            "en": "Trélon",
-            "ru": "Трелон",
-            "zh-CN": "特雷隆"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -118,13 +110,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
-          "latitude": 50.0608,
-          "longitude": 4.1065,
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
           "time_zone": "Europe/Paris"
-        },
-        "postal": {
-          "code": "59132"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -140,27 +129,7 @@
             "ru": "Франция",
             "zh-CN": "法国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 11071624,
-            "iso_code": "HDF",
-            "names": {
-              "en": "Hauts-de-France",
-              "fr": "Hauts-de-France"
-            }
-          },
-          {
-            "geoname_id": 2990129,
-            "iso_code": "59",
-            "names": {
-              "de": "Nord",
-              "en": "North",
-              "es": "Norte",
-              "fr": "Nord"
-            }
-          }
-        ]
+        }
       }
     }
   ]
