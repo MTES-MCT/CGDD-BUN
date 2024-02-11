@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.projets-environnement.gouv.fr",
-        "size": 4088.66,
+        "size": 4050.901,
         "nodes": 1556,
         "requests": 73,
         "grade": "E",
@@ -11,7 +11,7 @@
         "ges": 2.46,
         "water": 3.69,
         "ecoindex_version": "5.4.2",
-        "date": "2024-02-04 01:21:05.898056",
+        "date": "2024-02-11 01:19:59.926864",
         "page_type": null
     }
 ]
