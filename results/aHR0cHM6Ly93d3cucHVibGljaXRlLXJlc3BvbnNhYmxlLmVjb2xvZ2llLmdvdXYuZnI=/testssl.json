@@ -262,7 +262,7 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0338779E40C647F93BDB9AF1BEB24707A384"
+              "finding"      : "039F4F03E48914BF6DEABD0C37A971AE3240"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4F98842469C80CE32E330F4CA16F2FAE60EFF91C"
+              "finding"      : "089723ED0A94EC4B258DD24E009FC2E6B27C1D16"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9916C2F1C3A9487879C1D7BBCFF4474C44D5F0B091C7783285BEA35C0D725044"
+              "finding"      : "8AA150924CB151E11C1AFC5967A425258C338F2414FCC9C42E512C609F736243"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEgDCCA2igAwIBAgISAzh3nkDGR/k725rxvrJHB6OEMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzEyMjIwOTUxMzZaFw0yNDAzMjEwOTUxMzVaMDUxMzAxBgNVBAMTKnd3dy5wdWJsaWNpdGUtcmVzcG9uc2FibGUuZWNvbG9naWUuZ291di5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMJuAqWjrNdNuJ37V812wIqvtau0l05tmVJosF7aimGCkdlS/rAspnLt9WBTAV3MuXxYXjvWp6qNuZi/maZTMCGjggJWMIICUjAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFMBaQTyFsTmqSVVsAx/pWQeCaFK0MB8GA1UdIwQYMBaAFBQusxe3WFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcvMF0GA1UdEQRWMFSCJnB1YmxpY2l0ZS1yZXNwb25zYWJsZS5lY29sb2dpZS5nb3V2LmZygip3d3cucHVibGljaXRlLXJlc3BvbnNhYmxlLmVjb2xvZ2llLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwggEGBgorBgEEAdZ5AgQCBIH3BIH0APIAdwBIsONr2qZHNA/lagL6nTDrHFIBy1bdLIHZu7+rOdiEcwAAAYyRJu7TAAAEAwBIMEYCIQD2nVoTHKcZQO6BhZ2PnjjX2pdjLRQC2k84ZpUpIRhQHwIhAPo/tXu/rewKO8ObpcmaesLi3JA0/96Vg40uR33Nt3u8AHcA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGMkSbu1gAABAMASDBGAiEA0Qv+ajX6xertetRFaZrVAEuatc1eBJFzyrG9dxpoSP4CIQCwvzp2USIcCj2eRyRVlP1YV0fbT7xZPdZdOQ1Sz4E1GzANBgkqhkiG9w0BAQsFAAOCAQEAanADugYWYZFpudqR2Ko57Mqk7JKIfa2M7ddW/OaiczfReRO4JvNCM7nO61psA8o/JEkg/24bcr1Ko+RksRf13tgTGxfOA4O/ZV5D3moZoyzYiJdE53XOaNANrYBmm53VGbPM/NwmxvVpcnKSG2ysxc/rirSozD8g4HB2d7QHhATnIuROvsIwkJz7Xj8gMUuQ0JZCZrQk/aNdJC5/XQzjxojAmbvoJblx+pmURljN4jzJ5qzcmOe4RxTzO8oGevKNZqGTrvj1rmG1rFL5x7W8d5LU5OPMjcZRGIC4+e1i/7Pt5QD1ukxWXfyvs9Eds33ZtXhCwDeH3NPSgu+vvQGHlQ==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEfzCCA2egAwIBAgISA59PA+SJFL9t6r0MN6lxrjJAMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yNDAyMjAyMTMzMzdaFw0yNDA1MjAyMTMzMzZaMDUxMzAxBgNVBAMTKnd3dy5wdWJsaWNpdGUtcmVzcG9uc2FibGUuZWNvbG9naWUuZ291di5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDJs+406d2RYsQE4ehJUPA0ZOSG9zW/L0CDhcfnadCRfMXsX7DM2J5V0DYt8zlz73AtNlq4y6oXbzYTjg/8JZUSjggJVMIICUTAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFGDajMj3Yp0h320isZCwhrXRVNrgMB8GA1UdIwQYMBaAFBQusxe3WFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcvMF0GA1UdEQRWMFSCJnB1YmxpY2l0ZS1yZXNwb25zYWJsZS5lY29sb2dpZS5nb3V2LmZygip3d3cucHVibGljaXRlLXJlc3BvbnNhYmxlLmVjb2xvZ2llLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwggEFBgorBgEEAdZ5AgQCBIH2BIHzAPEAdwA7U3d1Pi25gE6LMFsG/kA7Z9hPw/THvQANLXJv4frUFwAAAY3IpzM2AAAEAwBIMEYCIQCkb1xQIG6E/7R4mxbJeUCNheXCYNdlX2xOHSHy2KWM4AIhAIxdaz+5pRKGL+degQo9gIma3eY7TFAPTmkNxmLwoL29AHYA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGNyKczcQAABAMARzBFAiEAqAYna9DceNqUcDjUb5WXv5Kz5ZLMnGyrbL/OZpIH27UCIC6aeyx5nF2GjyxGYmOJyD5xZT2mIVvDkXiAxpox7DMkMA0GCSqGSIb3DQEBCwUAA4IBAQA9TUgMbS2s2hDnOEL0L6vRd8t2xShLJrQWPembZwcRZj4CByKkHXIk3qbBQKZz2nZNdHM1MCEWjtpOJHoRzb/N2YhkB3sPwlt3NCvBqnDKY1yoKL6/zysTqF8nI9SqfjV2chWsrtf/CcTvHPHIyxWU5hqk+lC2Vic+oqzRlrxszOedwztgToeAne/ovMKohSL1DpJ3oBYZSH6F7klgDEAd4oQTKJLolSNDYvcJuUBFaeiU7+KqPCB91uG2Q4vpFjAA9VdP5XxdCy0AYKkRpYg2+tLtBt8YKAH+L0CjLdjPDnX0s4j7jP8/LEv4X66elYLzyXqpTA6bS/FlvXUSqYRJ\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -339,21 +339,21 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "32 >= 30 days"
+              "finding"      : "85 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-12-22 09:51"
+              "finding"      : "2024-02-20 21:33"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-03-21 09:51"
+              "finding"      : "2024-05-20 21:33"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -416,7 +416,7 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3"
+              "finding"      : "2"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
@@ -475,48 +475,6 @@
               "finding"      : "R3 <-- ISRG Root X1"
           }
 ,         {
-              "id"           : "intermediate_cert <#2>",
-              "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFYDCCBEigAwIBAgIQQAF3ITfU6UK47naqPGQKtzANBgkqhkiG9w0BAQsFADA/MSQwIgYDVQQKExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMTDkRTVCBSb290IENBIFgzMB4XDTIxMDEyMDE5MTQwM1oXDTI0MDkzMDE4MTQwM1owTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCt6CRz9BQ385ueK1coHIe+3LffOJCMbjzmV6B493XCov71am72AE8o295ohmxEk7axY/0UEmu/H9LqMZshftEzPLpI9d1537O4/xLxIZpLwYqGcWlKZmZsj348cL+tKSIG8+TA5oCu4kuPt5l+lAOf00eXfJlII1PoOK5PCm+DLtFJV4yAdLbaL9A4jXsDcCEbdfIwPPqPrt3aY6vrFk/CjhFLfs8L6P+1dy70sntK4EwSJQxwjQMpoOFTJOwT2e4ZvxCzSow/iaNhUd6shweU9GNx7C7ib1uYgeGJXDR5bHbvO5BieebbpJovJsXQEOEO3tkQjhb7t/eo98flAgeYjzYIlefiN5YNNnWe+w5ysR2bvAP5SQXYgd0FtCrWQemsAXaVCg/Y39W9Eh81LygXbNKYwagJZHduRze6zqxZXmidf3LWicUGQSk+WT7dJvUkyRGnWqNMQB9GoZm1pzpRboY7nn1ypxIFeFntPlF4FQsDj43QLwWyPntKHEtzBRL8xurgUBN8Q5N0s8p0544fAQjQMNRbcTa0B7rBMDBcSLeCO5imfWCKoqMpgsy6vYMEG6KDA0Gh1gXxG8K28Kh8hjtGqEgqiNx2mna/H2qlPRmP6zjzZN7IKw0KKP/32+IVQtQi0Cdd4Xn+GOdwiK1O5tmLOsbdJ1Fu/7xk9TNDTwIDAQABo4IBRjCCAUIwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwSwYIKwYBBQUHAQEEPzA9MDsGCCsGAQUFBzAChi9odHRwOi8vYXBwcy5pZGVudHJ1c3QuY29tL3Jvb3RzL2RzdHJvb3RjYXgzLnA3YzAfBgNVHSMEGDAWgBTEp7Gkeyxx+tvhS5B1/8QVYIWJEDBUBgNVHSAETTBLMAgGBmeBDAECATA/BgsrBgEEAYLfEwEBATAwMC4GCCsGAQUFBwIBFiJodHRwOi8vY3BzLnJvb3QteDEubGV0c2VuY3J5cHQub3JnMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuaWRlbnRydXN0LmNvbS9EU1RST09UQ0FYM0NSTC5jcmwwHQYDVR0OBBYEFHm0WeZ7tuXkAXOACIjIGlj26ZtuMA0GCSqGSIb3DQEBCwUAA4IBAQAKcwBslm7/DlLQrt2M51oGrS+o44+/yQoDFVDC5WxCu2+b9LRPwkSICHXM6webFGJueN7sJ7o5XPWioW5WlHAQU7G75K/QosMrAdSW9MUgNTP52GE24HGNtLi1qoJFlcDyqSMo59ahy2cI2qBDLKobkx/J3vWraV0T9VuGWCLKTVXkcGdtwlfFRjlBz4pYg1htmf5X6DYO8A4jqv2Il9DjXA6USbW1FzXSLr9Ohe8Y4IWS6wY7bCkjCWDcRQJMEhg76fsO3txE+FiYruq9RUWhiF1myv4Q6W+CyBFCDfvp7OOGAN6dEOM4+qR9sdjoSYKEBpsr6GtPAQw4dy753ec5\n-----END CERTIFICATE-----"
-          }
-,         {
-              "id"           : "intermediate_cert_fingerprintSHA256 <#2>",
-              "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "6D99FB265EB1C5B3744765FCBC648F3CD8E1BFFAFDC4C2F99B9D47CF7FF1C24F"
-          }
-,         {
-              "id"           : "intermediate_cert_notBefore <#2>",
-              "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "2021-01-20 19:14"
-          }
-,         {
-              "id"           : "intermediate_cert_notAfter <#2>",
-              "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "2024-09-30 18:14"
-          }
-,         {
-              "id"           : "intermediate_cert_expiration <#2>",
-              "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ok > 40 days"
-          }
-,         {
-              "id"           : "intermediate_cert_chain <#2>",
-              "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ISRG Root X1 <-- DST Root CA X3"
-          }
-,         {
               "id"           : "intermediate_cert_badOCSP",
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
@@ -535,14 +493,14 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-2 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1708219948"
+              "finding"      : "1708825162"
           }
 ,         {
               "id"           : "HSTS",
@@ -1119,6 +1077,6 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "58"
+              "finding"      : "98"
           }
 ]
