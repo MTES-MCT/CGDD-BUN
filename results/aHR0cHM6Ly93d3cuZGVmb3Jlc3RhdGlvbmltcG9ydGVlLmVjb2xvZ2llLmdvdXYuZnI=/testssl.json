@@ -353,7 +353,7 @@
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "43 >= 30 days"
+              "finding"      : "36 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,14 +549,14 @@
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "-2 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709429942"
+              "finding"      : "1710034977"
           }
 ,         {
               "id"           : "HSTS",
@@ -591,35 +591,14 @@
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3 at '/'"
+              "finding"      : "0 at '/'"
           }
 ,         {
-              "id"           : "cookie_secure",
+              "id"           : "security_headers",
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "0/3 at '/' marked as secure"
-          }
-,         {
-              "id"           : "cookie_httponly",
-              "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "0/3 at '/' marked as HttpOnly"
-          }
-,         {
-              "id"           : "Cache-Control",
-              "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "no-store, no-cache, must-revalidate"
-          }
-,         {
-              "id"           : "Pragma",
-              "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "no-cache"
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
           }
 ,         {
               "id"           : "banner_reverseproxy",
@@ -1133,6 +1112,6 @@
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55"
+              "finding"      : "56"
           }
 ]
