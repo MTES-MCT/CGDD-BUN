@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=b59d3798f36a386598a4291e1a11f511",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=62acf29d769f86b8647bf96025f7ed2e",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "1",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1710034400,
+      "expires": 1710639172,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -59,10 +59,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "94865a67bb71c254.1710032601.",
+      "value": "892c78f831ca514e.1710637372.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1743987801,
+      "expires": 1744592572,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -79,8 +79,8 @@
     "content-encoding": "gzip",
     "content-length": "12196",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 10 Mar 2024 01:03:16 GMT",
-    "last-modified": "Sun, 10 Mar 2024 01:03:18 GMT",
+    "date": "Sun, 17 Mar 2024 01:02:50 GMT",
+    "last-modified": "Sun, 17 Mar 2024 01:02:50 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -145,7 +145,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.207.38",
+      "ip": "172.64.206.38",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -199,7 +199,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "151.101.2.137",
+      "ip": "151.101.66.137",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -253,13 +253,19 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.229.1",
+      "ip": "157.240.249.8",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 4887398,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "Chicago",
+            "en": "Chicago",
+            "es": "Chicago",
+            "fr": "Chicago",
+            "ja": "シカゴ",
+            "pt-BR": "Chicago",
+            "ru": "Чикаго",
+            "zh-CN": "芝加哥"
           }
         },
         "continent": {
@@ -292,13 +298,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 41.8874,
+          "longitude": -87.6318,
+          "metro_code": 602,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "20149"
+          "code": "60602"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -316,15 +322,16 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 4896861,
+            "iso_code": "IL",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "en": "Illinois",
+              "es": "Illinois",
+              "fr": "Illinois",
+              "ja": "イリノイ州",
+              "pt-BR": "Ilinóis",
+              "ru": "Иллинойс",
+              "zh-CN": "伊利诺伊州"
             }
           }
         ]
@@ -332,14 +339,8 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.46.168",
+      "ip": "172.217.1.104",
       "geoip": {
-        "city": {
-          "geoname_id": 5133273,
-          "names": {
-            "en": "Queens"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -369,14 +370,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
-          "latitude": 40.66,
-          "longitude": -73.839,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11414"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -391,23 +388,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
