@@ -6,7 +6,7 @@
       "value": "1",
       "domain": "www.notre-environnement.gouv.fr",
       "path": "/",
-      "expires": 1710637696,
+      "expires": 1711242620,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -18,10 +18,10 @@
     },
     {
       "name": "_pk_id.1492.6b6a",
-      "value": "2e963cd6ed43fda7.1710635897.",
+      "value": "610bc75a047c3ec9.1711240821.",
       "domain": "www.notre-environnement.gouv.fr",
       "path": "/",
-      "expires": 1744591097,
+      "expires": 1745196021,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -36,7 +36,7 @@
       "value": "!matomo%3Dtrue!youtube%3Dfalse!dailymotion%3Dfalse",
       "domain": "www.notre-environnement.gouv.fr",
       "path": "/",
-      "expires": 1742171896,
+      "expires": 1742776820,
       "size": 63,
       "httpOnly": false,
       "secure": false,
@@ -50,7 +50,7 @@
       "value": "fr",
       "domain": "www.notre-environnement.gouv.fr",
       "path": "/",
-      "expires": 1713227896,
+      "expires": 1713832819,
       "size": 13,
       "httpOnly": false,
       "secure": false,
@@ -61,10 +61,10 @@
     },
     {
       "name": "spip_session",
-      "value": "0_b503370e3f4e81f2587cdb88d7dcc858",
+      "value": "0_822fcfc8fb1493a961fedce81edb4422",
       "domain": "www.notre-environnement.gouv.fr",
       "path": "/",
-      "expires": 1710722295.297818,
+      "expires": 1711327218.786643,
       "size": 46,
       "httpOnly": true,
       "secure": false,
@@ -89,7 +89,7 @@
     },
     {
       "name": "PHPSESSID",
-      "value": "sl81ndgcup1g3leqgkdkma8n6l",
+      "value": "5dlujq88eg7mqbu31d5fmqfk7m",
       "domain": "www.notre-environnement.gouv.fr",
       "path": "/",
       "expires": -1,
@@ -108,13 +108,13 @@
     "connection": "Keep-Alive",
     "content-encoding": "gzip",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 17 Mar 2024 00:38:15 GMT",
+    "date": "Sun, 24 Mar 2024 00:40:18 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-    "keep-alive": "timeout=5, max=77",
-    "last-modified": "Sun, 17 Mar 2024 00:38:15 GMT",
+    "keep-alive": "timeout=5, max=15",
+    "last-modified": "Sun, 24 Mar 2024 00:40:18 GMT",
     "pragma": "no-cache",
     "server": "Apache/2.4.38 (Debian)",
-    "set-cookie": "PHPSESSID=sl81ndgcup1g3leqgkdkma8n6l; path=/\nspip_session=0_b503370e3f4e81f2587cdb88d7dcc858; expires=Mon, 18-Mar-2024 00:38:15 GMT; Max-Age=86400; path=/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/\nCookie_EF=355655690.20480.0000; path=/; Httponly; Secure",
+    "set-cookie": "PHPSESSID=5dlujq88eg7mqbu31d5fmqfk7m; path=/\nspip_session=0_822fcfc8fb1493a961fedce81edb4422; expires=Mon, 25-Mar-2024 00:40:18 GMT; Max-Age=86400; path=/; HttpOnly\nspip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/\nCookie_EF=355655690.20480.0000; path=/; Httponly; Secure",
     "transfer-encoding": "chunked",
     "vary": "Cookie,Accept-Encoding",
     "x-spip-cache": "86400"
@@ -190,8 +190,13 @@
             "geoname_id": 11071622,
             "iso_code": "GES",
             "names": {
+              "de": "Grand Est",
               "en": "Grand Est",
-              "fr": "Grand Est"
+              "es": "Gran Este",
+              "fr": "Grand Est",
+              "ja": "グラン・テスト地域圏",
+              "pt-BR": "Grande Leste",
+              "ru": "Гранд-Эст"
             }
           },
           {
@@ -202,7 +207,10 @@
               "en": "Ardennes",
               "es": "Ardenas",
               "fr": "Ardennes",
-              "pt-BR": "Ardenas"
+              "ja": "アルデンヌ県",
+              "pt-BR": "Ardenas",
+              "ru": "Арденны",
+              "zh-CN": "阿登省"
             }
           }
         ]
