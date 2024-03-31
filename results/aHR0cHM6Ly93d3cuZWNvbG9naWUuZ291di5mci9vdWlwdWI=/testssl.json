@@ -346,7 +346,7 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "115 >= 60 days"
+              "finding"      : "108 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,21 +542,21 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+290 seconds from localtime"
+              "finding"      : "+315 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1711243819"
+              "finding"      : "1711848567"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "292 seconds"
+              "finding"      : "318 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -1133,6 +1133,6 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.97",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "77"
+              "finding"      : "73"
           }
 ]
