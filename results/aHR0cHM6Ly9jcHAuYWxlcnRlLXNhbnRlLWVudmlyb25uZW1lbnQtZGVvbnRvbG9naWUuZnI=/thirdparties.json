@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=f19b2a59bde4b4f993a3a808b684935d",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=86d3a892767744c9cc75a7c291106749",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "1",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1711848934,
+      "expires": 1712453678,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -59,10 +59,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "55d68721244a9f40.1711847134.",
+      "value": "e6eeda44a011b275.1712451879.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1745802334,
+      "expires": 1746407079,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -79,8 +79,8 @@
     "content-encoding": "gzip",
     "content-length": "12196",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 31 Mar 2024 01:05:32 GMT",
-    "last-modified": "Sun, 31 Mar 2024 01:05:33 GMT",
+    "date": "Sun, 07 Apr 2024 01:04:37 GMT",
+    "last-modified": "Sun, 07 Apr 2024 01:04:37 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -145,7 +145,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.64.207.38",
+      "ip": "172.64.206.38",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -219,13 +219,19 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.229.1",
+      "ip": "157.240.249.8",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 4887398,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "Chicago",
+            "en": "Chicago",
+            "es": "Chicago",
+            "fr": "Chicago",
+            "ja": "シカゴ",
+            "pt-BR": "Chicago",
+            "ru": "Чикаго",
+            "zh-CN": "芝加哥"
           }
         },
         "continent": {
@@ -258,13 +264,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 41.8874,
+          "longitude": -87.6318,
+          "metro_code": 602,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "20149"
+          "code": "60602"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -282,17 +288,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 4896861,
+            "iso_code": "IL",
             "names": {
-              "de": "Virginia",
-              "en": "Virginia",
-              "es": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Illinois",
+              "en": "Illinois",
+              "es": "Illinois",
+              "fr": "Illinois",
+              "ja": "イリノイ州",
+              "pt-BR": "Ilinóis",
+              "ru": "Иллинойс",
+              "zh-CN": "伊利诺伊州"
             }
           }
         ]
@@ -300,7 +306,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.62.97",
+      "ip": "142.250.190.40",
       "geoip": {
         "continent": {
           "code": "NA",
