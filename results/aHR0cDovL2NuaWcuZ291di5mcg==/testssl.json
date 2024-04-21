@@ -164,7 +164,7 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "FS_ECDHE_curves",
@@ -199,7 +199,7 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -346,7 +346,7 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "70 >= 30 days"
+              "finding"      : "63 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1713056781"
+              "finding"      : "1713661896"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -711,15 +711,6 @@
               "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=BB10907C1BBCE0E0A818889BC250B5D5F4405CF39328240BB0548AF0A714F9FC"
           }
 ,         {
-              "id"           : "LOGJAM-common_primes",
-              "ip"           : "cnig.gouv.fr/194.5.170.186",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "cve"          : "CVE-2015-4000",
-              "cwe"          : "CWE-310",
-              "finding"      : "RFC3526/Oakley Group 15"
-          }
-,         {
               "id"           : "LOGJAM",
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
@@ -727,6 +718,15 @@
               "cve"          : "CVE-2015-4000",
               "cwe"          : "CWE-310",
               "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "cnig.gouv.fr/194.5.170.186",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
           }
 ,         {
               "id"           : "BEAST",
@@ -867,14 +867,14 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win81",
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_winphone81",
@@ -1042,14 +1042,14 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "90"
+              "finding"      : "100"
           }
 ,         {
               "id"           : "key_exchange_score_weighted",
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "27"
+              "finding"      : "30"
           }
 ,         {
               "id"           : "cipher_strength_score",
@@ -1070,7 +1070,7 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "81"
+              "finding"      : "84"
           }
 ,         {
               "id"           : "overall_grade",
@@ -1084,6 +1084,6 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "67"
+              "finding"      : "125"
           }
 ]
