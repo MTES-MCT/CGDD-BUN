@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://cpp.alerte-sante-environnement-deontologie.fr",
-        "size": 988.929,
+        "size": 987.741,
         "nodes": 308,
         "requests": 45,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.56,
         "water": 2.34,
         "ecoindex_version": "5.4.2",
-        "date": "2024-05-05 01:03:27.297858",
+        "date": "2024-05-12 01:07:35.226458",
         "page_type": "website"
     }
 ]
