@@ -42,7 +42,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=e60b0acb994c81fb26360c0ca17445a9",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=cd6e573e837ff36736d22ee746c14dc4",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -58,7 +58,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/1844df69/www-player.css",
+      "url": "https://www.youtube.com/s/player/bc657243/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -66,7 +66,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/1844df69/player_ias.vflset/en_US/embed.js",
+      "url": "https://www.youtube.com/s/player/bc657243/player_ias.vflset/en_US/embed.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -74,7 +74,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/1844df69/www-embed-player.vflset/www-embed-player.js",
+      "url": "https://www.youtube.com/s/player/bc657243/www-embed-player.vflset/www-embed-player.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -82,7 +82,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/1844df69/player_ias.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/player/bc657243/player_ias.vflset/en_US/base.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -154,7 +154,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/1844df69/player_ias.vflset/en_US/remote.js",
+      "url": "https://www.youtube.com/s/player/bc657243/player_ias.vflset/en_US/remote.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -162,7 +162,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/OfRUkPbLLmIJHiz0sRQ6wXEqxeMXOYMNgt9OZuziQhg.js",
+      "url": "https://www.google.com/js/th/y68VhurPkuRh4TqMq2VYp-d1vfKSCdoS4Co9BHDArXY.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -194,14 +194,6 @@
     },
     {
       "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
       "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
       "details": {
         "id": "google",
@@ -217,11 +209,35 @@
       }
     },
     {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?BqSW6w",
+      "url": "https://www.youtube.com/generate_204?xz38Vg",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
       }
     },
     {
@@ -239,7 +255,7 @@
       "value": "1",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1716081089,
+      "expires": 1716685912,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -251,10 +267,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "265e469446e47578.1716079289.",
+      "value": "80b04cf76eda730e.1716684112.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1750034489,
+      "expires": 1750639312,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -271,8 +287,8 @@
     "content-encoding": "gzip",
     "content-length": "20059",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 19 May 2024 00:41:25 GMT",
-    "last-modified": "Sun, 19 May 2024 00:41:27 GMT",
+    "date": "Sun, 26 May 2024 00:41:48 GMT",
+    "last-modified": "Sun, 26 May 2024 00:41:50 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -391,7 +407,7 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "31.13.66.19",
+      "ip": "157.240.229.1",
       "geoip": {
         "city": {
           "geoname_id": 4744870,
@@ -445,18 +461,17 @@
           "code": "20149"
         },
         "registered_country": {
-          "geoname_id": 2963597,
-          "is_in_european_union": true,
-          "iso_code": "IE",
+          "geoname_id": 6252001,
+          "iso_code": "US",
           "names": {
-            "de": "Irland",
-            "en": "Ireland",
-            "es": "Irlanda",
-            "fr": "Irlande",
-            "ja": "アイルランド",
-            "pt-BR": "Irlanda",
-            "ru": "Ирландия",
-            "zh-CN": "爱尔兰"
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
           }
         },
         "subdivisions": [
@@ -479,7 +494,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.191.72",
+      "ip": "172.217.4.40",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -533,14 +548,8 @@
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "142.251.32.46",
+      "ip": "172.217.0.174",
       "geoip": {
-        "city": {
-          "geoname_id": 5133273,
-          "names": {
-            "en": "Queens"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -570,14 +579,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.66,
-          "longitude": -73.839,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11414"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -592,28 +597,12 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.12.99",
+      "ip": "142.250.190.35",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -667,7 +656,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "142.250.191.34",
+      "ip": "142.250.190.2",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -721,14 +710,8 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "142.251.46.230",
+      "ip": "142.250.190.70",
       "geoip": {
-        "city": {
-          "geoname_id": 5133273,
-          "names": {
-            "en": "Queens"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -758,14 +741,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
-          "latitude": 40.66,
-          "longitude": -73.839,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11414"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -780,28 +759,12 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "142.250.191.42",
+      "ip": "142.250.191.138",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -855,14 +818,8 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.251.46.228",
+      "ip": "142.250.191.100",
       "geoip": {
-        "city": {
-          "geoname_id": 5133273,
-          "names": {
-            "en": "Queens"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -892,14 +849,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
-          "latitude": 40.66,
-          "longitude": -73.839,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11414"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -914,28 +867,12 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "172.217.164.118",
+      "ip": "172.217.4.54",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -989,7 +926,7 @@
     },
     {
       "hostname": "yt3.ggpht.com",
-      "ip": "142.250.189.193",
+      "ip": "142.250.191.161",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1043,7 +980,61 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.250.191.35",
+      "ip": "172.217.4.195",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "play.google.com",
+      "ip": "142.250.190.46",
       "geoip": {
         "continent": {
           "code": "NA",
