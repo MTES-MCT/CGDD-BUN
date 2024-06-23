@@ -18,7 +18,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
+      "url": "https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -42,7 +42,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2",
+      "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -106,7 +106,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=0&_=1718501063569"
+      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=0&_=1719106006212"
     }
   ],
   "cookies": [
@@ -115,7 +115,7 @@
       "value": "1",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1718502858,
+      "expires": 1719107801,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -126,10 +126,10 @@
     },
     {
       "name": "_pk_id.1441.b788",
-      "value": "87652fe21901e747.1718501059.1.1718501059.1718501059.",
+      "value": "892e63c80be3288d.1719106001.1.1719106001.1719106001.",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1752456259,
+      "expires": 1753061201,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -144,7 +144,7 @@
     "content-language": "fr-fr",
     "content-security-policy": "upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 16 Jun 2024 01:24:17 GMT",
+    "date": "Sun, 23 Jun 2024 01:26:40 GMT",
     "permissions-policy": "midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "openresty",
@@ -157,7 +157,7 @@
   "endpoints": [
     {
       "hostname": "www.projets-environnement.gouv.fr",
-      "ip": "34.249.199.226",
+      "ip": "34.248.20.69",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -240,7 +240,7 @@
     },
     {
       "hostname": "s3-eu-west-1.amazonaws.com",
-      "ip": "52.218.60.27",
+      "ip": "52.92.3.208",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -323,7 +323,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.62.95",
+      "ip": "142.250.31.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -377,8 +377,14 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.122.94",
+      "ip": "142.251.16.94",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -408,10 +414,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -426,7 +436,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
@@ -487,8 +513,42 @@
     },
     {
       "hostname": "www.jawg.io",
-      "ip": "104.22.32.109",
+      "ip": "172.67.39.33",
       "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
         "registered_country": {
           "geoname_id": 6252001,
           "iso_code": "US",
@@ -507,7 +567,7 @@
     },
     {
       "hostname": "api-js.mixpanel.com",
-      "ip": "35.190.25.25",
+      "ip": "35.186.241.51",
       "geoip": {
         "city": {
           "geoname_id": 4393217,
