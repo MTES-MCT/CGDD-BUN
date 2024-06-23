@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.ecologie.gouv.fr/ouipub",
-        "size": 1264.976,
+        "size": 1281.312,
         "nodes": 414,
         "requests": 56,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.74,
         "water": 2.61,
         "ecoindex_version": "5.4.2",
-        "date": "2024-06-16 01:21:18.093698",
+        "date": "2024-06-23 01:22:23.065033",
         "page_type": "website"
     }
 ]
