@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.publicite-responsable.ecologie.gouv.fr",
-        "size": 1478.104,
+        "size": 1478.043,
         "nodes": 1087,
         "requests": 59,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 2.18,
         "water": 3.27,
         "ecoindex_version": "5.4.2",
-        "date": "2024-06-16 01:28:33.880648",
+        "date": "2024-06-23 01:30:50.949653",
         "page_type": "website"
     }
 ]
