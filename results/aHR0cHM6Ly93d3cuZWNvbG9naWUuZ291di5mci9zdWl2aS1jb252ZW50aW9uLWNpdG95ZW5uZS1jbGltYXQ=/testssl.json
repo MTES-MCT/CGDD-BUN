@@ -339,7 +339,7 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ecologie.gouv.fr.vpn.e2.rie.gouv.fr"
+              "finding"      : "peage-flux-libre.gouv.fr"
           }
 ,         {
               "id"           : "cert_subjectAltName",
@@ -374,7 +374,7 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (24)"
+              "finding"      : "expires < 30 days (17)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -570,14 +570,14 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1719105670"
+              "finding"      : "1719710587"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -654,7 +654,7 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "max-age=86400, public"
+              "finding"      : "must-revalidate, no-cache, private"
           }
 ,         {
               "id"           : "banner_reverseproxy",
@@ -1161,6 +1161,6 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "60"
+              "finding"      : "110"
           }
 ]
