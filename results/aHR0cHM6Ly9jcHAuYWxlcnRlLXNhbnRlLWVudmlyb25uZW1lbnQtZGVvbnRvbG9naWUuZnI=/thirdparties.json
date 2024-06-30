@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=aa3c53017b2791d6fff7387b68605b8e",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=72f9f7138f021b3274dc5d3e9849f476",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "1",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1719106706,
+      "expires": 1719711512,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -59,10 +59,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "d0130661878ba60b.1719104907.",
+      "value": "c0c0cb37a1388fac.1719709713.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1753060107,
+      "expires": 1753664913,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -79,8 +79,8 @@
     "content-encoding": "gzip",
     "content-length": "12197",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 23 Jun 2024 01:08:24 GMT",
-    "last-modified": "Sun, 23 Jun 2024 01:08:25 GMT",
+    "date": "Sun, 30 Jun 2024 01:08:30 GMT",
+    "last-modified": "Sun, 30 Jun 2024 01:08:31 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -340,8 +340,14 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.191.232",
+      "ip": "142.251.163.97",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -371,10 +377,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -389,7 +399,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     }
   ]
