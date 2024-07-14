@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=4c86e20e80a27f6841f43d449b6fefc5",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=aded7d0470703f5039f19556cd4a36ae",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "1",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1720316350,
+      "expires": 1720921329,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -59,10 +59,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "b0c30a4910cff806.1720314551.",
+      "value": "6e1f7fc97a33261c.1720919530.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1754269751,
+      "expires": 1754874730,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -79,8 +79,8 @@
     "content-encoding": "gzip",
     "content-length": "12197",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 07 Jul 2024 01:09:09 GMT",
-    "last-modified": "Sun, 07 Jul 2024 01:09:09 GMT",
+    "date": "Sun, 14 Jul 2024 01:12:05 GMT",
+    "last-modified": "Sun, 14 Jul 2024 01:12:07 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -165,7 +165,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "151.101.2.137",
+      "ip": "151.101.194.137",
       "geoip": {
         "city": {
           "geoname_id": 5391959,
@@ -252,60 +252,36 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.201.15",
+      "ip": "31.13.66.19",
       "geoip": {
         "city": {
-          "geoname_id": 2759794,
+          "geoname_id": 4744870,
           "names": {
-            "de": "Amsterdam",
-            "en": "Amsterdam",
-            "es": "Ámsterdam",
-            "fr": "Amsterdam",
-            "ja": "Amusuterudamu",
-            "pt-BR": "Amesterdã",
-            "ru": "Амстердам",
-            "zh-CN": "阿姆斯特丹"
+            "de": "Ashburn",
+            "en": "Ashburn",
+            "es": "Ashburn",
+            "fr": "Ashburn",
+            "ja": "アッシュバーン",
+            "pt-BR": "Ashburn",
+            "ru": "Ашберн",
+            "zh-CN": "阿什本"
           }
         },
         "continent": {
-          "code": "EU",
-          "geoname_id": 6255148,
+          "code": "NA",
+          "geoname_id": 6255149,
           "names": {
-            "de": "Europa",
-            "en": "Europe",
-            "es": "Europa",
-            "fr": "Europe",
-            "ja": "ヨーロッパ",
-            "pt-BR": "Europa",
-            "ru": "Европа",
-            "zh-CN": "欧洲"
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
           }
         },
         "country": {
-          "geoname_id": 2750405,
-          "is_in_european_union": true,
-          "iso_code": "NL",
-          "names": {
-            "de": "Niederlande",
-            "en": "The Netherlands",
-            "es": "Holanda",
-            "fr": "Pays-Bas",
-            "ja": "オランダ王国",
-            "pt-BR": "Holanda",
-            "ru": "Нидерланды",
-            "zh-CN": "荷兰"
-          }
-        },
-        "location": {
-          "accuracy_radius": 20,
-          "latitude": 52.3759,
-          "longitude": 4.8975,
-          "time_zone": "Europe/Amsterdam"
-        },
-        "postal": {
-          "code": "1012"
-        },
-        "registered_country": {
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
@@ -319,19 +295,44 @@
             "zh-CN": "美国"
           }
         },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 39.0469,
+          "longitude": -77.4903,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "20149"
+        },
+        "registered_country": {
+          "geoname_id": 2963597,
+          "is_in_european_union": true,
+          "iso_code": "IE",
+          "names": {
+            "de": "Irland",
+            "en": "Ireland",
+            "es": "Irlanda",
+            "fr": "Irlande",
+            "ja": "アイルランド",
+            "pt-BR": "Irlanda",
+            "ru": "Ирландия",
+            "zh-CN": "爱尔兰"
+          }
+        },
         "subdivisions": [
           {
-            "geoname_id": 2749879,
-            "iso_code": "NH",
+            "geoname_id": 6254928,
+            "iso_code": "VA",
             "names": {
-              "de": "Nordholland",
-              "en": "North Holland",
-              "es": "Holanda Septentrional",
-              "fr": "Hollande-Septentrionale",
-              "ja": "北ホラント州",
-              "pt-BR": "Holanda do Norte",
-              "ru": "Северная Голландия",
-              "zh-CN": "北荷兰省"
+              "de": "Virginia",
+              "en": "Virginia",
+              "es": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
             }
           }
         ]
@@ -339,8 +340,14 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.122.97",
+      "ip": "142.251.214.136",
       "geoip": {
+        "city": {
+          "geoname_id": 5116931,
+          "names": {
+            "en": "Farmingdale"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -371,9 +378,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 40.7306,
+          "longitude": -73.4313,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11735"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -388,7 +399,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     }
   ]
