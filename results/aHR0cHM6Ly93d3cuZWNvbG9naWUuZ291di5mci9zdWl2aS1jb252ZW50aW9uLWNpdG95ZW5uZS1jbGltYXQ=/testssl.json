@@ -374,7 +374,7 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (10)"
+              "finding"      : "expires < 30 days (3)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -577,7 +577,7 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1720315558"
+              "finding"      : "1720920511"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1161,6 +1161,6 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "62"
+              "finding"      : "110"
           }
 ]
