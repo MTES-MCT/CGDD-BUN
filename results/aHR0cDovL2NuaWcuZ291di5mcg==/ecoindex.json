@@ -3,15 +3,15 @@
         "width": 1920,
         "height": 1080,
         "url": "http://cnig.gouv.fr",
-        "size": 876.809,
-        "nodes": 523,
-        "requests": 40,
+        "size": 877.491,
+        "nodes": 525,
+        "requests": 41,
         "grade": "C",
-        "score": 65.0,
-        "ges": 1.7,
-        "water": 2.55,
+        "score": 64.0,
+        "ges": 1.72,
+        "water": 2.58,
         "ecoindex_version": "5.4.2",
-        "date": "2024-07-28 01:06:12.186894",
+        "date": "2024-08-04 01:11:14.235198",
         "page_type": "website"
     }
 ]
