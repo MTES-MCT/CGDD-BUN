@@ -18,7 +18,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2",
+      "url": "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -34,7 +34,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2",
+      "url": "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -51,14 +51,6 @@
     {
       "type": "unknown",
       "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_image/banniere.jpg"
-    },
-    {
-      "type": "unknown",
-      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
-    },
-    {
-      "type": "unknown",
-      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
     },
     {
       "type": "unknown",
@@ -106,7 +98,63 @@
     },
     {
       "type": "unknown",
-      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=0&_=1722130476293"
+      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
+    },
+    {
+      "type": "unknown",
+      "url": "https://s3-eu-west-1.amazonaws.com/aws-ec2-eu-1-opendatasoft-staticfileset/cgdd-sprint/theme_font/projets-environnement.ttf?qk9hp5"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/2/1/1.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/2/2/1.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/2/1/0.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/2/2/0.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/2/1/2.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/2/2/2.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/2/0/1.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/2/3/1.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/2/0/0.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/2/3/0.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/2/0/2.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tiles.jawg.io/71ba5a33-9529-48cb-8dbe-b6b9c33a3391/2/3/2.png?api-key=4cKtE4Rze1HrvxWa9a7mdolSk10lVThTFC8zadQYMIMxTjkpTeIDJAAmhReDGnCH&odsdomain=cgdd-sprint"
+    },
+    {
+      "type": "unknown",
+      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=0&_=1722735365419"
     }
   ],
   "cookies": [
@@ -115,7 +163,7 @@
       "value": "1",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1722132271,
+      "expires": 1722737160,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -126,10 +174,10 @@
     },
     {
       "name": "_pk_id.1441.b788",
-      "value": "a21e5ecf97648c31.1722130471.1.1722130471.1722130471.",
+      "value": "6bceeae5defbd309.1722735360.1.1722735360.1722735360.",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1756085671,
+      "expires": 1756690560,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -144,7 +192,7 @@
     "content-language": "fr-fr",
     "content-security-policy": "upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 28 Jul 2024 01:34:30 GMT",
+    "date": "Sun, 04 Aug 2024 01:35:59 GMT",
     "permissions-policy": "midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "openresty",
@@ -157,7 +205,7 @@
   "endpoints": [
     {
       "hostname": "www.projets-environnement.gouv.fr",
-      "ip": "34.248.20.69",
+      "ip": "34.249.199.226",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -240,7 +288,7 @@
     },
     {
       "hostname": "s3-eu-west-1.amazonaws.com",
-      "ip": "52.218.89.107",
+      "ip": "52.92.3.192",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -323,7 +371,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.63.95",
+      "ip": "172.217.4.74",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -377,7 +425,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.63.94",
+      "ip": "142.250.191.227",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -507,7 +555,7 @@
     },
     {
       "hostname": "api-js.mixpanel.com",
-      "ip": "107.178.240.159",
+      "ip": "130.211.34.183",
       "geoip": {
         "continent": {
           "code": "NA",
