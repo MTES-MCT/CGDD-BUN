@@ -18,14 +18,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2",
       "details": {
         "id": "google fonts",
@@ -43,6 +35,14 @@
     {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -106,7 +106,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=0&_=1723339923616"
+      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=0&_=1723944826796"
     }
   ],
   "cookies": [
@@ -115,7 +115,7 @@
       "value": "1",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1723341718,
+      "expires": 1723946621,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -126,10 +126,10 @@
     },
     {
       "name": "_pk_id.1441.b788",
-      "value": "6e67916bc01c319b.1723339919.1.1723339919.1723339919.",
+      "value": "9a06425d2cdb996e.1723944822.1.1723944822.1723944822.",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1757295119,
+      "expires": 1757900022,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -144,7 +144,7 @@
     "content-language": "fr-fr",
     "content-security-policy": "upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 11 Aug 2024 01:31:57 GMT",
+    "date": "Sun, 18 Aug 2024 01:33:41 GMT",
     "permissions-policy": "midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "openresty",
@@ -157,7 +157,7 @@
   "endpoints": [
     {
       "hostname": "www.projets-environnement.gouv.fr",
-      "ip": "34.248.20.69",
+      "ip": "34.249.199.226",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -240,7 +240,7 @@
     },
     {
       "hostname": "s3-eu-west-1.amazonaws.com",
-      "ip": "52.218.116.248",
+      "ip": "52.218.122.80",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -323,7 +323,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.191.74",
+      "ip": "142.250.190.74",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -377,7 +377,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.35",
+      "ip": "142.250.190.67",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -487,7 +487,7 @@
     },
     {
       "hostname": "www.jawg.io",
-      "ip": "104.22.32.109",
+      "ip": "172.67.39.33",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -507,7 +507,7 @@
     },
     {
       "hostname": "api-js.mixpanel.com",
-      "ip": "107.178.240.159",
+      "ip": "35.190.25.25",
       "geoip": {
         "continent": {
           "code": "NA",
