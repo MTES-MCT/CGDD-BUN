@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.alerte-sante-environnement-deontologie.fr",
-        "size": 878.759,
+        "size": 876.355,
         "nodes": 492,
         "requests": 46,
         "grade": "C",
@@ -11,7 +11,7 @@
         "ges": 1.7,
         "water": 2.55,
         "ecoindex_version": "5.4.2",
-        "date": "2024-08-18 00:46:30.506009",
+        "date": "2024-08-25 00:47:38.400724",
         "page_type": "website"
     }
 ]
