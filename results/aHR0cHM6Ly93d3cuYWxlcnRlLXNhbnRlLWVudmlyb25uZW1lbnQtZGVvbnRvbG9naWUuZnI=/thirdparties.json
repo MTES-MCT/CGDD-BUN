@@ -41,14 +41,6 @@
       }
     },
     {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=dd43377dc1f2172e29feded48a74910e",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
-    },
-    {
       "type": "FontAwesome",
       "url": "https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.woff2",
       "details": {
@@ -57,8 +49,40 @@
       }
     },
     {
+      "type": "facebook",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=13598fb9127ca0fd6d77062d3ff7d83b",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
+    },
+    {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/5f8f5b0f/www-player.css",
+      "url": "https://www.youtube.com/s/player/e38bb6de/www-player.css",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/e38bb6de/player_ias.vflset/en_US/embed.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/e38bb6de/www-embed-player.vflset/www-embed-player.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/e38bb6de/player_ias.vflset/en_US/base.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -94,30 +118,6 @@
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/5f8f5b0f/player_ias.vflset/en_US/embed.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/5f8f5b0f/www-embed-player.vflset/www-embed-player.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/5f8f5b0f/player_ias.vflset/en_US/base.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
       }
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/5f8f5b0f/player_ias.vflset/en_US/remote.js",
+      "url": "https://www.youtube.com/s/player/e38bb6de/player_ias.vflset/en_US/remote.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -162,7 +162,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/xmnuRLFIB2aI6qbGS483SdTuOq1a1O-XNl-4_rBMxeo.js",
+      "url": "https://www.google.com/js/th/SdShMpdhHIYiz4OAK3X60VwAo5runEsW3RCnPxmRbSs.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -202,7 +202,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?QWHwIA",
+      "url": "https://www.youtube.com/generate_204?TYYUOQ",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -226,23 +226,23 @@
     },
     {
       "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
       "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -271,7 +271,7 @@
       "value": "1",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1725758373,
+      "expires": 1726363301,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -283,10 +283,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "2949732eb5e0512c.1725756573.",
+      "value": "0bdb249e1cec6a24.1726361501.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1759711773,
+      "expires": 1760316701,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -303,8 +303,8 @@
     "content-encoding": "gzip",
     "content-length": "19042",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 08 Sep 2024 00:49:41 GMT",
-    "last-modified": "Sun, 08 Sep 2024 00:49:31 GMT",
+    "date": "Sun, 15 Sep 2024 00:51:50 GMT",
+    "last-modified": "Sun, 15 Sep 2024 00:51:39 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -369,7 +369,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "104.21.27.152",
+      "ip": "172.67.142.245",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -389,19 +389,18 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.229.1",
+      "ip": "157.240.19.26",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 4684888,
           "names": {
-            "de": "Ashburn",
-            "en": "Ashburn",
-            "es": "Ashburn",
-            "fr": "Ashburn",
-            "ja": "アッシュバーン",
-            "pt-BR": "Ashburn",
-            "ru": "Ашберн",
-            "zh-CN": "阿什本"
+            "de": "Dallas",
+            "en": "Dallas",
+            "es": "Dallas",
+            "fr": "Dallas",
+            "ja": "ダラス",
+            "pt-BR": "Dallas",
+            "ru": "Даллас"
           }
         },
         "continent": {
@@ -434,13 +433,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 32.7797,
+          "longitude": -96.8022,
+          "metro_code": 623,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "20149"
+          "code": "75270"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -458,17 +457,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 4736286,
+            "iso_code": "TX",
             "names": {
-              "de": "Virginia",
-              "en": "Virginia",
-              "es": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Texas",
+              "en": "Texas",
+              "es": "Texas",
+              "fr": "Texas",
+              "ja": "テキサス州",
+              "pt-BR": "Texas",
+              "ru": "Техас",
+              "zh-CN": "得克萨斯州"
             }
           }
         ]
@@ -476,7 +475,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.16.97",
+      "ip": "142.250.191.168",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -530,7 +529,7 @@
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "142.251.179.91",
+      "ip": "172.217.5.14",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -584,7 +583,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "64.233.180.94",
+      "ip": "142.250.191.131",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -638,7 +637,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "142.251.16.156",
+      "ip": "142.250.191.98",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -692,7 +691,7 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "172.253.115.148",
+      "ip": "172.217.1.102",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -746,7 +745,7 @@
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "142.251.179.95",
+      "ip": "142.250.190.42",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -800,7 +799,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.251.163.103",
+      "ip": "142.250.190.36",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -854,7 +853,7 @@
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "142.251.16.119",
+      "ip": "172.217.2.54",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -908,7 +907,7 @@
     },
     {
       "hostname": "yt3.ggpht.com",
-      "ip": "142.251.111.132",
+      "ip": "142.250.190.129",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -962,7 +961,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.251.16.94",
+      "ip": "142.250.190.99",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1016,7 +1015,7 @@
     },
     {
       "hostname": "play.google.com",
-      "ip": "142.251.167.138",
+      "ip": "142.250.191.174",
       "geoip": {
         "continent": {
           "code": "NA",
