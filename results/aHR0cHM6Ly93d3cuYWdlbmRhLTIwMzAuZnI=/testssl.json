@@ -339,7 +339,7 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "39 >= 30 days"
+              "finding"      : "32 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,14 +493,14 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+13 seconds from localtime"
+              "finding"      : "+14 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728176837"
+              "finding"      : "1728781688"
           }
 ,         {
               "id"           : "HSTS",
@@ -1077,6 +1077,6 @@
               "ip"           : "www.agenda-2030.fr/37.235.89.236",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55"
+              "finding"      : "92"
           }
 ]
