@@ -50,7 +50,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/96d06116/www-player.css",
+      "url": "https://www.youtube.com/s/player/2f238d39/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -58,7 +58,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/96d06116/player_ias.vflset/en_US/embed.js",
+      "url": "https://www.youtube.com/s/player/2f238d39/player_ias.vflset/en_US/embed.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -66,7 +66,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/96d06116/www-embed-player.vflset/www-embed-player.js",
+      "url": "https://www.youtube.com/s/player/2f238d39/www-embed-player.vflset/www-embed-player.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -74,10 +74,26 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/96d06116/player_ias.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/player/2f238d39/player_ias.vflset/en_US/base.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
       }
     },
     {
@@ -98,26 +114,10 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=b3e6f14f502c50da414b750b3dc738c4",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=fbb2ca2d8f5bded2b74d55044ce99a97",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
       }
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/96d06116/player_ias.vflset/en_US/remote.js",
+      "url": "https://www.youtube.com/s/player/2f238d39/player_ias.vflset/en_US/remote.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -194,54 +194,6 @@
     },
     {
       "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
       "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
       "details": {
         "id": "google",
@@ -249,8 +201,56 @@
       }
     },
     {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?CmfeYQ",
+      "url": "https://www.youtube.com/generate_204?aO012A",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -273,46 +273,15 @@
       }
     }
   ],
-  "cookies": [
-    {
-      "name": "_pk_ses.1439.5c51",
-      "value": "1",
-      "domain": ".www.alerte-sante-environnement-deontologie.fr",
-      "path": "/",
-      "expires": 1728177744,
-      "size": 18,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameSite": "Lax",
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
-      "name": "_pk_id.1439.5c51",
-      "value": "a48580dc8d80ddc2.1728175945.",
-      "domain": ".www.alerte-sante-environnement-deontologie.fr",
-      "path": "/",
-      "expires": 1762131145,
-      "size": 44,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameSite": "Lax",
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    }
-  ],
+  "cookies": [],
   "headers": {
     "accept-ranges": "bytes",
     "connection": "keep-alive",
     "content-encoding": "gzip",
     "content-length": "19042",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 06 Oct 2024 00:52:36 GMT",
-    "last-modified": "Sun, 06 Oct 2024 00:52:22 GMT",
+    "date": "Sun, 13 Oct 2024 00:52:09 GMT",
+    "last-modified": "Sun, 13 Oct 2024 00:51:54 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -397,36 +366,60 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "31.13.66.19",
+      "ip": "157.240.201.15",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 2759794,
           "names": {
-            "de": "Ashburn",
-            "en": "Ashburn",
-            "es": "Ashburn",
-            "fr": "Ashburn",
-            "ja": "アッシュバーン",
-            "pt-BR": "Ashburn",
-            "ru": "Ашберн",
-            "zh-CN": "阿什本"
+            "de": "Amsterdam",
+            "en": "Amsterdam",
+            "es": "Ámsterdam",
+            "fr": "Amsterdam",
+            "ja": "Amusuterudamu",
+            "pt-BR": "Amesterdã",
+            "ru": "Амстердам",
+            "zh-CN": "阿姆斯特丹"
           }
         },
         "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
+          "code": "EU",
+          "geoname_id": 6255148,
           "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
           }
         },
         "country": {
+          "geoname_id": 2750405,
+          "is_in_european_union": true,
+          "iso_code": "NL",
+          "names": {
+            "de": "Niederlande",
+            "en": "The Netherlands",
+            "es": "Holanda",
+            "fr": "Pays-Bas",
+            "ja": "オランダ王国",
+            "pt-BR": "Holanda",
+            "ru": "Нидерланды",
+            "zh-CN": "荷兰"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 52.3759,
+          "longitude": 4.8975,
+          "time_zone": "Europe/Amsterdam"
+        },
+        "postal": {
+          "code": "1012"
+        },
+        "registered_country": {
           "geoname_id": 6252001,
           "iso_code": "US",
           "names": {
@@ -440,44 +433,19 @@
             "zh-CN": "美国"
           }
         },
-        "location": {
-          "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "20149"
-        },
-        "registered_country": {
-          "geoname_id": 2963597,
-          "is_in_european_union": true,
-          "iso_code": "IE",
-          "names": {
-            "de": "Irland",
-            "en": "Ireland",
-            "es": "Irlanda",
-            "fr": "Irlande",
-            "ja": "アイルランド",
-            "pt-BR": "Irlanda",
-            "ru": "Ирландия",
-            "zh-CN": "爱尔兰"
-          }
-        },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 2749879,
+            "iso_code": "NH",
             "names": {
-              "de": "Virginia",
-              "en": "Virginia",
-              "es": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Nordholland",
+              "en": "North Holland",
+              "es": "Holanda Septentrional",
+              "fr": "Hollande-Septentrionale",
+              "ja": "北ホラント州",
+              "pt-BR": "Holanda do Norte",
+              "ru": "Северная Голландия",
+              "zh-CN": "北荷兰省"
             }
           }
         ]
@@ -485,7 +453,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.46.232",
+      "ip": "142.251.179.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -539,7 +507,7 @@
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "142.250.189.238",
+      "ip": "172.253.122.136",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -593,7 +561,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.189.195",
+      "ip": "142.250.31.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -647,7 +615,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "142.251.32.34",
+      "ip": "172.253.122.155",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -701,7 +669,7 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "142.251.46.166",
+      "ip": "142.251.16.148",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -755,7 +723,7 @@
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "142.250.189.170",
+      "ip": "142.251.179.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -809,7 +777,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.251.46.164",
+      "ip": "172.253.115.106",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -863,7 +831,7 @@
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "172.217.164.118",
+      "ip": "142.250.31.119",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -917,61 +885,7 @@
     },
     {
       "hostname": "yt3.ggpht.com",
-      "ip": "142.250.191.65",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "play.google.com",
-      "ip": "142.250.189.238",
+      "ip": "172.253.115.132",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1025,7 +939,61 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.251.214.131",
+      "ip": "172.253.115.94",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "play.google.com",
+      "ip": "142.251.16.101",
       "geoip": {
         "continent": {
           "code": "NA",
