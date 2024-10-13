@@ -34,53 +34,22 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=9fa0aec52d16351c5ba8e6107f2a0ae3",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=fbb2ca2d8f5bded2b74d55044ce99a97",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
       }
     }
   ],
-  "cookies": [
-    {
-      "name": "_pk_ses.1440.8823",
-      "value": "1",
-      "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
-      "path": "/",
-      "expires": 1728179373,
-      "size": 18,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameSite": "Lax",
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
-      "name": "_pk_id.1440.8823",
-      "value": "204d16aa6d179684.1728177573.",
-      "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
-      "path": "/",
-      "expires": 1762132773,
-      "size": 44,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameSite": "Lax",
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    }
-  ],
+  "cookies": [],
   "headers": {
     "accept-ranges": "bytes",
     "connection": "keep-alive",
     "content-encoding": "gzip",
     "content-length": "12197",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 06 Oct 2024 01:19:45 GMT",
-    "last-modified": "Sun, 06 Oct 2024 01:19:31 GMT",
+    "date": "Sun, 13 Oct 2024 01:15:02 GMT",
+    "last-modified": "Sun, 13 Oct 2024 01:14:47 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -145,7 +114,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.67.142.245",
+      "ip": "104.21.27.152",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -165,7 +134,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "151.101.2.137",
+      "ip": "151.101.66.137",
       "geoip": {
         "city": {
           "geoname_id": 5391959,
@@ -339,7 +308,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.191.104",
+      "ip": "64.233.180.97",
       "geoip": {
         "continent": {
           "code": "NA",
