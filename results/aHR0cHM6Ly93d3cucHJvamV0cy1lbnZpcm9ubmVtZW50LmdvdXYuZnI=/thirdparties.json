@@ -18,14 +18,6 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2",
       "details": {
         "id": "google fonts",
@@ -43,6 +35,14 @@
     {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -106,7 +106,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=0&_=1729388721770"
+      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=0&_=1729993325136"
     }
   ],
   "cookies": [
@@ -115,7 +115,7 @@
       "value": "1",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1729390516,
+      "expires": 1729995120,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -126,10 +126,10 @@
     },
     {
       "name": "_pk_id.1441.b788",
-      "value": "ef5cb5b667a96c28.1729388717.1.1729388717.1729388717.",
+      "value": "96b72eb9681cb6ce.1729993320.1.1729993320.1729993320.",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1763343917,
+      "expires": 1763948520,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -144,7 +144,7 @@
     "content-language": "fr-fr",
     "content-security-policy": "upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 20 Oct 2024 01:45:15 GMT",
+    "date": "Sun, 27 Oct 2024 01:41:58 GMT",
     "permissions-policy": "midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "openresty",
@@ -240,7 +240,7 @@
     },
     {
       "hostname": "s3-eu-west-1.amazonaws.com",
-      "ip": "52.218.44.248",
+      "ip": "52.218.62.11",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -323,7 +323,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.191.138",
+      "ip": "142.251.46.202",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -377,7 +377,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.195",
+      "ip": "142.251.32.35",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -434,15 +434,14 @@
       "ip": "217.182.130.171",
       "geoip": {
         "city": {
-          "geoname_id": 3020839,
+          "geoname_id": 2986501,
           "names": {
-            "de": "Drancy",
-            "en": "Drancy",
-            "fr": "Drancy",
-            "ja": "ドランシー",
-            "pt-BR": "Drancy",
-            "ru": "Дранси",
-            "zh-CN": "德朗西"
+            "de": "Poissy",
+            "en": "Poissy",
+            "fr": "Poissy",
+            "ja": "ポワシー",
+            "ru": "Пуасси",
+            "zh-CN": "普瓦西"
           }
         },
         "continent": {
@@ -475,13 +474,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 48.9247,
-          "longitude": 2.4448,
+          "accuracy_radius": 20,
+          "latitude": 48.93,
+          "longitude": 2.0605,
           "time_zone": "Europe/Paris"
         },
         "postal": {
-          "code": "93700"
+          "code": "78300"
         },
         "registered_country": {
           "geoname_id": 3017382,
@@ -514,17 +513,17 @@
             }
           },
           {
-            "geoname_id": 2975246,
-            "iso_code": "93",
+            "geoname_id": 2967196,
+            "iso_code": "78",
             "names": {
-              "de": "Seine-Saint-Denis",
-              "en": "Seine-Saint-Denis",
-              "es": "Sena Saint Denis",
-              "fr": "Seine-Saint-Denis",
-              "ja": "セーヌ＝サン＝ドニ県",
-              "pt-BR": "Seine-Saint-Denis",
-              "ru": "Сен-Сен-Дени",
-              "zh-CN": "塞纳-圣但尼省"
+              "de": "Yvelines",
+              "en": "Yvelines",
+              "es": "Yvelines",
+              "fr": "Yvelines",
+              "ja": "イヴリーヌ県",
+              "pt-BR": "Yvelines",
+              "ru": "Ивелин",
+              "zh-CN": "伊夫林省"
             }
           }
         ]
@@ -532,7 +531,7 @@
     },
     {
       "hostname": "www.jawg.io",
-      "ip": "104.22.32.109",
+      "ip": "104.22.33.109",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -552,7 +551,7 @@
     },
     {
       "hostname": "api-js.mixpanel.com",
-      "ip": "35.186.241.51",
+      "ip": "35.190.25.25",
       "geoip": {
         "continent": {
           "code": "NA",
