@@ -346,7 +346,7 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "63 >= 30 days"
+              "finding"      : "49 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1729388010"
+              "finding"      : "1730597481"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -542,14 +542,14 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "nginx/1.18.0"
+              "finding"      : "nginx"
           }
 ,         {
               "id"           : "banner_application",
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "x-powered-by: PHP/7.4.33"
+              "finding"      : "No application banner found"
           }
 ,         {
               "id"           : "cookie_count",
@@ -653,10 +653,10 @@
               "id"           : "BREACH",
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "WARN",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
+              "finding"      : "Test failed as HTTP request stalled and was terminated"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -1084,6 +1084,6 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "114"
+              "finding"      : "105"
           }
 ]
