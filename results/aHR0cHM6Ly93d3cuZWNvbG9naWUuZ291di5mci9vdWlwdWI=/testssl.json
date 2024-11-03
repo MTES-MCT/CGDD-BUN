@@ -374,7 +374,7 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "262 >= 60 days"
+              "finding"      : "255 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -570,14 +570,21 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1729993702"
+              "finding"      : "1730598518"
+          }
+,         {
+              "id"           : "HSTS_multiple",
+              "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "Multiple HSTS headers. Using first header: max-age=63072000"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -629,11 +636,25 @@
               "finding"      : "0 at '/'"
           }
 ,         {
+              "id"           : "X-Frame-Options_multiple",
+              "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "Multiple X-Frame-Options headers. Using first header: SAMEORIGIN"
+          }
+,         {
               "id"           : "X-Frame-Options",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "SAMEORIGIN"
+          }
+,         {
+              "id"           : "X-Content-Type-Options_multiple",
+              "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "Multiple X-Content-Type-Options headers. Using first header: nosniff"
           }
 ,         {
               "id"           : "X-Content-Type-Options",
@@ -643,11 +664,32 @@
               "finding"      : "nosniff"
           }
 ,         {
+              "id"           : "Content-Security-Policy_multiple",
+              "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "Multiple Content-Security-Policy headers. Using first header: upgrade-insecure-requests"
+          }
+,         {
               "id"           : "Content-Security-Policy",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "upgrade-insecure-requests"
+          }
+,         {
+              "id"           : "Permissions-Policy",
+              "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "vibrate 'none';"
+          }
+,         {
+              "id"           : "Referrer-Policy",
+              "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "same-origin"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -1161,6 +1203,6 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "61"
+              "finding"      : "62"
           }
 ]
