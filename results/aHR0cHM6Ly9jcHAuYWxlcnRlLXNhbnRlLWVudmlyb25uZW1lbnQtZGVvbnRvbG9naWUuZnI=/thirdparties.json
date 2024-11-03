@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=ae7f9d45cf2d60c128452cdc23fd9d1e",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=6f57e79ab39db08173c5dd6a9053449a",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "1",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1729993671,
+      "expires": 1730598623,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -59,10 +59,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "135fad4f185804ae.1729991871.",
+      "value": "b188e998fb8a26b1.1730596823.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1763947071,
+      "expires": 1764552023,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -79,8 +79,8 @@
     "content-encoding": "gzip",
     "content-length": "12197",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 27 Oct 2024 01:18:06 GMT",
-    "last-modified": "Sun, 27 Oct 2024 01:17:49 GMT",
+    "date": "Sun, 03 Nov 2024 01:20:40 GMT",
+    "last-modified": "Sun, 03 Nov 2024 01:20:21 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -165,7 +165,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "151.101.194.137",
+      "ip": "151.101.66.137",
       "geoip": {
         "city": {
           "geoname_id": 5391959,
@@ -252,58 +252,58 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.252.13",
+      "ip": "157.240.229.1",
       "geoip": {
         "city": {
-          "geoname_id": 2925533,
+          "geoname_id": 4744870,
           "names": {
-            "de": "Frankfurt am Main",
-            "en": "Frankfurt am Main",
-            "es": "Francfort",
-            "fr": "Francfort-sur-le-Main",
-            "ja": "フランクフルト・アム・マイン",
-            "pt-BR": "Frankfurt am Main",
-            "ru": "Франкфурт",
-            "zh-CN": "法兰克福"
+            "de": "Ashburn",
+            "en": "Ashburn",
+            "es": "Ashburn",
+            "fr": "Ashburn",
+            "ja": "アッシュバーン",
+            "pt-BR": "Ashburn",
+            "ru": "Ашберн",
+            "zh-CN": "阿什本"
           }
         },
         "continent": {
-          "code": "EU",
-          "geoname_id": 6255148,
+          "code": "NA",
+          "geoname_id": 6255149,
           "names": {
-            "de": "Europa",
-            "en": "Europe",
-            "es": "Europa",
-            "fr": "Europe",
-            "ja": "ヨーロッパ",
-            "pt-BR": "Europa",
-            "ru": "Европа",
-            "zh-CN": "欧洲"
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
           }
         },
         "country": {
-          "geoname_id": 2921044,
-          "is_in_european_union": true,
-          "iso_code": "DE",
+          "geoname_id": 6252001,
+          "iso_code": "US",
           "names": {
-            "de": "Deutschland",
-            "en": "Germany",
-            "es": "Alemania",
-            "fr": "Allemagne",
-            "ja": "ドイツ連邦共和国",
-            "pt-BR": "Alemanha",
-            "ru": "ФРГ",
-            "zh-CN": "德国"
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
           }
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 50.1187,
-          "longitude": 8.6842,
-          "time_zone": "Europe/Berlin"
+          "latitude": 39.0469,
+          "longitude": -77.4903,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "60313"
+          "code": "20149"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -321,17 +321,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 2905330,
-            "iso_code": "HE",
+            "geoname_id": 6254928,
+            "iso_code": "VA",
             "names": {
-              "de": "Hessen",
-              "en": "Hesse",
-              "es": "Hessen",
-              "fr": "Hesse",
-              "ja": "ヘッセン州",
-              "pt-BR": "Hesse",
-              "ru": "Гессен",
-              "zh-CN": "黑森州"
+              "de": "Virginia",
+              "en": "Virginia",
+              "es": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
             }
           }
         ]
@@ -339,7 +339,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.190.40",
+      "ip": "142.251.163.97",
       "geoip": {
         "continent": {
           "code": "NA",
