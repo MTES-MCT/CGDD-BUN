@@ -41,40 +41,8 @@
       }
     },
     {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/fb725ac8/www-player.css",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/fb725ac8/player_ias.vflset/en_US/embed.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/fb725ac8/www-embed-player.vflset/www-embed-player.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/fb725ac8/player_ias.vflset/en_US/base.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=ff24010681b03a897d73688f437c10c5",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=4188a94071684cf22dd8240959c38e43",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -86,6 +54,38 @@
       "details": {
         "id": "FontAwesome",
         "message": "Host fonts directly"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/4e23410d/www-player.css",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/4e23410d/player_ias.vflset/en_US/embed.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/4e23410d/www-embed-player.vflset/www-embed-player.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/4e23410d/player_ias.vflset/en_US/base.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
       }
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/fb725ac8/player_ias.vflset/en_US/remote.js",
+      "url": "https://www.youtube.com/s/player/4e23410d/player_ias.vflset/en_US/remote.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -162,7 +162,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/fTjtrGZh_alB21JMnHjzF7i8e9TTbKEGbxCnSg6dYYA.js",
+      "url": "https://www.google.com/js/th/GkV5yKS0-OANEhjyXXxuzTYu8mVL2o5guieYvUh3n1c.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -209,8 +209,48 @@
       }
     },
     {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?drRMug",
+      "url": "https://www.youtube.com/generate_204?LzemPg",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -219,38 +259,6 @@
     {
       "type": "google",
       "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -271,7 +279,7 @@
       "value": "1",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1729992162,
+      "expires": 1730596975,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -283,10 +291,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "f55def29ddd8ff3c.1729990363.",
+      "value": "bed953399ff83419.1730595175.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1763945563,
+      "expires": 1764550375,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -303,8 +311,8 @@
     "content-encoding": "gzip",
     "content-length": "19044",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 27 Oct 2024 00:52:58 GMT",
-    "last-modified": "Sun, 27 Oct 2024 00:52:41 GMT",
+    "date": "Sun, 03 Nov 2024 00:53:11 GMT",
+    "last-modified": "Sun, 03 Nov 2024 00:52:53 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -369,7 +377,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.67.142.245",
+      "ip": "104.21.27.152",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -476,7 +484,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.16.97",
+      "ip": "142.251.214.136",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -530,7 +538,7 @@
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "142.251.16.136",
+      "ip": "172.217.12.110",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -584,7 +592,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.163.94",
+      "ip": "142.251.46.227",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -638,7 +646,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "172.253.62.157",
+      "ip": "142.250.189.194",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -692,7 +700,7 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "64.233.180.149",
+      "ip": "142.251.46.198",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -746,7 +754,7 @@
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "142.251.167.95",
+      "ip": "142.250.72.202",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -800,7 +808,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "172.253.62.106",
+      "ip": "142.250.189.228",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -854,7 +862,7 @@
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "142.251.179.119",
+      "ip": "142.251.214.150",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -908,7 +916,7 @@
     },
     {
       "hostname": "yt3.ggpht.com",
-      "ip": "142.251.179.132",
+      "ip": "142.250.191.33",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -962,7 +970,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.251.167.94",
+      "ip": "172.217.164.99",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1016,7 +1024,7 @@
     },
     {
       "hostname": "play.google.com",
-      "ip": "172.253.122.102",
+      "ip": "142.250.188.14",
       "geoip": {
         "continent": {
           "code": "NA",
