@@ -41,14 +41,6 @@
       }
     },
     {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=4188a94071684cf22dd8240959c38e43",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
-    },
-    {
       "type": "FontAwesome",
       "url": "https://use.fontawesome.com/releases/v5.7.1/webfonts/fa-brands-400.woff2",
       "details": {
@@ -57,32 +49,16 @@
       }
     },
     {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/4e23410d/www-player.css",
+      "type": "facebook",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=95708c47918f2912184d757e55d1139b",
       "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
       }
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/4e23410d/player_ias.vflset/en_US/embed.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/4e23410d/www-embed-player.vflset/www-embed-player.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/4e23410d/player_ias.vflset/en_US/base.js",
+      "url": "https://www.youtube.com/s/player/baafab19/www-player.css",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -105,11 +81,35 @@
       }
     },
     {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/baafab19/player_ias.vflset/en_US/embed.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
       "type": "google fonts",
       "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/baafab19/www-embed-player.vflset/www-embed-player.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/baafab19/player_ias.vflset/en_US/base.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
       }
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/4e23410d/player_ias.vflset/en_US/remote.js",
+      "url": "https://www.youtube.com/s/player/baafab19/player_ias.vflset/en_US/remote.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -162,7 +162,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/GkV5yKS0-OANEhjyXXxuzTYu8mVL2o5guieYvUh3n1c.js",
+      "url": "https://www.google.com/js/th/V6n6N6lR58V6YvKWzRgNRm2UbnEaYiTpGDY0zZzDx9c.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -194,14 +194,6 @@
     },
     {
       "type": "google",
-      "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
       "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
       "details": {
         "id": "google",
@@ -219,6 +211,14 @@
     {
       "type": "google",
       "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -250,7 +250,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?LzemPg",
+      "url": "https://www.youtube.com/generate_204?KGjm3g",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -279,7 +279,7 @@
       "value": "1",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1730596975,
+      "expires": 1731201685,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -291,10 +291,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "bed953399ff83419.1730595175.",
+      "value": "3ce98577830d72a7.1731199885.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1764550375,
+      "expires": 1765155085,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -309,10 +309,10 @@
     "accept-ranges": "bytes",
     "connection": "keep-alive",
     "content-encoding": "gzip",
-    "content-length": "19044",
+    "content-length": "19226",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 03 Nov 2024 00:53:11 GMT",
-    "last-modified": "Sun, 03 Nov 2024 00:52:53 GMT",
+    "date": "Sun, 10 Nov 2024 00:51:42 GMT",
+    "last-modified": "Sun, 10 Nov 2024 00:51:23 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -377,7 +377,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "104.21.27.152",
+      "ip": "172.67.142.245",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -397,7 +397,7 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.229.1",
+      "ip": "31.13.66.19",
       "geoip": {
         "city": {
           "geoname_id": 4744870,
@@ -451,17 +451,18 @@
           "code": "20149"
         },
         "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
+          "geoname_id": 2963597,
+          "is_in_european_union": true,
+          "iso_code": "IE",
           "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
+            "de": "Irland",
+            "en": "Ireland",
+            "es": "Irlanda",
+            "fr": "Irlande",
+            "ja": "アイルランド",
+            "pt-BR": "Irlanda",
+            "ru": "Ирландия",
+            "zh-CN": "爱尔兰"
           }
         },
         "subdivisions": [
@@ -484,7 +485,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.214.136",
+      "ip": "142.251.40.40",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -538,7 +539,7 @@
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "172.217.12.110",
+      "ip": "142.250.72.174",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -592,7 +593,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.46.227",
+      "ip": "142.250.189.3",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -646,7 +647,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "142.250.189.194",
+      "ip": "142.250.189.2",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -700,7 +701,7 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "142.251.46.198",
+      "ip": "172.217.12.134",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -754,7 +755,7 @@
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "142.250.72.202",
+      "ip": "172.217.14.74",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -808,7 +809,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.250.189.228",
+      "ip": "142.250.217.132",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -862,7 +863,7 @@
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "142.251.214.150",
+      "ip": "142.250.72.182",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -916,61 +917,7 @@
     },
     {
       "hostname": "yt3.ggpht.com",
-      "ip": "142.250.191.33",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "www.gstatic.com",
-      "ip": "172.217.164.99",
+      "ip": "142.250.72.129",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1024,7 +971,61 @@
     },
     {
       "hostname": "play.google.com",
-      "ip": "142.250.188.14",
+      "ip": "172.217.12.142",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "www.gstatic.com",
+      "ip": "142.250.217.131",
       "geoip": {
         "continent": {
           "code": "NA",
