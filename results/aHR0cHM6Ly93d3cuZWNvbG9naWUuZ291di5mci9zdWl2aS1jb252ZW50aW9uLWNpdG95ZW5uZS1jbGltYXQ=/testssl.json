@@ -374,7 +374,7 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "255 >= 60 days"
+              "finding"      : "248 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -577,14 +577,7 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1730597757"
-          }
-,         {
-              "id"           : "HSTS_multiple",
-              "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "Multiple HSTS headers. Using first header: max-age=63072000"
+              "finding"      : "1731202400"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -597,15 +590,15 @@
               "id"           : "HSTS_subdomains",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "only for this domain"
+              "severity"     : "OK",
+              "finding"      : "includes subdomains"
           }
 ,         {
               "id"           : "HSTS_preload",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "domain is NOT marked for preloading"
+              "severity"     : "OK",
+              "finding"      : "domain IS marked for preloading"
           }
 ,         {
               "id"           : "HPKP",
@@ -636,25 +629,11 @@
               "finding"      : "0 at '/'"
           }
 ,         {
-              "id"           : "X-Frame-Options_multiple",
-              "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "Multiple X-Frame-Options headers. Using first header: SAMEORIGIN"
-          }
-,         {
               "id"           : "X-Frame-Options",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "SAMEORIGIN"
-          }
-,         {
-              "id"           : "X-Content-Type-Options_multiple",
-              "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "Multiple X-Content-Type-Options headers. Using first header: nosniff"
           }
 ,         {
               "id"           : "X-Content-Type-Options",
@@ -664,32 +643,32 @@
               "finding"      : "nosniff"
           }
 ,         {
-              "id"           : "Content-Security-Policy_multiple",
-              "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "Multiple Content-Security-Policy headers. Using first header: upgrade-insecure-requests"
-          }
-,         {
               "id"           : "Content-Security-Policy",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "upgrade-insecure-requests"
+              "finding"      : "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.ademe.fr *.adform.net *.adnxs.com *.tracker.adotmob.com js.adsrvr.org *.ausha.co *.creativecdn.com *.criteo.com gva.et-gv.fr *.facebook.net *.facebook.com *.googletagmanager.com *.gouv.fr impactco2.fr s.kmtx.io snap.licdn.com *.mobsuccess.com pixels.omnitagjs.com *.outbrain.com ads-engagement.presage.io libjs.s4mdsp.com tr.snapchat.com sc-static.net *.teads.tv analytics.tiktok.com *.twitter.com *.weborama.fr js-tag.zemanta.com; frame-src *.ademe.fr *.adform.net insight.adsrvr.org *.ausha.co *.brevo.com carte-jnr.fr *.creativecdn.com *.criteo.com dai.ly dailymotion.com *.doubleclick.net google.com *.gouv.fr *.ign.fr impactco2.fr widget.make.org *.openstreetmap.fr *.openstreetmap.org widgets.outbrain.com *.sendinblue.com 826367cf.sibforms.com ssm-ecologie.shinyapps.io tr.snapchat.com *.teads.tv platform.twitter.com les-mobilites-innov.vercel.app *.vimeo.com *.weborama.fr youtu.be *.youtube.com *.youtube-nocookie.com; child-src *.ademe.fr *.adform.net insight.adsrvr.org *.ausha.co *.brevo.com carte-jnr.fr *.creativecdn.com *.criteo.com dai.ly dailymotion.com *.doubleclick.net google.com *.gouv.fr *.ign.fr impactco2.fr widget.make.org *.openstreetmap.fr *.openstreetmap.org widgets.outbrain.com *.sendinblue.com 826367cf.sibforms.com ssm-ecologie.shinyapps.io tr.snapchat.com *.teads.tv platform.twitter.com les-mobilites-innov.vercel.app *.vimeo.com *.weborama.fr youtu.be *.youtube.com *.youtube-nocookie.com; report-uri /report-csp-violation; upgrade-insecure-requests"
           }
 ,         {
               "id"           : "Permissions-Policy",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "vibrate 'none';"
+              "finding"      : "camera=(), microphone=()"
+          }
+,         {
+              "id"           : "X-XSS-Protection",
+              "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1; mode=block"
           }
 ,         {
               "id"           : "Referrer-Policy",
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "same-origin"
+              "finding"      : "strict-origin-when-cross-origin"
           }
 ,         {
               "id"           : "Cache-Control",
@@ -1203,6 +1182,6 @@
               "ip"           : "www.ecologie.gouv.fr/37.235.89.112",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "65"
+              "finding"      : "60"
           }
 ]
