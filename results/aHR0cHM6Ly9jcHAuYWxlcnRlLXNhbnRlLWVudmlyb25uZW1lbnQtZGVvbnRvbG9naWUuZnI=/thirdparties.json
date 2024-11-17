@@ -34,7 +34,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=f0d8b2f65a722f4da13b87cee5591071",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=b0fb98d6ffdc905887e4f00e6475cda6",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -47,7 +47,7 @@
       "value": "1",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1731203258,
+      "expires": 1731808339,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -59,10 +59,10 @@
     },
     {
       "name": "_pk_id.1440.8823",
-      "value": "fdd78fa0601a9eac.1731201458.",
+      "value": "5964e0f8b8a064f0.1731806540.",
       "domain": ".cpp.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1765156658,
+      "expires": 1765761740,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -79,8 +79,8 @@
     "content-encoding": "gzip",
     "content-length": "12208",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 10 Nov 2024 01:17:55 GMT",
-    "last-modified": "Sun, 10 Nov 2024 01:17:36 GMT",
+    "date": "Sun, 17 Nov 2024 01:22:38 GMT",
+    "last-modified": "Sun, 17 Nov 2024 01:22:18 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -165,7 +165,7 @@
     },
     {
       "hostname": "code.jquery.com",
-      "ip": "151.101.66.137",
+      "ip": "151.101.2.137",
       "geoip": {
         "city": {
           "geoname_id": 5391959,
@@ -252,19 +252,19 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "31.13.66.19",
+      "ip": "157.240.249.8",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 4887398,
           "names": {
-            "de": "Ashburn",
-            "en": "Ashburn",
-            "es": "Ashburn",
-            "fr": "Ashburn",
-            "ja": "アッシュバーン",
-            "pt-BR": "Ashburn",
-            "ru": "Ашберн",
-            "zh-CN": "阿什本"
+            "de": "Chicago",
+            "en": "Chicago",
+            "es": "Chicago",
+            "fr": "Chicago",
+            "ja": "シカゴ",
+            "pt-BR": "Chicago",
+            "ru": "Чикаго",
+            "zh-CN": "芝加哥"
           }
         },
         "continent": {
@@ -297,42 +297,41 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 41.8874,
+          "longitude": -87.6318,
+          "metro_code": 602,
+          "time_zone": "America/Chicago"
         },
         "postal": {
-          "code": "20149"
+          "code": "60602"
         },
         "registered_country": {
-          "geoname_id": 2963597,
-          "is_in_european_union": true,
-          "iso_code": "IE",
+          "geoname_id": 6252001,
+          "iso_code": "US",
           "names": {
-            "de": "Irland",
-            "en": "Ireland",
-            "es": "Irlanda",
-            "fr": "Irlande",
-            "ja": "アイルランド",
-            "pt-BR": "Irlanda",
-            "ru": "Ирландия",
-            "zh-CN": "爱尔兰"
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
           }
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 4896861,
+            "iso_code": "IL",
             "names": {
-              "de": "Virginia",
-              "en": "Virginia",
-              "es": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Illinois",
+              "en": "Illinois",
+              "es": "Illinois",
+              "fr": "Illinois",
+              "ja": "イリノイ州",
+              "pt-BR": "Ilinóis",
+              "ru": "Иллинойс",
+              "zh-CN": "伊利诺伊州"
             }
           }
         ]
@@ -340,7 +339,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.68.104",
+      "ip": "142.250.191.104",
       "geoip": {
         "continent": {
           "code": "NA",
