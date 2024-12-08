@@ -304,7 +304,7 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.1000paysages.gouv.fr"
+              "finding"      : "www.agenda-2030.fr"
           }
 ,         {
               "id"           : "cert_subjectAltName",
@@ -339,7 +339,7 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "46 >= 30 days"
+              "finding"      : "39 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1733019112"
+              "finding"      : "1733623267"
           }
 ,         {
               "id"           : "HSTS",
@@ -1077,6 +1077,6 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "80"
+              "finding"      : "99"
           }
 ]
