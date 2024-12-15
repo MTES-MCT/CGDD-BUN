@@ -41,8 +41,40 @@
       }
     },
     {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/f8f53e1a/www-player.css",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/f8f53e1a/player_ias.vflset/en_US/embed.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/f8f53e1a/www-embed-player.vflset/www-embed-player.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
+      "type": "youtube",
+      "url": "https://www.youtube.com/s/player/f8f53e1a/player_ias.vflset/en_US/base.js",
+      "details": {
+        "id": "youtube",
+        "message": "Dont embed youtube scripts, use peertube"
+      }
+    },
+    {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=e4e89c3e01653b2113a9df758ff1241b",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=cdc565abd24f75e5e50fec214dd38c1c",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -54,38 +86,6 @@
       "details": {
         "id": "FontAwesome",
         "message": "Host fonts directly"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/62ccfae7/www-player.css",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/62ccfae7/player_ias.vflset/en_US/embed.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/62ccfae7/www-embed-player.vflset/www-embed-player.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "youtube",
-      "url": "https://www.youtube.com/s/player/62ccfae7/player_ias.vflset/en_US/base.js",
-      "details": {
-        "id": "youtube",
-        "message": "Dont embed youtube scripts, use peertube"
       }
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "type": "youtube",
-      "url": "https://www.youtube.com/s/player/62ccfae7/player_ias.vflset/en_US/remote.js",
+      "url": "https://www.youtube.com/s/player/f8f53e1a/player_ias.vflset/en_US/remote.js",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -162,7 +162,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/bxi__5l2X16z2PRZjzKO-6GDy6y2UKXfMCoVN7x-fIw.js",
+      "url": "https://www.google.com/js/th/ga5zxKXcpt3UeeH3-hk2EUAajHTFNllVLrJAQ_s-Fqc.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -194,6 +194,38 @@
     },
     {
       "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
       "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js",
       "details": {
         "id": "google",
@@ -201,67 +233,27 @@
       }
     },
     {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?5Roslw",
+      "url": "https://www.youtube.com/generate_204?XHd6SA",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
       }
     },
     {
@@ -287,7 +279,7 @@
       "value": "1",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1733621246,
+      "expires": 1734226077,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -299,10 +291,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "41bf404bdca7cc73.1733619447.",
+      "value": "efcbd30851fc1677.1734224277.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1767574647,
+      "expires": 1768179477,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -319,8 +311,8 @@
     "content-encoding": "gzip",
     "content-length": "19226",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 08 Dec 2024 00:57:49 GMT",
-    "last-modified": "Sun, 08 Dec 2024 00:57:25 GMT",
+    "date": "Sun, 15 Dec 2024 00:58:21 GMT",
+    "last-modified": "Sun, 15 Dec 2024 00:57:55 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -385,7 +377,7 @@
     },
     {
       "hostname": "use.fontawesome.com",
-      "ip": "172.67.142.245",
+      "ip": "104.21.27.152",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -405,7 +397,7 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.229.1",
+      "ip": "31.13.66.19",
       "geoip": {
         "city": {
           "geoname_id": 4744870,
@@ -459,17 +451,18 @@
           "code": "20149"
         },
         "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
+          "geoname_id": 2963597,
+          "is_in_european_union": true,
+          "iso_code": "IE",
           "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
+            "de": "Irland",
+            "en": "Ireland",
+            "es": "Irlanda",
+            "fr": "Irlande",
+            "ja": "アイルランド",
+            "pt-BR": "Irlanda",
+            "ru": "Ирландия",
+            "zh-CN": "爱尔兰"
           }
         },
         "subdivisions": [
@@ -492,7 +485,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "64.233.180.97",
+      "ip": "172.253.122.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -546,7 +539,7 @@
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "64.233.180.136",
+      "ip": "172.253.115.190",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -600,7 +593,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.179.94",
+      "ip": "142.251.111.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -654,7 +647,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "142.251.111.154",
+      "ip": "172.253.115.155",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -708,7 +701,7 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "172.253.122.149",
+      "ip": "142.251.179.149",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -762,7 +755,7 @@
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "142.250.31.95",
+      "ip": "142.251.163.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -816,7 +809,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.250.31.105",
+      "ip": "142.251.163.106",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -870,7 +863,7 @@
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "142.251.16.119",
+      "ip": "172.253.115.119",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -977,8 +970,8 @@
       }
     },
     {
-      "hostname": "www.gstatic.com",
-      "ip": "172.253.63.94",
+      "hostname": "play.google.com",
+      "ip": "142.250.31.102",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1031,8 +1024,8 @@
       }
     },
     {
-      "hostname": "play.google.com",
-      "ip": "172.253.122.139",
+      "hostname": "www.gstatic.com",
+      "ip": "142.251.179.94",
       "geoip": {
         "continent": {
           "code": "NA",
