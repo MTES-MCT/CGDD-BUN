@@ -346,7 +346,7 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "75 >= 30 days"
+              "finding"      : "68 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1733621628"
+              "finding"      : "1734226355"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1084,6 +1084,6 @@
               "ip"           : "cnig.gouv.fr/194.5.170.186",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "103"
+              "finding"      : "87"
           }
 ]
