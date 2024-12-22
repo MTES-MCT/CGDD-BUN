@@ -339,7 +339,7 @@
               "ip"           : "www.notre-environnement.gouv.fr/92.175.135.130",
               "port"         : "443",
               "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (28)"
+              "finding"      : "expires < 30 days (21)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "www.notre-environnement.gouv.fr/92.175.135.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734225097"
+              "finding"      : "1734829758"
           }
 ,         {
               "id"           : "HSTS",
@@ -1127,6 +1127,6 @@
               "ip"           : "www.notre-environnement.gouv.fr/92.175.135.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "120"
+              "finding"      : "137"
           }
 ]
