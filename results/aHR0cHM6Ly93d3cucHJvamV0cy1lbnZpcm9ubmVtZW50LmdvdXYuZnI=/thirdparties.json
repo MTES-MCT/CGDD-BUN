@@ -106,7 +106,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=0&_=1734832017196"
+      "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=0&_=1735436688037"
     }
   ],
   "cookies": [
@@ -115,7 +115,7 @@
       "value": "1",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1734833812,
+      "expires": 1735438483,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -126,10 +126,10 @@
     },
     {
       "name": "_pk_id.1441.b788",
-      "value": "eb7e2900268b0450.1734832012.1.1734832012.1734832012.",
+      "value": "8e276c5d2e3490ca.1735436683.1.1735436683.1735436683.",
       "domain": "www.projets-environnement.gouv.fr",
       "path": "/",
-      "expires": 1768787212,
+      "expires": 1769391883,
       "size": 68,
       "httpOnly": false,
       "secure": false,
@@ -144,14 +144,14 @@
     "content-language": "fr-fr",
     "content-security-policy": "upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 22 Dec 2024 01:46:51 GMT",
+    "date": "Sun, 29 Dec 2024 01:44:42 GMT",
     "permissions-policy": "midi=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
     "referrer-policy": "strict-origin-when-cross-origin",
     "server": "openresty",
     "strict-transport-security": "max-age=31536000",
     "vary": "Accept-Language, Cookie, Host",
     "x-content-type-options": "nosniff",
-    "x-datadog-trace-id": "10788579093015057907",
+    "x-datadog-trace-id": "16975502015319432201",
     "x-ua-compatible": "IE=edge",
     "x-xss-protection": "1; mode=block"
   },
@@ -241,7 +241,7 @@
     },
     {
       "hostname": "s3-eu-west-1.amazonaws.com",
-      "ip": "52.92.0.160",
+      "ip": "3.5.71.126",
       "geoip": {
         "city": {
           "geoname_id": 2964574,
@@ -324,7 +324,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.46.234",
+      "ip": "172.217.4.74",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -378,7 +378,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.72.195",
+      "ip": "142.250.190.67",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -488,7 +488,7 @@
     },
     {
       "hostname": "www.jawg.io",
-      "ip": "104.22.33.109",
+      "ip": "172.67.39.33",
       "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
@@ -508,21 +508,8 @@
     },
     {
       "hostname": "api-js.mixpanel.com",
-      "ip": "130.211.34.183",
+      "ip": "35.190.25.25",
       "geoip": {
-        "city": {
-          "geoname_id": 4164138,
-          "names": {
-            "de": "Miami",
-            "en": "Miami",
-            "es": "Miami",
-            "fr": "Miami",
-            "ja": "マイアミ",
-            "pt-BR": "Miami",
-            "ru": "Майами",
-            "zh-CN": "迈阿密"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -552,14 +539,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 25.9562,
-          "longitude": -80.1828,
-          "metro_code": 528,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "33179"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -574,23 +557,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 4155751,
-            "iso_code": "FL",
-            "names": {
-              "de": "Florida",
-              "en": "Florida",
-              "es": "Florida",
-              "fr": "Floride",
-              "ja": "フロリダ州",
-              "pt-BR": "Flórida",
-              "ru": "Флорида",
-              "zh-CN": "佛罗里达州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
