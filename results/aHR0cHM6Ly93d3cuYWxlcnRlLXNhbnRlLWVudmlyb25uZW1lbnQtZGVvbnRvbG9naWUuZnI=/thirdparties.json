@@ -42,7 +42,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/en_US/sdk.js?hash=cb08e61de24d043d1eabab2b91d4f04f",
+      "url": "https://connect.facebook.net/en_US/sdk.js?hash=5f0e9f14b77e9919f4ebdbe84c8aa834",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -162,7 +162,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.google.com/js/th/WuArCo6uiOC32QOIiNWeSH9h2H5vf_jv_ihZ0ZQebSo.js",
+      "url": "https://www.google.com/js/th/bTS-krGMW8fDflzgOBqs4RfQ289v88xjeZzvxqf94UM.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -201,8 +201,24 @@
       }
     },
     {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
       "type": "youtube",
-      "url": "https://www.youtube.com/generate_204?CnJgbA",
+      "url": "https://www.youtube.com/generate_204?nZLGHQ",
       "details": {
         "id": "youtube",
         "message": "Dont embed youtube scripts, use peertube"
@@ -210,14 +226,6 @@
     },
     {
       "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
       "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
       "details": {
         "id": "google",
@@ -235,14 +243,6 @@
     {
       "type": "google",
       "url": "https://play.google.com/log?format=json&hasfast=true&authuser=0",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -287,7 +287,7 @@
       "value": "1",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1734830609,
+      "expires": 1735435432,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -299,10 +299,10 @@
     },
     {
       "name": "_pk_id.1439.5c51",
-      "value": "a90e0bb99b4a0c50.1734828809.",
+      "value": "59074b4cb7aa8ec2.1735433632.",
       "domain": ".www.alerte-sante-environnement-deontologie.fr",
       "path": "/",
-      "expires": 1768784009,
+      "expires": 1769388832,
       "size": 44,
       "httpOnly": false,
       "secure": false,
@@ -319,8 +319,8 @@
     "content-encoding": "gzip",
     "content-length": "19226",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 22 Dec 2024 00:53:53 GMT",
-    "last-modified": "Sun, 22 Dec 2024 00:53:27 GMT",
+    "date": "Sun, 29 Dec 2024 00:54:18 GMT",
+    "last-modified": "Sun, 29 Dec 2024 00:53:50 GMT",
     "server": "nginx",
     "vary": "Cookie,Accept-Encoding",
     "x-cachettl": "no: TTL problem",
@@ -405,19 +405,19 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.229.1",
+      "ip": "157.240.22.25",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 5393015,
           "names": {
-            "de": "Ashburn",
-            "en": "Ashburn",
-            "es": "Ashburn",
-            "fr": "Ashburn",
-            "ja": "アッシュバーン",
-            "pt-BR": "Ashburn",
-            "ru": "Ашберн",
-            "zh-CN": "阿什本"
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
           }
         },
         "continent": {
@@ -450,13 +450,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 37.353,
+          "longitude": -121.9543,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20149"
+          "code": "95052"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -474,17 +474,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "de": "Virginia",
-              "en": "Virginia",
-              "es": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -492,7 +492,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.191.136",
+      "ip": "142.251.214.136",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -546,7 +546,7 @@
     },
     {
       "hostname": "www.youtube.com",
-      "ip": "172.217.4.46",
+      "ip": "142.251.32.46",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -600,7 +600,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.190.35",
+      "ip": "142.250.189.195",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -654,7 +654,7 @@
     },
     {
       "hostname": "googleads.g.doubleclick.net",
-      "ip": "172.217.4.194",
+      "ip": "142.251.46.194",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -708,7 +708,7 @@
     },
     {
       "hostname": "static.doubleclick.net",
-      "ip": "142.250.191.134",
+      "ip": "142.250.189.230",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -762,7 +762,7 @@
     },
     {
       "hostname": "jnn-pa.googleapis.com",
-      "ip": "142.250.191.138",
+      "ip": "142.251.46.202",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -816,7 +816,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.250.190.132",
+      "ip": "142.251.46.164",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -870,7 +870,7 @@
     },
     {
       "hostname": "i.ytimg.com",
-      "ip": "172.217.0.182",
+      "ip": "142.250.188.22",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -924,7 +924,7 @@
     },
     {
       "hostname": "yt3.ggpht.com",
-      "ip": "142.250.190.1",
+      "ip": "142.250.189.193",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -978,7 +978,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "172.217.4.67",
+      "ip": "142.251.46.227",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1032,7 +1032,7 @@
     },
     {
       "hostname": "play.google.com",
-      "ip": "142.250.191.174",
+      "ip": "142.250.189.206",
       "geoip": {
         "continent": {
           "code": "NA",
