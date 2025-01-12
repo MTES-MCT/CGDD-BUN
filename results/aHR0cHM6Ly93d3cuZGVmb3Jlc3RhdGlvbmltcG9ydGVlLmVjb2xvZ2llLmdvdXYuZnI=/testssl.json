@@ -352,8 +352,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "36 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (29)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -366,7 +366,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-02-10 22:13"
           }
 ,         {
@@ -507,14 +507,14 @@
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+29 seconds from localtime"
+              "finding"      : "+30 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736043154"
+              "finding"      : "1736647741"
           }
 ,         {
               "id"           : "HSTS",
@@ -1070,6 +1070,6 @@
               "ip"           : "www.deforestationimportee.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "77"
+              "finding"      : "57"
           }
 ]
