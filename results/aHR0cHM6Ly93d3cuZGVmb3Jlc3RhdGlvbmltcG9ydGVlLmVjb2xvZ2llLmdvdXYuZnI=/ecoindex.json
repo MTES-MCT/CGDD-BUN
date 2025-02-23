@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.deforestationimportee.ecologie.gouv.fr",
-        "size": 1306.454,
+        "size": 1306.598,
         "nodes": 567,
         "requests": 72,
         "grade": "D",
@@ -11,7 +11,7 @@
         "ges": 1.94,
         "water": 2.91,
         "ecoindex_version": "5.4.2",
-        "date": "2025-02-16 01:53:44.967038",
+        "date": "2025-02-23 01:53:23.490832",
         "page_type": "website"
     }
 ]
