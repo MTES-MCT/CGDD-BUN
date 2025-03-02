@@ -339,7 +339,7 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "83 >= 30 days"
+              "finding"      : "76 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -493,14 +493,14 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+36 seconds from localtime"
+              "finding"      : "+35 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1740275926"
+              "finding"      : "1740880406"
           }
 ,         {
               "id"           : "HSTS",
@@ -1077,6 +1077,6 @@
               "ip"           : "www.publicite-responsable.ecologie.gouv.fr/37.235.89.249",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "98"
+              "finding"      : "54"
           }
 ]
