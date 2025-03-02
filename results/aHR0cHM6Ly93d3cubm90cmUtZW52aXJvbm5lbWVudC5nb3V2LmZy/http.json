@@ -1,0 +1,151 @@
+{
+  "scan": {
+    "algorithmVersion": 4,
+    "grade": "F",
+    "error": null,
+    "score": 0,
+    "statusCode": 200,
+    "testsFailed": 5,
+    "testsPassed": 5,
+    "testsQuantity": 10,
+    "responseHeaders": {
+      "date": "Sun, 02 Mar 2025 01:05:48 GMT",
+      "server": "Apache/2.4.38 (Debian)",
+      "vary": "Cookie,Accept-Encoding",
+      "composed-by": "SPIP 3.2.19 @ www.spip.net + http://www.notre-environnement.gouv.fr/local/config.txt",
+      "set-cookie": [
+        "PHPSESSID=ubc5uj6b8c7s5eihqj5on7vsji; path=/",
+        "spip_session=0_f14eefd71bced08c32886a51b1372219; expires=Mon, 03-Mar-2025 01:05:48 GMT; Max-Age=86400; path=/; HttpOnly",
+        "spip_admin=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/",
+        "Cookie_EF=355655690.20480.0000; path=/; Httponly; Secure"
+      ],
+      "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "pragma": "no-cache",
+      "x-spip-cache": "86400",
+      "last-modified": "Sun, 02 Mar 2025 01:05:48 GMT",
+      "transfer-encoding": "chunked",
+      "content-type": "text/html; charset=utf-8",
+      "connection": "close"
+    }
+  },
+  "tests": {
+    "content-security-policy": {
+      "expectation": "csp-implemented-with-no-unsafe",
+      "pass": false,
+      "result": "csp-not-implemented",
+      "scoreModifier": -25,
+      "data": null,
+      "http": false,
+      "meta": false,
+      "policy": null,
+      "numPolicies": 0
+    },
+    "cookies": {
+      "expectation": "cookies-secure-with-httponly-sessions",
+      "pass": false,
+      "result": "cookies-session-without-secure-flag",
+      "scoreModifier": -40,
+      "data": {
+        "PHPSESSID": {
+          "domain": "www.notre-environnement.gouv.fr",
+          "path": "/",
+          "port": null
+        },
+        "spip_session": {
+          "domain": "www.notre-environnement.gouv.fr",
+          "expires": "2025-03-03T01:05:48.000Z",
+          "httponly": true,
+          "max-age": 86400,
+          "path": "/",
+          "port": null
+        },
+        "spip_admin": {
+          "domain": "www.notre-environnement.gouv.fr",
+          "expires": "1970-01-01T00:00:01.000Z",
+          "max-age": 0,
+          "path": "/",
+          "port": null
+        },
+        "Cookie_EF": {
+          "domain": "www.notre-environnement.gouv.fr",
+          "httponly": true,
+          "path": "/",
+          "port": null,
+          "secure": true
+        }
+      },
+      "sameSite": false
+    },
+    "cross-origin-resource-sharing": {
+      "expectation": "cross-origin-resource-sharing-not-implemented",
+      "pass": true,
+      "result": "cross-origin-resource-sharing-not-implemented",
+      "scoreModifier": 0,
+      "data": null
+    },
+    "redirection": {
+      "expectation": "redirection-to-https",
+      "pass": true,
+      "result": "redirection-to-https",
+      "scoreModifier": 0,
+      "destination": "https://www.notre-environnement.gouv.fr/",
+      "redirects": true,
+      "route": [
+        "http://www.notre-environnement.gouv.fr/",
+        "https://www.notre-environnement.gouv.fr/"
+      ],
+      "statusCode": 200
+    },
+    "referrer-policy": {
+      "expectation": "referrer-policy-private",
+      "pass": true,
+      "result": "referrer-policy-not-implemented",
+      "scoreModifier": 0,
+      "data": null,
+      "http": false,
+      "meta": false
+    },
+    "strict-transport-security": {
+      "expectation": "hsts-implemented-max-age-at-least-six-months",
+      "pass": false,
+      "result": "hsts-not-implemented",
+      "scoreModifier": -20,
+      "data": null,
+      "includeSubDomains": false,
+      "maxAge": null,
+      "preload": false,
+      "preloaded": false
+    },
+    "subresource-integrity": {
+      "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+      "pass": true,
+      "result": "sri-not-implemented-but-all-scripts-loaded-from-secure-origin",
+      "scoreModifier": 0,
+      "data": {}
+    },
+    "x-content-type-options": {
+      "expectation": "x-content-type-options-nosniff",
+      "pass": false,
+      "result": "x-content-type-options-not-implemented",
+      "scoreModifier": -5,
+      "data": null
+    },
+    "x-frame-options": {
+      "expectation": "x-frame-options-sameorigin-or-deny",
+      "pass": false,
+      "result": "x-frame-options-not-implemented",
+      "scoreModifier": -20,
+      "data": null
+    },
+    "cross-origin-resource-policy": {
+      "expectation": "corp-implemented-with-same-site",
+      "pass": true,
+      "result": "corp-not-implemented",
+      "scoreModifier": 0,
+      "data": null,
+      "http": false,
+      "meta": false
+    }
+  }
+}
